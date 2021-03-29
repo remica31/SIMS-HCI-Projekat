@@ -1,8 +1,4 @@
-/***********************************************************************
- * Module:  Warden.cs
- * Author:  Vujke
- * Purpose: Definition of the Class Warden
- ***********************************************************************/
+
 
 using System;
 using System.Collections.Generic;

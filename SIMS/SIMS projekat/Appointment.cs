@@ -1,8 +1,4 @@
-/***********************************************************************
- * Module:  Appointment.cs
- * Author:  Vujke
- * Purpose: Definition of the Class Appointment
- ***********************************************************************/
+
 
 using System.Collections.Generic;
 using System; 

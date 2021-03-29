@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\SIMS\obj\Debug\
+C:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\SIMS\obj\Release\
 SIMS
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\SIMS\App.xaml
 11151548125
 

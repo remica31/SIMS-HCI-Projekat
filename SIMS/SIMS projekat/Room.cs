@@ -1,8 +1,4 @@
-/***********************************************************************
- * Module:  Room.cs
- * Author:  Vujke
- * Purpose: Definition of the Class Room
- ***********************************************************************/
+
 
 using System;
 using System.Collections.Generic;
@@ -40,9 +36,9 @@ public class Room
    public Renovation renovation;
    public Doctor doctor;
 
-   private int Number;
-   private RoomType Type;
-   private int Floor;
-   private String Description;
+   public int Number;
+   public RoomType Type;
+   public int Floor;
+   public String Description;
 
 }

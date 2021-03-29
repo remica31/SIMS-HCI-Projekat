@@ -1,8 +1,4 @@
-/***********************************************************************
- * Module:  Renovation.cs
- * Author:  Vujke
- * Purpose: Definition of the Class Renovation
- ***********************************************************************/
+
 
 using System;
 
@@ -22,7 +18,7 @@ public class Renovation
 
    public Room[] room;
 
-   private String Id;
-   private RoomType RoomType;
+   public String Id;
+   public RoomType RoomType;
 
 }

@@ -1,8 +1,4 @@
-/***********************************************************************
- * Module:  Patient.cs
- * Author:  Vujke
- * Purpose: Definition of the Class Patient
- ***********************************************************************/
+
 
 using System;
 using System.Collections.Generic;

@@ -1,8 +1,4 @@
-/***********************************************************************
- * Module:  StatusType.cs
- * Author:  Remica
- * Purpose: Definition of the Class StatusType
- ***********************************************************************/
+
 
 using System;
 
