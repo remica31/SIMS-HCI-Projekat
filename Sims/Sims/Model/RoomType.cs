@@ -6,13 +6,16 @@
 
 using System;
 
-public class RoomType
+namespace Model
 {
-    enum EnumRoomType
-    {
-        OperatingRoom = 1,
-        Ordination = 2,
-        IntesiveCare = 3
-    }
+   public class RoomType
+   {
+        enum EnumRoomType
+        {
+            OperatingRoom = 1,
+            Ordination = 2,
+            IntesiveCare = 3
+        }
 
+    }
 }

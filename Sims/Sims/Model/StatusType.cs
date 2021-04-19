@@ -1,18 +1,21 @@
 /***********************************************************************
  * Module:  StatusType.cs
- * Author:  Remica
+ * Author:  Vujke
  * Purpose: Definition of the Class StatusType
  ***********************************************************************/
 
 using System;
 
-public class StatusType
+namespace Model
 {
-    enum EnumStatusType
-    {
-        Waiting = 1,
-        Accepted = 2,
-        Rejected = 3
-    }
+   public class StatusType
+   {
+        enum EnumStatusType
+        {
+            Waiting = 1,
+            Accepted = 2,
+            Rejected = 3
+        }
 
+    }
 }

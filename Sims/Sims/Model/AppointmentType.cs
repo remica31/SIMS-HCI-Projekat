@@ -6,13 +6,16 @@
 
 using System;
 
-public class AppointmentType
+namespace Model
 {
-    enum EnumAppointmentType
-    {
-        Basic = 1,
-        Urgent = 2
+   public class AppointmentType
+   {
+        enum EnumAppointmentType
+        {
+            Basic = 1,
+            Urgent = 2
+
+        }
 
     }
-
 }

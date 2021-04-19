@@ -7,92 +7,39 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListView Margin="8,38,12,-164" Name="lvDataBinding">
+
+        <Frame x:Name="Main" Margin="0,35,0,0" />
+        <StackPanel Orientation="Horizontal" Height="35" VerticalAlignment="top">
+            <Button Content="Show Doctors" x:Name="ShowDoctors" Height="35" Width="100" Click="ShowDoctors_Click" />
+            <Button Content="Show Rooms" Name="ShowRooms" Width="100" Height="35" Margin="10,0,0,0" Click="ShowRooms_Click" />
+            <Button Content="Show Patient" Name="ShowPatient" Width="100" Height="35" Margin="10,0,0,0" Click="ShowPatient_Click" />
+            <Button Content="Show Request" Name="ShowRequest" Width="100" Height="35" Margin="10,0,0,0" Click="ShowRequest_Click" />
+            <Button Content="Show Appointment" Name="ShowApp" Width="120" Height="35" Margin="10,0,0,0" Click="ShowApp_Click" />
+        </StackPanel>
+        <Button Content="Doctor" Name="Doctor" HorizontalAlignment="Left" Margin="32,217,0,0" VerticalAlignment="Top" Height="56" Width="78" Click="Doctor_Click"/>
+        <Button Content="Patient" Name="Patient" HorizontalAlignment="Left" Margin="115,217,0,0" VerticalAlignment="Top" Height="56" Width="63" Click="Patient_Click"/>
+        <Button Content="Secretary" Name="Secretary" HorizontalAlignment="Left" Margin="200,217,0,0" VerticalAlignment="Top" Height="56" Width="56" Click="Secretary_Click"/>
+        <Button Content="Warden" Name="Warden" HorizontalAlignment="Left" Margin="292,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.065,-2.96" Height="56" Width="70" Click="Warden_Click"/>
+
+        <!--
+        <ListView  Name="lvDataBinding">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <WrapPanel>
-                        <TextBlock Text="Name: " />
-                        <TextBlock Text="{Binding user.Name}" FontWeight="Bold" />
-                        <TextBlock Text=", " />
-                        <TextBlock Text=" Surname: " />
-                        <TextBlock Text="{Binding user.Surname}" FontWeight="Bold" />
-                        <TextBlock Text=" Id :" />
-                        <TextBlock Text="{Binding user.Id}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
-                    </WrapPanel>
+                    <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5">
+                        <WrapPanel>
+                            <TextBlock Text="Name: " />
+                            <TextBlock Text="{Binding user.Name}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text=" Surname: " />
+                            <TextBlock Text="{Binding user.Surname}" FontWeight="Bold" />
+                            <TextBlock Text=" Id :" />
+                            <TextBlock Text="{Binding user.Id}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
+                        </WrapPanel>
+                    </Border>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
-        <ListView Margin="10,104,10,-84" Name="lvDataBinding2">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <WrapPanel>
-                        <TextBlock Text="Start: " />
-                        <TextBlock Text="{Binding Start}" FontWeight="Bold" />
-                        <TextBlock Text=", " />
-                        <TextBlock Text="Duration: " />
-                        <TextBlock Text="{Binding Duration}" FontWeight="Bold" />
-                        <TextBlock Text=" End: " />
-                        <TextBlock Text="{Binding Finish}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
-                        
-                    </WrapPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
-
-        <ListView Margin="10,184,10,-164" Name="lvDataBinding3">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <WrapPanel>
-                        <TextBlock Text="Name: " />
-                        <TextBlock Text="{Binding user.Name}" FontWeight="Bold" />
-                        <TextBlock Text=", " />
-                        <TextBlock Text= "Surname: " />
-                        <TextBlock Text="{Binding user.Surname}" FontWeight="Bold" />
-                        <TextBlock Text=" Email: " />
-                        <TextBlock Text="{Binding user.EMail}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
- 
-                    </WrapPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
-
-        <ListView Margin="10,260,10,-240" Name="lvDataBinding4">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <WrapPanel>
-                        <TextBlock Text="Description: " />
-                        <TextBlock Text="{Binding Description}" FontWeight="Bold" />
-                        <TextBlock Text=", " />
-                        <TextBlock Text="Duration: " />
-                        <TextBlock Text="{Binding Duration}" FontWeight="Bold" />
-                        <TextBlock Text=" ID: " />
-                        <TextBlock Text="{Binding Id}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
-                        
-                    </WrapPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
-
-        <ListView Margin="10,350,10,-330" Name="lvDataBinding5">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <WrapPanel>
-                        <TextBlock Text="Number: " />
-                        <TextBlock Text="{Binding Number}" FontWeight="Bold" />
-                        <TextBlock Text=", " />
-                        <TextBlock Text="Floor: " />
-                        <TextBlock Text="{Binding Floor}" FontWeight="Bold" />
-                        <TextBlock Text=" Description" />
-                        <TextBlock Text="{Binding Description}" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
-
-                    </WrapPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
+        <Button Content="View Doctors" Name="Doctorbtn" Height="50" Width="70"/>
+-->
     </Grid>
 </Window>

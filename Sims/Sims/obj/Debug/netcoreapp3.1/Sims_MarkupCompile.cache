@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Asus\Desktop\sims5\Sims\Sims\obj\Debug\netcoreapp3.1\
+D:\kt2 kt3\rema\Sims\Sims\obj\Debug\netcoreapp3.1\
 Sims
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\Asus\Desktop\sims5\Sims\Sims\App.xaml
-11151548125
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
+D:\kt2 kt3\rema\Sims\Sims\App.xaml
+26900247801
 
-20674057209
+125-37429800
 1921654412462
-MainWindow.xaml;
+AddAppointment(Patient).xaml;AddAppointment.xaml;AddRequest.xaml;AddRoom.xaml;CancelApp(Patient).xaml;CancelApp.xaml;CreatePatient.xaml;DeleteRoom.xaml;DoctorFunctional.xaml;DoctorsPage.xaml;MainWindow.xaml;PageAppointment.xaml;PagePatient.xaml;PageRequest.xaml;PageRooms.xaml;PatientFunctional.xaml;RemovePatient.xaml;RemoveRequest.xaml;SecretaryFunctional.xaml;UpdateApp.xaml;UpdatePatient.xaml;UpdateRequest.xaml;UpdateRoom.xaml;UppAppointment(Patient).xaml;ViewPatients.xaml;WardenFunctional.xaml;
 
 False
 

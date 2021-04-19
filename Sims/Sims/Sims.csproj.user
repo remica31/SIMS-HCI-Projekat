@@ -1,13 +1,149 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
   <ItemGroup>
     <ApplicationDefinition Update="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddAppointment%28Patient%29.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddAppointment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddRoom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CancelApp%28Patient%29.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CancelApp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CreatePatient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteRoom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DoctorFunctional.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DoctorsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageAppointment.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PagePatient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageRequest.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageRooms.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PatientFunctional.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RemovePatient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SecretaryFunctional.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateApp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdatePatient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateRoom.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UppAppointment%28Patient%29.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewPatients.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WardenFunctional.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddAppointment%28Patient%29.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddAppointment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddRoom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CancelApp%28Patient%29.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CancelApp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreatePatient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteRoom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorFunctional.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageAppointment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PagePatient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageRequest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageRooms.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PatientFunctional.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RemovePatient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SecretaryFunctional.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateApp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdatePatient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateRoom.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UppAppointment%28Patient%29.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewPatients.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WardenFunctional.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\sims5\\Sims\\Sims\\Sims.csproj": {}
+    "D:\\kt2 kt3\\rema\\Sims\\Sims\\Sims.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\sims5\\Sims\\Sims\\Sims.csproj": {
+    "D:\\kt2 kt3\\rema\\Sims\\Sims\\Sims.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\sims5\\Sims\\Sims\\Sims.csproj",
+        "projectUniqueName": "D:\\kt2 kt3\\rema\\Sims\\Sims\\Sims.csproj",
         "projectName": "Sims",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\sims5\\Sims\\Sims\\Sims.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\sims5\\Sims\\Sims\\obj\\",
+        "projectPath": "D:\\kt2 kt3\\rema\\Sims\\Sims\\Sims.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\kt2 kt3\\rema\\Sims\\Sims\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -55,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
