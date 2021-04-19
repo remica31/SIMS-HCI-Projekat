@@ -6,23 +6,26 @@
 
 using System;
 
-public class Renovation
+namespace Model
 {
-   public Room SplitRoom(String id)
+   public class Renovation
    {
-      // TODO: implement
-      return null;
-   }
+      public Room SplitRoom(String id)
+      {
+         // TODO: implement
+         return null;
+      }
+      
+      public Room MergeRooms(String id1, String id2)
+      {
+         // TODO: implement
+         return null;
+      }
    
-   public Room MergeRooms(String id1, String id2)
-   {
-      // TODO: implement
-      return null;
-   }
-
-   public String Id;
-   public RoomType RoomType;
+      public String Id;
+      public RoomType RoomType;
+      
+      public Room[] room;
    
-   public Room[] room;
-
+   }
 }

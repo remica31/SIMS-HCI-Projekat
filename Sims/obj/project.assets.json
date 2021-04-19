@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Downloads\\kt\\sims5\\Sims\\Sims\\Sims.csproj",
+      "projectUniqueName": "D:\\kt2 kt3\\rema\\rema\\Sims\\Sims\\Sims.csproj",
       "projectName": "Sims",
-      "projectPath": "C:\\Users\\User\\Downloads\\kt\\sims5\\Sims\\Sims\\Sims.csproj",
+      "projectPath": "D:\\kt2 kt3\\rema\\rema\\Sims\\Sims\\Sims.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Downloads\\kt\\sims5\\Sims\\Sims\\obj\\",
+      "outputPath": "D:\\kt2 kt3\\rema\\rema\\Sims\\Sims\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

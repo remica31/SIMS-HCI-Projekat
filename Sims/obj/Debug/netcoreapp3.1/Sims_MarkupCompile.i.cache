@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Downloads\kt\sims5\Sims\Sims\obj\Debug\netcoreapp3.1\
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\
 Sims
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\User\Downloads\kt\sims5\Sims\Sims\App.xaml
-231471963212
+D:\kt2 kt3\rema\rema\Sims\Sims\App.xaml
+32-779532079
 
-44-784674972
+133-114266432
 1921654412462
-AddAppointment(Patient).xaml;AddAppointment.xaml;AddRoom.xaml;CancelApp(Patient).xaml;CancelApp.xaml;CreatePatient.xaml;DeleteRoom.xaml;DoctorFunctional.xaml;DoctorsPage.xaml;MainWindow.xaml;PageAppointment.xaml;PagePatient.xaml;PageRequest.xaml;PageRooms.xaml;PatientFunctional.xaml;RemovePatient.xaml;SecretaryFunctional.xaml;UpdateApp.xaml;UpdatePatient.xaml;UpdateRoom.xaml;UppAppointment(Patient).xaml;ViewPatients.xaml;WardenFunctional.xaml;
+AddAppointment(Patient).xaml;AddAppointment.xaml;AddOperation.xaml;AddRequest.xaml;AddRoom.xaml;CancelApp(Patient).xaml;CancelApp.xaml;CreatePatient.xaml;CreateReceipe.xaml;DeleteOperation.xaml;DeleteRoom.xaml;DoctorFunctional.xaml;DoctorSchedule.xaml;DoctorsPage.xaml;MainWindow.xaml;PageAppointment.xaml;PageOperations.xaml;PagePatient.xaml;PageRequest.xaml;PageRooms.xaml;PatientFunctional.xaml;RemovePatient.xaml;RemoveRequest.xaml;SecretaryFunctional.xaml;UpdateApp.xaml;UpdateOperation.xaml;UpdatePatient.xaml;UpdateRequest.xaml;UpdateRoom.xaml;UppAppointment(Patient).xaml;ViewPatients.xaml;WardenFunctional.xaml;
 
 True
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -17,6 +18,7 @@ namespace Sims
     /// </summary>
     public partial class DoctorFunctional : Window
     {
+
         public DoctorFunctional()
         {
             InitializeComponent();
@@ -29,6 +31,8 @@ namespace Sims
             this.Close();
             a.Show();
         }
+
+
 
         private void View_Appointments(object sender, RoutedEventArgs e)
         {
@@ -51,6 +55,84 @@ namespace Sims
             UpdateApp u = new UpdateApp();
             this.Close();
             u.Show();
+        }
+
+        private void Add_Request(object sender, RoutedEventArgs e)
+        {
+            AddRequest r = new AddRequest();
+            this.Close();
+            r.Show();
+
+        }
+
+        private void View_Requests(object sender, RoutedEventArgs e)
+        {
+            PageRequest pr = new PageRequest();
+            var host = new Window();
+            host.Content = pr;
+            host.Show();
+
+        }
+
+        private void Cancel_Request(object sender, RoutedEventArgs e)
+        {
+            RemoveRequest rr = new RemoveRequest();
+            this.Close();
+            rr.Show();
+        }
+
+        private void Update_Request(object sender, RoutedEventArgs e)
+        {
+            UpdateRequest ur = new UpdateRequest();
+            this.Close();
+            ur.Show();
+
+        }
+
+        private void Add_Operation(object sender, RoutedEventArgs e)
+        {
+            AddOperation a = new AddOperation();
+            a.Show();
+            //this.Close();
+        }
+
+        private void Update_Operation(object sender, RoutedEventArgs e)
+        {
+            UpdateOperation u = new UpdateOperation();
+            u.Show();
+          //  this.Close();
+        }
+
+        private void Delete_Operation(object sender, RoutedEventArgs e)
+        {
+            DeleteOperation d = new DeleteOperation();
+            d.Show();
+           // this.Close();
+        }
+
+        private void View_Operation(object sender, RoutedEventArgs e)
+        {
+            PageOperations p = new PageOperations();
+            var host = new Window();
+            host.Content = p;
+            host.Show();
+        }
+
+        private void View_Schedule(object sender, RoutedEventArgs e)
+        {
+            DoctorSchedule d = new DoctorSchedule();
+            d.Show();
+
+        }
+
+        private void Create_Receipe(object sender, RoutedEventArgs e)
+        {
+            FileStorageAppointmentDoctor storage = new FileStorageAppointmentDoctor();
+            storage.ReadMedicines();
+            storage.ReadReceipts();
+            CreateReceipe c = new CreateReceipe();
+            c.Show();
+
         }
     }
 }
