@@ -11,7 +11,7 @@ public class FileStorageAppointmentPatient
     {
 
         patients = new List<Patient>();
-        string filePath = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\user.txt";
+        string filePath = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\user.txt";
         List<string> lines = File.ReadAllLines(filePath).ToList();
 
         foreach (var line in lines)
@@ -41,7 +41,7 @@ public class FileStorageAppointmentPatient
 
 
         appointments = new List<Appointment>();
-        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\appointment.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\appointment.txt";
         List<string> lines1 = File.ReadAllLines(filePath1).ToList();
 
         foreach (var line in lines1)
@@ -75,7 +75,7 @@ public class FileStorageAppointmentPatient
     }
     public void write()
     {
-        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\appointment.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\appointment.txt";
         List<string> lines = new List<string>();
         foreach (var app in appointments)
         {
@@ -96,7 +96,7 @@ public class FileStorageAppointmentPatient
          newapp.Finish = newFinish;
          newapp.Duration = newDuration;
          appointments.Add(newapp);*/
-        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\appointment.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\appointment.txt";
         List<string> lines = new List<string>();
         lines = File.ReadAllLines(filePath1).ToList();
         string id = newId;//"A1";

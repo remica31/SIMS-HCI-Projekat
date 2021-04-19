@@ -16,7 +16,7 @@ public class FileStoragePatient
    {
 
         patients = new List<Patient>();
-        string filePath = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\patients.txt";
+        string filePath = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\patients.txt";
         List<string> lines = File.ReadAllLines(filePath).ToList();
 
         foreach (var line in lines)
@@ -77,7 +77,7 @@ public class FileStoragePatient
     public void Create(String newUsername, String newPassword, String newID, String newJmbg, String newName, String newSurname, String newEmail, String newAddress, String newPhone)
     {
      
-        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\patients.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\patients.txt";
         List<string> lines = new List<string>();
         lines = File.ReadAllLines(filePath1).ToList();
         string jmbg = newJmbg;
@@ -101,7 +101,7 @@ public class FileStoragePatient
     }
     public void write()
     {
-        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\patients.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\patients.txt";
         List<string> lines = new List<string>();
         foreach (var pat in patients)
         {
