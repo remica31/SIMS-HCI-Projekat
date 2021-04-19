@@ -33,7 +33,7 @@ namespace Sims
         {
             FileStoragePatient storage = new FileStoragePatient();
             storage.Create(textBox2.Text, textBox3.Text, textBox4.Text, textBox1.Text, textBox5.Text, textBox6.Text, textBox7.Text, textBox8.Text, textBox9.Text);
-           // storage.write();
+            
             SecretaryFunctional s = new SecretaryFunctional();
             s.Show();
             this.Close();

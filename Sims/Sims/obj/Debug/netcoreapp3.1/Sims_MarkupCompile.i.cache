@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\kt2 kt3\rema\Sims\Sims\obj\Debug\netcoreapp3.1\
+C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\
 Sims
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-D:\kt2 kt3\rema\Sims\Sims\App.xaml
-26900247801
+C:\Users\Remica\Desktop\rema\Sims\Sims\App.xaml
+31380440583
 
-127-877396238
+132-384267068
 1921654412462
-AddAppointment(Patient).xaml;AddAppointment.xaml;AddRequest.xaml;AddRoom.xaml;CancelApp(Patient).xaml;CancelApp.xaml;CreatePatient.xaml;DeleteRoom.xaml;DoctorFunctional.xaml;DoctorsPage.xaml;MainWindow.xaml;PageAppointment.xaml;PagePatient.xaml;PageRequest.xaml;PageRooms.xaml;PatientFunctional.xaml;RemovePatient.xaml;RemoveRequest.xaml;SecretaryFunctional.xaml;UpdateApp.xaml;UpdatePatient.xaml;UpdateRequest.xaml;UpdateRoom.xaml;UppAppointment(Patient).xaml;ViewPatients.xaml;WardenFunctional.xaml;
+AddAppointment(Patient).xaml;AddAppointment.xaml;AddRequest.xaml;AddRoom.xaml;CancelApp(Patient).xaml;CancelApp.xaml;CreateDynamicRequest.xaml;CreatePatient.xaml;DeleteDynamicRequest.xaml;DeleteRoom.xaml;DoctorFunctional.xaml;DoctorsPage.xaml;MainWindow.xaml;PageAppointment.xaml;PageDynamicRequests.xaml;PagePatient.xaml;PageRequest.xaml;PageRooms.xaml;PatientFunctional.xaml;RemovePatient.xaml;RemoveRequest.xaml;SecretaryFunctional.xaml;UpdateApp.xaml;UpdateDynamicRequest.xaml;UpdatePatient.xaml;UpdateRequest.xaml;UpdateRoom.xaml;UppAppointment(Patient).xaml;ViewDynamicRequests.xaml;ViewPatients.xaml;WardenFunctional.xaml;
 
-False
+True
 

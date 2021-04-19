@@ -88,5 +88,36 @@ namespace Sims
             ur.Show();
 
         }
+
+        private void View_Dynamic_Requests(object sender, RoutedEventArgs e)
+        {
+            PageDynamicRequests p = new PageDynamicRequests();
+            var host = new Window();
+            host.Content = p;
+            host.Show();
+
+        }
+
+        private void Create_Dynamic_Request(object sender, RoutedEventArgs e)
+        {
+            CreateDynamicRequest c = new CreateDynamicRequest();
+            this.Close();
+            c.Show();
+
+        }
+
+        private void Update_Dynamic_Request(object sender, RoutedEventArgs e)
+        {
+            UpdateDynamicRequest ud = new UpdateDynamicRequest();
+            this.Close();
+            ud.Show();
+        }
+
+        private void Delete_Dynamic_Request(object sender, RoutedEventArgs e)
+        {
+            DeleteDynamicRequest dd = new DeleteDynamicRequest();
+            this.Close();
+            dd.Show();
+        }
     }
 }

@@ -10,7 +10,7 @@ public class FileStorageRequest
     public FileStorageRequest()
     {
         requests = new List<Request>();
-        string filePath = @"C:\Users\Remica\Downloads\wetransfer-d7f49c (1)\Sims\Sims\Data\request.txt";
+        string filePath = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\request.txt";
         List<string> lines = File.ReadAllLines(filePath).ToList();
 
         foreach (var line in lines)
@@ -30,12 +30,14 @@ public class FileStorageRequest
     public List<Request> requests;
     public List<Request> GetRequests()
     {
+
         return requests;
     }
 
+   
     public void createRequest(string id, string desc, string date, int dur)
     {
-        string filePath1 = @"C:\Users\Remica\Downloads\wetransfer-d7f49c (1)\Sims\Sims\Data\request.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\request.txt";
         List<string> lines = new List<string>();
         lines = File.ReadAllLines(filePath1).ToList();
 
@@ -72,7 +74,7 @@ public class FileStorageRequest
     }
     public void write()
     {
-        string filePath1 = @"C:\Users\Remica\Downloads\wetransfer-d7f49c (1)\Sims\Sims\Data\request.txt";
+        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\request.txt";
         List<string> lines = new List<string>();
         foreach (var req in requests)
         {
@@ -84,5 +86,10 @@ public class FileStorageRequest
             lines.Add(s10);
         }
         File.WriteAllLines(filePath1, lines);
+    }
+
+    public void ReadRequests()
+    {
+
     }
 }

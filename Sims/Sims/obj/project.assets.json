@@ -8,19 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Remica\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\kt2 kt3\\rema\\Sims\\Sims\\Sims.csproj",
+      "projectUniqueName": "C:\\Users\\Remica\\Desktop\\rema\\Sims\\Sims\\Sims.csproj",
       "projectName": "Sims",
-      "projectPath": "D:\\kt2 kt3\\rema\\Sims\\Sims\\Sims.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\kt2 kt3\\rema\\Sims\\Sims\\obj\\",
+      "projectPath": "C:\\Users\\Remica\\Desktop\\rema\\Sims\\Sims\\Sims.csproj",
+      "packagesPath": "C:\\Users\\Remica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Remica\\Desktop\\rema\\Sims\\Sims\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Remica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
