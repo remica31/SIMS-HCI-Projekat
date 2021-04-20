@@ -39,12 +39,14 @@ namespace Model
          return null;
       }
    
-      public String Id;
-      public Double Start;
-      public Double Duration;
-      public Room Room;
+      public String Id { set; get; }
+      public double Start { set; get; }
+      public double Duration { set; get; }
+      public Room Room { set; get; }
+      public int RoomId { set; get; }
+      public String DoctorId { set; get; }
+      public String PatientId { set; get; }
       
-      public Room room;
    
    }
 }

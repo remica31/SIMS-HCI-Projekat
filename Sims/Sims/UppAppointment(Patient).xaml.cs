@@ -25,7 +25,7 @@ namespace Sims
         private void Update_Click(object sender, RoutedEventArgs e)
         {
             FileStorageAppointmentPatient storage = new FileStorageAppointmentPatient();
-            storage.updateApp(textBox1.Text, Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text));
+            storage.updateApp(textBox1.Text, Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text), Convert.ToDouble(textBox4.Text), Convert.ToInt32(textBox6.Text),Convert.ToInt32(textBox5.Text));
             storage.write();
             PatientFunctional p = new PatientFunctional();
             this.Close();

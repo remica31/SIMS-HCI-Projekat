@@ -15,10 +15,16 @@
         <Button Content="View Requests" HorizontalAlignment="Left" Height="25" Margin="472,137,0,0" VerticalAlignment="Top" Click="View_Requests" Width="129"/>
         <Button Content="Remove Request" HorizontalAlignment="Left" Height="29" Margin="472,84,0,0" VerticalAlignment="Top" Click="Cancel_Request" Width="129"/>
         <Button Content="Update Request" HorizontalAlignment="Left" Height="20" Margin="472,197,0,0" VerticalAlignment="Top" Click="Update_Request" Width="129"/>
-        <Button Content="View Dynamic Requests" HorizontalAlignment="Left" Margin="67,326,0,0" VerticalAlignment="Top" Click="View_Dynamic_Requests" Height="29" Width="99"/>
-        <Button Content="Create Dynamic Request" HorizontalAlignment="Left" Height="44" Margin="245,323,0,0" VerticalAlignment="Top" Click="Create_Dynamic_Request" Width="121"/>
-        <Button Content="Update Dynamic Request" HorizontalAlignment="Left" Height="29" Margin="432,336,0,0" VerticalAlignment="Top" Click="Update_Dynamic_Request" Width="64"/>
-        <Button Content="Delete Dynamic Request" HorizontalAlignment="Left" Height="37" Margin="601,330,0,0" VerticalAlignment="Top" Click ="Delete_Dynamic_Request" Width="91"/>
+        <Button Content="Add Operation" HorizontalAlignment="Left" Margin="79,290,0,0" VerticalAlignment="Top" Click="Add_Operation"/>
+        <Button Content="Update Operation" HorizontalAlignment="Left" Margin="79,325,0,0" VerticalAlignment="Top" Click="Update_Operation"/>
+        <Button Content="Delete Operation" HorizontalAlignment="Left" Margin="79,350,0,0" VerticalAlignment="Top" Click="Delete_Operation"/>
+        <Button Content="View Operations" HorizontalAlignment="Left" Margin="79,384,0,0" VerticalAlignment="Top" Click="View_Operation"/>
+        <Button Content="Schedule" HorizontalAlignment="Left" Margin="283,310,0,0" VerticalAlignment="Top" Click="View_Schedule"/>
+        <Button Content="Create receipe" HorizontalAlignment="Left" Margin="283,350,0,0" VerticalAlignment="Top" Click="Create_Receipe"/>
+        <Button Content="View Dynamic Requests" HorizontalAlignment="Left" Margin="264,55,0,0" VerticalAlignment="Top" Click="View_Dynamic_Requests" Height="29" Width="99"/>
+        <Button Content="Create Dynamic Request" HorizontalAlignment="Left" Height="44" Margin="249,103,0,0" VerticalAlignment="Top" Click="Create_Dynamic_Request" Width="121"/>
+        <Button Content="Update Dynamic Request" HorizontalAlignment="Left" Height="29" Margin="283,172,0,0" VerticalAlignment="Top" Click="Update_Dynamic_Request" Width="64"/>
+        <Button Content="Delete Dynamic Request" HorizontalAlignment="Left" Height="37" Margin="279,213,0,0" VerticalAlignment="Top" Click ="Delete_Dynamic_Request" Width="91"/>
 
     </Grid>
 </Window>

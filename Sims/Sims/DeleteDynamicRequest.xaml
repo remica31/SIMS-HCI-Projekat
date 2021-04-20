@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="DeleteDynamicRequest" Height="450" Width="800">
     <Grid>
-        <Button Content="Remove request" HorizontalAlignment="Left" Margin="631,347,0,0" VerticalAlignment="Top" Click="Cancel_Click"/>
+        <Button Content="Remove equipment" HorizontalAlignment="Left" Margin="631,347,0,0" VerticalAlignment="Top" Click="Cancel_Click"/>
         <Button Content="Back" HorizontalAlignment="Left" Margin="462,347,0,0" VerticalAlignment="Top" Click="Back_Click"/>
         <Label Content="ID" HorizontalAlignment="Left" Margin="42,128,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="147,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.321,-0.251"/>

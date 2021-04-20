@@ -29,8 +29,7 @@ namespace Sims
             List<Request> requests = storage2.GetRequests();
             // storage2.createRequest("A1", 12, 1, 13);
             storage2.createRequest(textBox1.Text, textBox2.Text, textBox3.Text, int.Parse(textBox4.Text));
-            DoctorFunctional d = new DoctorFunctional();
-            d.Show();
+            
             this.Close();
 
         }

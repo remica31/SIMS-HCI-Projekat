@@ -4,6 +4,7 @@
  * Purpose: Definition of the Class FileStoragePatient
  ***********************************************************************/
 
+using Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,9 +15,9 @@ public class FileStoragePatient
 {
    public  FileStoragePatient() 
    {
-
+        guests = new List<Guest>();
         patients = new List<Patient>();
-        string filePath = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\patients.txt";
+        string filePath = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\patients.txt";
         List<string> lines = File.ReadAllLines(filePath).ToList();
 
         foreach (var line in lines)
@@ -77,7 +78,7 @@ public class FileStoragePatient
     public void Create(String newUsername, String newPassword, String newID, String newJmbg, String newName, String newSurname, String newEmail, String newAddress, String newPhone)
     {
      
-        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\patients.txt";
+        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\patients.txt";
         List<string> lines = new List<string>();
         lines = File.ReadAllLines(filePath1).ToList();
         string jmbg = newJmbg;
@@ -99,9 +100,21 @@ public class FileStoragePatient
     {
         return patients;
     }
+    public List<Patient> GetPatientByID(string id)
+    {
+        List<Patient> newPatients = new List<Patient>();
+        foreach(var pat in patients)
+        {
+            if (pat.user.Id == id)
+            {
+                newPatients.Add(pat);
+            }
+        }
+        return newPatients;
+    }
     public void write()
     {
-        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\patients.txt";
+        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\patients.txt";
         List<string> lines = new List<string>();
         foreach (var pat in patients)
         {
@@ -119,6 +132,23 @@ public class FileStoragePatient
         }
         File.WriteAllLines(filePath1, lines);
     }
+    //-----------------------------------------------GUEST NALOZI-----------------------------------------------
 
+    public List<Guest> guests;
+    public List<Guest> GetGuests()
+    {
+        return guests;
+    }
+    public void CreateGuest(string newjmbg, string newName, string newSurname, string newUserName, string newPassword)
+    {
+        var newGuest = new Guest();
+        newGuest.Jmbg = newjmbg;
+        newGuest.Name = newName;
+        newGuest.Password = newPassword;
+        newGuest.Surname = newSurname;
+        newGuest.Username = newUserName;
+        guests.Add(newGuest);
+    }
+    
 
 }

@@ -50,5 +50,65 @@ namespace Sims
             dr.Show();
             this.Close();
         }
+        private void View_Equipment(object sender, RoutedEventArgs e)
+        {
+            PageEquipment r = new PageEquipment();
+            var host = new Window();
+            host.Content = r;
+            host.Show();
+        }
+
+        private void Create_Equipment(object sender, RoutedEventArgs e)
+        {
+            CreateEquipment c = new CreateEquipment();
+            c.Show();
+            this.Close();
+        }
+
+        private void Update_Equipment(object sender, RoutedEventArgs e)
+        {
+            UpdateEquipment u = new UpdateEquipment();
+            u.Show();
+            this.Close();
+        }
+
+        private void Delete_Equipment(object sender, RoutedEventArgs e)
+        {
+            DeleteEquipment d = new DeleteEquipment();
+            d.Show();
+            this.Close();
+
+        }
+        private void View_Dynamic(object sender, RoutedEventArgs e)
+        {
+            PageDynamicEq p = new PageDynamicEq();
+            var host = new Window();
+            host.Content = p;
+            host.Show();
+
+
+        }
+
+        private void Create_Dynamic(object sender, RoutedEventArgs e)
+        {
+            CreateDynamicEq c = new CreateDynamicEq();
+            c.Show();
+            this.Close();
+        }
+
+        private void Update_Dynamic(object sender, RoutedEventArgs e)
+        {
+            UpdateDynamicEq u = new UpdateDynamicEq();
+            u.Show();
+            this.Close();
+
+        }
+
+        private void Delete_Dynamic(object sender, RoutedEventArgs e)
+        {
+            DeleteDynamicEq d = new DeleteDynamicEq();
+            d.Show();
+            this.Close();
+        }
     }
 }

@@ -24,9 +24,9 @@ namespace Model
          return null;
       }
    
-      public String Id;
-      public String Name;
-      public String Description;
+      public String Id { get; set; }
+      public String Name { get; set; }
+      public String Description { get; set; }
    
    }
 }

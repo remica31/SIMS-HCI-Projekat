@@ -46,14 +46,14 @@ namespace Sims
         private void Cancel_Appointment(object sender, RoutedEventArgs e)
         {
             CancelApp c = new CancelApp();
-            this.Close();
+           // this.Close();
             c.Show();
         }
 
         private void Update_Appointment(object sender, RoutedEventArgs e)
         {
             UpdateApp u = new UpdateApp();
-            this.Close();
+          //  this.Close();
             u.Show();
         }
 
@@ -89,6 +89,51 @@ namespace Sims
 
         }
 
+        private void Add_Operation(object sender, RoutedEventArgs e)
+        {
+            AddOperation a = new AddOperation();
+            a.Show();
+            //this.Close();
+        }
+
+        private void Update_Operation(object sender, RoutedEventArgs e)
+        {
+            UpdateOperation u = new UpdateOperation();
+            u.Show();
+          //  this.Close();
+        }
+
+        private void Delete_Operation(object sender, RoutedEventArgs e)
+        {
+            DeleteOperation d = new DeleteOperation();
+            d.Show();
+           // this.Close();
+        }
+
+        private void View_Operation(object sender, RoutedEventArgs e)
+        {
+            PageOperations p = new PageOperations();
+            var host = new Window();
+            host.Content = p;
+            host.Show();
+        }
+
+        private void View_Schedule(object sender, RoutedEventArgs e)
+        {
+            DoctorSchedule d = new DoctorSchedule();
+            d.Show();
+
+        }
+
+        private void Create_Receipe(object sender, RoutedEventArgs e)
+        {
+            FileStorageAppointmentDoctor storage = new FileStorageAppointmentDoctor();
+            storage.ReadMedicines();
+            storage.ReadReceipts();
+            CreateReceipe c = new CreateReceipe();
+            c.Show();
+
+        }
         private void View_Dynamic_Requests(object sender, RoutedEventArgs e)
         {
             PageDynamicRequests p = new PageDynamicRequests();

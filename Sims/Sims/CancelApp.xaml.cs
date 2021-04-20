@@ -24,9 +24,9 @@ namespace Sims
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
-            DoctorFunctional d = new DoctorFunctional();
+          //  DoctorFunctional d = new DoctorFunctional();
             this.Close();
-            d.Show();
+          //  d.Show();
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
@@ -34,9 +34,9 @@ namespace Sims
             FileStorageAppointmentDoctor storage = new FileStorageAppointmentDoctor();
             storage.cancelApp(textBox1.Text);
             storage.write();
-            DoctorFunctional d = new DoctorFunctional();
+           // DoctorFunctional d = new DoctorFunctional();
             this.Close();
-            d.Show();
+          //  d.Show();
         }
     }
 }

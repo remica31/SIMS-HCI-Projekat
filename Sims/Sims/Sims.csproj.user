@@ -15,6 +15,9 @@
     <Compile Update="AddAppointment.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AddOperation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddRoom.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -24,13 +27,16 @@
     <Compile Update="CancelApp.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="CreateDynamicRequest.xaml.cs">
+    <Compile Update="CreateGuest%28Secretary%29.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="CreatePatient.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="DeleteDynamicRequest.xaml.cs">
+    <Compile Update="CreateReceipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteOperation.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="DeleteRoom.xaml.cs">
@@ -39,13 +45,16 @@
     <Compile Update="DoctorFunctional.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="DoctorSchedule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="DoctorsPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PageAppointment.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="PageDynamicRequests.xaml.cs">
+    <Compile Update="PageOperations.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PagePatient.xaml.cs">
@@ -66,10 +75,16 @@
     <Compile Update="SecretaryFunctional.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="SecreteryViewSchedule.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UpdateApp.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UpdateDynamicRequest.xaml.cs">
+    <Compile Update="UpdateOperation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateOperationsBySecretary.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UpdatePatient.xaml.cs">
@@ -79,9 +94,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UppAppointment%28Patient%29.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="ViewDynamicRequests.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewPatients.xaml.cs">
@@ -98,6 +110,9 @@
     <Page Update="AddAppointment.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="AddOperation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AddRoom.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -107,19 +122,43 @@
     <Page Update="CancelApp.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CreateDynamicEq.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CreateDynamicRequest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateEquipment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CreateGuest%28Secretary%29.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CreatePatient.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CreateReceipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteDynamicEq.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="DeleteDynamicRequest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteEquipment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteOperation.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DeleteRoom.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DoctorFunctional.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DoctorSchedule.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DoctorsPage.xaml">
@@ -131,7 +170,16 @@
     <Page Update="PageAppointment.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="PageDynamicEq.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="PageDynamicRequests.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageEquipment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageOperations.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PagePatient.xaml">
@@ -152,10 +200,25 @@
     <Page Update="SecretaryFunctional.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="SecreteryViewSchedule.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UpdateApp.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="UpdateDynamicEq.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="UpdateDynamicRequest.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateEquipment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOperation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOperationsBySecretary.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UpdatePatient.xaml">

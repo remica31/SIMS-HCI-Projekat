@@ -38,6 +38,7 @@ namespace Model
       public String Description;
       public int Quantity;
       public List<Medicine> Medicines;
+        public String PatientId;
       
       public System.Collections.ArrayList medicine;
       

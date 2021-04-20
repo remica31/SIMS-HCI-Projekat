@@ -11,6 +11,13 @@
         <Button Content="Update room" HorizontalAlignment="Left" Margin="79,205,0,0" VerticalAlignment="Top" Click="Update_Click"/>
         <Button Content="Delete room" HorizontalAlignment="Left" Margin="66,269,0,0" VerticalAlignment="Top" Click="Delete_Click"/>
         <Button Content="View all rooms" HorizontalAlignment="Left" Margin="79,322,0,0" VerticalAlignment="Top" Click="View_Click"/>
-
+        <Button Content="View Equipment" HorizontalAlignment="Left" Margin="400,130,0,0" VerticalAlignment="Top" Click="View_Equipment"  Width="108"/>
+        <Button Content="Create Equipment" HorizontalAlignment="Left" Height="20" Margin="400,205,0,0" VerticalAlignment="Top" Click="Create_Equipment" Width="108"/>
+        <Button Content="Update Equipment" HorizontalAlignment="Left" Height="24" Margin="400,279,0,0" VerticalAlignment="Top" Click="Update_Equipment" Width="108"/>
+        <Button Content="Delete Equipment" HorizontalAlignment="Left" Height="34" Margin="400,332,0,0" VerticalAlignment="Top" Click="Delete_Equipment" Width="108"/>
+        <Button Content="View Dynamic" HorizontalAlignment="Left" Height="20" Margin="598,130,0,0" VerticalAlignment="Top" Click="View_Dynamic" Width="111"/>
+        <Button Content="Create Dynamic" HorizontalAlignment="Left" Height="20" Margin="598,205,0,0" VerticalAlignment="Top" Click="Create_Dynamic" Width="111"/>
+        <Button Content="Update Dynamic" HorizontalAlignment="Left" Height="22" Margin="598,269,0,0" VerticalAlignment="Top" Click="Update_Dynamic" Width="111"/>
+        <Button Content="Delete Dynamic" HorizontalAlignment="Left" Height="25" Margin="598,332,0,0" VerticalAlignment="Top" Click="Delete_Dynamic"  Width="111"/>
     </Grid>
 </Window>

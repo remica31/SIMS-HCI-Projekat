@@ -7,22 +7,26 @@ public class Appointment
 {
     public Appointment() { }
 
-    public void Create(String newId, double start, double finish, double newDuration, AppointmentType newType)
+    public void Create(String newId, double newStart, int newMonth, int newDay, double finish, double newDuration, AppointmentType newType)
     {
         var app = new Appointment();
         app.Id = newId;
-        app.Start = start;
+        app.Start = newStart;
+        app.Month = newMonth;
+        app.Day = newDay;
         app.Finish = finish;
         app.Duration = newDuration;
         app.Type = newType;
         appointments.Add(app);
     }
 
-    public void Update(double start, double duration, double finish)
+    public void Update(int day, int month, double start, double duration, double finish)
     {
         Start = start;
         Duration = duration;
         Finish = finish;
+        Day = day;
+        Month = month;
     }
 
     public void Delete(String id)
@@ -88,6 +92,8 @@ public class Appointment
     public AppointmentType Type;
     public double Finish { get; set; }
 
+    public int Month { get; set; }
+    public int Day { get; set; }
     public Doctor doctor { get; set; }
     public Patient patient { get; set; }
 

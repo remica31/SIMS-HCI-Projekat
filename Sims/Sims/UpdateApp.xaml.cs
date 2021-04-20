@@ -24,9 +24,9 @@ namespace Sims
 
         private void Cancel_Click(object sender, RoutedEventArgs e)
         {
-            DoctorFunctional d = new DoctorFunctional();
+          //  DoctorFunctional d = new DoctorFunctional();
             this.Close();
-            d.Show();
+          //  d.Show();
         }
 
         private void Update_Click(object sender, RoutedEventArgs e)
@@ -34,9 +34,9 @@ namespace Sims
             FileStorageAppointmentDoctor storage = new FileStorageAppointmentDoctor();
             storage.updateApp(textBox1.Text,Convert.ToDouble(textBox2.Text), Convert.ToDouble(textBox3.Text),Convert.ToDouble(textBox4.Text));
             storage.write();
-            DoctorFunctional d = new DoctorFunctional();
+           // DoctorFunctional d = new DoctorFunctional();
             this.Close();
-            d.Show();
+           // d.Show();
         }
     }
 }

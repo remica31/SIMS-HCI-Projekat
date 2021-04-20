@@ -11,9 +11,9 @@ using System.Linq;
 
 namespace Model
 {
-   public class FileStorageDoctor
-   {
-      public string FileLocation;
+    public class FileStorageDoctor
+    {
+        public string FileLocation;
         public FileStorageDoctor()
         {
             requests = new List<DinamicEquipmentRequest>();
@@ -27,7 +27,7 @@ namespace Model
         public void ReadRequests()
         {
             requests = new List<DinamicEquipmentRequest>();
-            string filePath = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\dynamicreq.txt";
+            string filePath = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\dynamicreq.txt";
             List<string> lines = File.ReadAllLines(filePath).ToList();
 
             foreach (var line in lines)
@@ -39,7 +39,7 @@ namespace Model
                 newRequest.Id = entries[0];
                 newRequest.Name = entries[1];
                 newRequest.Date = entries[2];
-                newRequest.StatusType = entries[3]; 
+                newRequest.StatusType = entries[3];
                 requests.Add(newRequest);
 
             }
@@ -47,7 +47,7 @@ namespace Model
 
         public void createRequest(string id, string name)
         {
-            string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\dynamicreq.txt";
+            string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\dynamicreq.txt";
             List<string> lines = new List<string>();
             lines = File.ReadAllLines(filePath1).ToList();
 
@@ -84,7 +84,7 @@ namespace Model
 
         public void write()
         {
-            string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\dynamicreq.txt";
+            string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\dynamicreq.txt";
             List<string> lines = new List<string>();
             foreach (var req in requests)
             {
@@ -97,9 +97,5 @@ namespace Model
             }
             File.WriteAllLines(filePath1, lines);
         }
-
     }
-
-    
-
 }

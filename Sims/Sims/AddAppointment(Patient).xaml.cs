@@ -26,7 +26,7 @@ namespace Sims
         {
             FileStorageAppointmentPatient storage2 = new FileStorageAppointmentPatient();
             // storage2.createApp("A1", 12, 1, 13);
-            storage2.createApp(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text);
+           // storage2.createApp(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text);
             PatientFunctional p = new PatientFunctional();
             this.Close();
             p.Show();

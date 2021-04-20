@@ -245,82 +245,197 @@ D:\kt2 kt3\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csproj.CoreCompileInputs.
 D:\kt2 kt3\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.dll
 D:\kt2 kt3\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.pdb
 D:\kt2 kt3\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.genruntimeconfig.cache
-C:\Users\Remica\Desktop\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.exe
-C:\Users\Remica\Desktop\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.deps.json
-C:\Users\Remica\Desktop\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.runtimeconfig.json
-C:\Users\Remica\Desktop\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.runtimeconfig.dev.json
-C:\Users\Remica\Desktop\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.dll
-C:\Users\Remica\Desktop\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.pdb
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csprojAssemblyReference.cache
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment(Patient).g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRoom.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp(Patient).g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreatePatient.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteRoom.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorFunctional.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorsPage.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\MainWindow.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageAppointment.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PagePatient.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRooms.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PatientFunctional.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemovePatient.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemoveRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\SecretaryFunctional.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateApp.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdatePatient.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRoom.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UppAppointment(Patient).g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\ViewPatients.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\WardenFunctional.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\App.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims_MarkupCompile.cache
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims_MarkupCompile.lref
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment(Patient).baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRoom.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp(Patient).baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreatePatient.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteRoom.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorFunctional.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorsPage.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\MainWindow.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageAppointment.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PagePatient.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRooms.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PatientFunctional.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemovePatient.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemoveRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\SecretaryFunctional.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateApp.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdatePatient.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRoom.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UppAppointment(Patient).baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\ViewPatients.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\WardenFunctional.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.g.resources
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.AssemblyInfoInputs.cache
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.AssemblyInfo.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csproj.CoreCompileInputs.cache
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.dll
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.pdb
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.genruntimeconfig.cache
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreateDynamicRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteDynamicRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageDynamicRequests.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateDynamicRequest.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\ViewDynamicRequests.g.cs
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreateDynamicRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteDynamicRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageDynamicRequests.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateDynamicRequest.baml
-C:\Users\Remica\Desktop\rema\Sims\Sims\obj\Debug\netcoreapp3.1\ViewDynamicRequests.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.exe
+D:\kt2 kt3\rema\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.deps.json
+D:\kt2 kt3\rema\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.runtimeconfig.json
+D:\kt2 kt3\rema\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.runtimeconfig.dev.json
+D:\kt2 kt3\rema\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.dll
+D:\kt2 kt3\rema\rema\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.pdb
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment(Patient).g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddOperation.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRequest.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRoom.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp(Patient).g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreatePatient.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteOperation.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteRoom.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorFunctional.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorsPage.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageAppointment.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageOperations.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PagePatient.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRequest.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRooms.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PatientFunctional.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemovePatient.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemoveRequest.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\SecretaryFunctional.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateApp.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateOperation.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdatePatient.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRequest.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRoom.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UppAppointment(Patient).g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\ViewPatients.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\WardenFunctional.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\App.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims_MarkupCompile.cache
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims_MarkupCompile.lref
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment(Patient).baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddOperation.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRequest.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\AddRoom.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp(Patient).baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreatePatient.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteOperation.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteRoom.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorFunctional.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorsPage.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageAppointment.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageOperations.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PagePatient.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRequest.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PageRooms.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\PatientFunctional.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemovePatient.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\RemoveRequest.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\SecretaryFunctional.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateApp.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateOperation.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdatePatient.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRequest.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRoom.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\UppAppointment(Patient).baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\ViewPatients.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\WardenFunctional.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.g.resources
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.AssemblyInfoInputs.cache
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.AssemblyInfo.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csproj.CoreCompileInputs.cache
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.dll
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.pdb
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.genruntimeconfig.cache
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csprojAssemblyReference.cache
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorSchedule.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorSchedule.baml
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreateReceipe.g.cs
+D:\kt2 kt3\rema\rema\Sims\Sims\obj\Debug\netcoreapp3.1\CreateReceipe.baml
+D:\Ispravljeno\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.exe
+D:\Ispravljeno\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.deps.json
+D:\Ispravljeno\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.runtimeconfig.json
+D:\Ispravljeno\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.runtimeconfig.dev.json
+D:\Ispravljeno\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.dll
+D:\Ispravljeno\Sims\Sims\bin\Debug\netcoreapp3.1\Sims.pdb
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment(Patient).g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddOperation.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddRoom.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp(Patient).g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateDynamicRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateEquipment.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreatePatient.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateReceipe.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteDynamicRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteEquipment.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteOperation.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteRoom.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorFunctional.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorSchedule.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorsPage.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageAppointment.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageDynamicRequests.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageEquipment.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageOperations.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PagePatient.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageRooms.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PatientFunctional.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\RemovePatient.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\RemoveRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\SecretaryFunctional.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateApp.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateDynamicRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateEquipment.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateOperation.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdatePatient.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRequest.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRoom.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UppAppointment(Patient).g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\ViewDynamicRequests.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\ViewPatients.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\WardenFunctional.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims_MarkupCompile.cache
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims_MarkupCompile.lref
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment(Patient).baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddAppointment.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddOperation.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\AddRoom.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp(Patient).baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CancelApp.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateDynamicRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateEquipment.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreatePatient.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateReceipe.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteDynamicRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteEquipment.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteOperation.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteRoom.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorFunctional.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorSchedule.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DoctorsPage.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageAppointment.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageDynamicRequests.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageEquipment.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageOperations.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PagePatient.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageRooms.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PatientFunctional.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\RemovePatient.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\RemoveRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\SecretaryFunctional.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateApp.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateDynamicRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateEquipment.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateOperation.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdatePatient.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRequest.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateRoom.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UppAppointment(Patient).baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\ViewDynamicRequests.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\ViewPatients.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\WardenFunctional.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.g.resources
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.AssemblyInfoInputs.cache
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.AssemblyInfo.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csproj.CoreCompileInputs.cache
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.dll
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.pdb
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.genruntimeconfig.cache
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\Sims.csprojAssemblyReference.cache
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\SecreteryViewSchedule.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\SecreteryViewSchedule.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateOperationsBySecretary.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateOperationsBySecretary.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateGuest(Secretary).g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateGuest(Secretary).baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateDynamicEq.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteDynamicEq.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageDynamicEq.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateDynamicEq.g.cs
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\CreateDynamicEq.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\DeleteDynamicEq.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\PageDynamicEq.baml
+D:\Ispravljeno\Sims\Sims\obj\Debug\netcoreapp3.1\UpdateDynamicEq.baml

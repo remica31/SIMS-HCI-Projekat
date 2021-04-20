@@ -10,7 +10,7 @@ public class FileStorageRoom
     public FileStorageRoom()
     {
         rooms = new List<Room>();
-        string filePath = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\room.txt";
+        string filePath = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\room.txt";
         List<string> lines = File.ReadAllLines(filePath).ToList();
 
         foreach (var line in lines)
@@ -43,7 +43,7 @@ public class FileStorageRoom
          newapp.Finish = newFinish;
          newapp.Duration = newDuration;
          appointments.Add(newapp);*/
-        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\room.txt";
+        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\room.txt";
         List<string> lines = new List<string>();
         lines = File.ReadAllLines(filePath1).ToList();
         string number = newNumber;//"A1";
@@ -80,7 +80,7 @@ public class FileStorageRoom
     }
         public void write()
     {
-        string filePath1 = @"C:\Users\Remica\Desktop\rema\Sims\Sims\Data\room.txt";
+        string filePath1 = @"C:\Users\User\Downloads\kt\sims5\Sims\Sims\Data\room.txt";
         List<string> lines = new List<string>();
         foreach (var room in rooms)
         {

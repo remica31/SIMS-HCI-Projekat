@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -52,6 +53,19 @@ namespace Sims
             var host = new Window();
             host.Content = p;
             host.Show();
+        }
+
+        private void Schedule_Click(object sender, RoutedEventArgs e)
+        {
+            InitializeComponent();
+            SecreteryViewSchedule s = new SecreteryViewSchedule();
+            s.Show();
+        }
+
+        private void CreateGuest_Click(object sender, RoutedEventArgs e)
+        {
+            CreateGuest_Secretary_ cg = new CreateGuest_Secretary_();
+            cg.Show();
         }
     }
 }

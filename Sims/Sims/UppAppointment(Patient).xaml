@@ -17,6 +17,10 @@
         <Label Content="Start" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top"/>
         <Label Content="Duration" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center"/>
         <Label Content="Finish" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Margin="76,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Margin="76,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Day" HorizontalAlignment="Left" Margin="10,331,0,0" VerticalAlignment="Top"/>
+        <Label Content="Month" HorizontalAlignment="Left" Margin="10,389,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

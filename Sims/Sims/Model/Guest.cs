@@ -19,11 +19,11 @@ namespace Model
       public Appointment appointment;
       public User user;
    
-      private String Jmbg;
-      private String Name;
-      private String Surname;
-      private String Username;
-      private String Password;
-   
-   }
+      public String Jmbg { get; set; }
+      public String Name { get; set; }
+        public String Surname { get; set; }
+        public String Username { get; set; }
+        public String Password { get; set; }
+
+    }
 }

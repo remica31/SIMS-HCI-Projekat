@@ -40,12 +40,12 @@ namespace Model
          // TODO: implement
       }
    
-      public String Id;
-      public String Name;
-      public Werehouse Werehouse;
-      public int Quantity;
-      
-      public System.Collections.ArrayList room;
+      public String Id { get; set; }
+      public String Name { get; set; }
+        public String warehouseId { get; set; }
+        public int Quantity { get; set; }
+
+        public System.Collections.ArrayList room;
       
       /// <pdGenerated>default getter</pdGenerated>
       public System.Collections.ArrayList GetRoom()
