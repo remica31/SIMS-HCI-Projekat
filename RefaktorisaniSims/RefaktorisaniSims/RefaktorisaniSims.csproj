@@ -68,8 +68,14 @@
     <Compile Include="DoctorAppointmentCRUD.xaml.cs">
       <DependentUpon>DoctorAppointmentCRUD.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DoctorCreateHospitalReferral.xaml.cs">
+      <DependentUpon>DoctorCreateHospitalReferral.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DoctorMainWindow.xaml.cs">
       <DependentUpon>DoctorMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorMedicinesUpdate.xaml.cs">
+      <DependentUpon>DoctorMedicinesUpdate.xaml</DependentUpon>
     </Compile>
     <Compile Include="DoctorOperationCRUD.xaml.cs">
       <DependentUpon>DoctorOperationCRUD.xaml</DependentUpon>
@@ -186,9 +192,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DoctorCreateHospitalReferral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DoctorMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorMedicinesUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="DoctorOperationCRUD.xaml">
       <SubType>Designer</SubType>

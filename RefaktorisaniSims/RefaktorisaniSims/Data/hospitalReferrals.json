@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "1",
+    "FromDoctorId": "d1",
+    "ToDoctorId": "d2",
+    "Explanation": "Ti ga bolje pogledaj",
+    "Patient": {
+      "User": {
+        "Id": "p1",
+        "Username": "Misel",
+        "Password": "nisiViseLepaKaoPre",
+        "Name": "Milos",
+        "Surname": "Rankovic",
+        "EMail": "Misel@gmail.com",
+        "Address": "NekaAdresa2",
+        "Phone": "0691111111",
+        "DateOfBirth": "1999-04-08T00:00:00"
+      },
+      "medicalRecord": null,
+      "appointments": null
+    }
+  }  
+]
