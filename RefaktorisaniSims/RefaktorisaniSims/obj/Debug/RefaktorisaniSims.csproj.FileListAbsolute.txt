@@ -177,3 +177,7 @@ C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorMe
 C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorMedicinesUpdate.baml
 C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorCreateHospitalReferral.g.cs
 C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorCreateHospitalReferral.baml
+C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\PatientSurvey.g.cs
+C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\PatientSurvey.baml
+C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\PatientReferral.g.cs
+C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\PatientReferral.baml
