@@ -1,0 +1,14 @@
+﻿<Window x:Class="RefaktorisaniSims.DoctorWarden"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefaktorisaniSims"
+        mc:Ignorable="d"
+        Title="DoctorWarden" Height="450" Width="800">
+    <Grid>
+        <Button Content="Holiday Requests" HorizontalAlignment="Left" Height="34" Margin="55,36,0,0" VerticalAlignment="Top" Width="101" Click="Holiday_Requests"/>
+        <Button Content="Dynamic Equipment Requests" HorizontalAlignment="Left" Height="34" Margin="219,36,0,0" VerticalAlignment="Top" Width="169" Click="Dynamic_Equipment_Requests"/>
+
+    </Grid>
+</Window>

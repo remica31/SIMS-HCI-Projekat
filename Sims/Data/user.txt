@@ -1,4 +1,0 @@
-1111111111111,Mirko10,Mire,d1,Mirko,Ivanic,mirko99@gmail.com,marakana,6665533
-2222222222222,vujkeza,vujkre555,d2,Jovan,Vujic,Jovan@uns.ac.rs,Bijeljina,0621231323
-3333333333333,Stefke,stale55,p1,Stefan,Stefanovic,stefan999@gmail.com,GornjVakuf,123456789
-4444444444444,socadoca,losmi99,s1,Milos,Rankovic,losmi@gmail.com,NoviSad,0600233479
