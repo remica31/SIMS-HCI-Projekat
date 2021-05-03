@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\App.xaml
-25-1903815907
+27-446603157
 
-134-527361622
+136-1083327711
 14-1800013581
-CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryFunctional.xaml;staticEquipment.xaml;Warden.xaml;
+CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;PatientReferral.xaml;PatientSurvey.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryFunctional.xaml;staticEquipment.xaml;Warden.xaml;
 
 True
 

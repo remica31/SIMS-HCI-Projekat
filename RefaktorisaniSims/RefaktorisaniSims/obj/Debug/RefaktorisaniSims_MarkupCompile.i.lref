@@ -1,28 +1,4 @@
 ﻿
 
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\CreateGuest.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorAnamnesis.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorAppointmentCRUD.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorCreateHospitalReferral.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorMainWindow.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorMedicinesUpdate.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorOperationCRUD.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorReceipt.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorSchedule.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DoctorWarden.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\dynamicEquipmentRequest.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DynEquipment.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\DynTransfer.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\HolidayRequest.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\MainWindow.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\PatientAppointmentPriority.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\PatientAppointmentsCRUD.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\PatientFunctional.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\Rooms.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\SecretaryAllergens.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\SecretaryAppointmentPriority.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\SecretaryCRUDAppAndOp.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\SecretaryFunctional.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\staticEquipment.xaml;;
-FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\Warden.xaml;;
+FC:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\PatientReferral.xaml;;
 

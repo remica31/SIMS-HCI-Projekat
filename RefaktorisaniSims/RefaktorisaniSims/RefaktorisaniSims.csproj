@@ -111,6 +111,12 @@
     <Compile Include="PatientFunctional.xaml.cs">
       <DependentUpon>PatientFunctional.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PatientReferral.xaml.cs">
+      <DependentUpon>PatientReferral.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientSurvey.xaml.cs">
+      <DependentUpon>PatientSurvey.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Repository\AllergenRepository.cs" />
     <Compile Include="Repository\AnamnesisRepository.cs" />
     <Compile Include="Repository\AppointmentNotificationRepository.cs" />
@@ -280,6 +286,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PatientFunctional.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientReferral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientSurvey.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

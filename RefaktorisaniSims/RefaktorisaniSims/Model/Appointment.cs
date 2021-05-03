@@ -50,6 +50,7 @@ namespace Model
             doctor = a.doctor;
             this.patient = patient;
         }
+       
         public String Id { set; get; }
       public DateTime StartTime { set; get; }
         public int Duration { set; get; }
