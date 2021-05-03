@@ -32,6 +32,7 @@ namespace RefaktorisaniSims
         public readonly StaticEquipmentController staticEquipmentController = new StaticEquipmentController();
         public readonly RoomController roomController = new RoomController();
         public readonly StaticTransferScheduleController staticTransferScheduleController = new StaticTransferScheduleController();
+        public readonly HospitalReferralController hospitalReferralController = new HospitalReferralController();
         public string id;
 
 

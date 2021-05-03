@@ -37,16 +37,6 @@ namespace Repository
             string json = JsonConvert.SerializeObject(doctors);
             File.WriteAllText(fileLocation, json);
         }
-
-        public void Create(Model.User user, String specializationtype)
-      {
-         // TODO: implement
-      }
-      
-      public void Update()
-      {
-         // TODO: implement
-      }
       
       public List<Doctor> GetAll()
       {
@@ -71,6 +61,30 @@ namespace Repository
             doctors.RemoveAt(index);
             WriteToJson();
         }
+        public List<Doctor> GetBySpeacialization(string specialization)
+        {
+            List<Doctor> doctorsBySpecialization = new List<Doctor>();
+            foreach(var doc in doctors)
+            {
+                if (doc.SpecializationType == specialization)
+                {
+                    doctorsBySpecialization.Add(doc);
+                }
+            }
+            return doctorsBySpecialization;
+        }
+        /*
+          public void Create(Model.User user, String specializationtype)
+      {
+         // TODO: implement
+      }
+      
+      public void Update()
+      {
+         // TODO: implement
+      }
+
+        */
 
     }
 }

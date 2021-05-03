@@ -87,16 +87,18 @@ namespace Repository
         public List<Room> GetAllRoomsByEquipment(String name)
         {
             ReadJson();
+            List<Room> newRooms = new List<Room>();
+
 
             foreach (var temp in eq)
             {
                 if (temp.Name == name)
                 {
                      var temp1 = rooms.Find(obj => obj.Id == temp.RoomId);
-                     rooms.Add(temp1);
+                     newRooms.Add(temp1);
                 }
             }
-            return rooms;
+            return newRooms;
         }
         /*
       public Model.Room Read()

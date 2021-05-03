@@ -4,12 +4,44 @@
  * Purpose: Definition of the Class Model.HospitalReferral
  ***********************************************************************/
 
-using Model; using System; using System.Collections.Generic;
+using Model;
+using Repository;
+using System; using System.Collections.Generic;
 
 namespace Service
 {
    public class HospitalReferralService
    {
+        public HospitalReferralRepository hospitalReferralRepository = new HospitalReferralRepository();
+
+
+        public HospitalReferral GetById(string id)
+        {
+            return hospitalReferralRepository.GetById(id);
+        }
+
+        public void Save(HospitalReferral hospitalReferral)
+        {
+            hospitalReferralRepository.Save(hospitalReferral);
+
+
+        }
+
+        public void Delete(string id)
+        {
+            hospitalReferralRepository.Delete(id);
+        }
+
+        public void Update(HospitalReferral hospitalReferral)
+        {
+            hospitalReferralRepository.Update(hospitalReferral);
+
+        }
+        public List<HospitalReferral> GetAll()
+        {
+            return hospitalReferralRepository.GetAll();
+        }
+        /*
       public void Create(String id, String patientId, String toDoctorId, String fromDoctorId, String explanation)
       {
          // TODO: implement
@@ -38,6 +70,6 @@ namespace Service
       }
    
     
-   
-   }
+   */
+    }
 }
