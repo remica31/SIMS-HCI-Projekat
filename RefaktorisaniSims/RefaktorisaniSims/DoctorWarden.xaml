@@ -9,7 +9,6 @@
     <Grid>
         <Button Content="Holiday Requests" HorizontalAlignment="Left" Height="34" Margin="55,36,0,0" VerticalAlignment="Top" Width="101" Click="Holiday_Requests"/>
         <Button Content="Dynamic Equipment Requests" HorizontalAlignment="Left" Height="34" Margin="219,36,0,0" VerticalAlignment="Top" Width="169" Click="Dynamic_Equipment_Requests"/>
-        <Button Content="Orders" HorizontalAlignment="Left" Height="34" Margin="435,36,0,0" VerticalAlignment="Top" Width="119" Click="Orders"/>
 
     </Grid>
 </Window>

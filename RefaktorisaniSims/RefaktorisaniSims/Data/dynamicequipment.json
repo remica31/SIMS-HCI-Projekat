@@ -1,1 +1,1 @@
-[{"room":null,"Id":"1","Name":"zavoj","WarehouseId":"1","Quantity":304},{"room":null,"Id":"2","Name":"flaster","WarehouseId":"1","Quantity":1600},{"room":null,"Id":"3","Name":"igla","WarehouseId":"1","Quantity":400},{"room":null,"Id":"4","Name":"maska","WarehouseId":"1","Quantity":800}]
+[{"room":null,"Id":"1","Name":"zavoj","WarehouseId":"4","Quantity":100},{"room":null,"Id":"2","Name":"flaster","WarehouseId":"1","Quantity":20},{"room":null,"Id":"3","Name":"igla","WarehouseId":"2","Quantity":50}]

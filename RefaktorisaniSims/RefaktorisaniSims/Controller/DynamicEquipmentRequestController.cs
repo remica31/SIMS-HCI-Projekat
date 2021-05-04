@@ -38,26 +38,6 @@ namespace Controller
         {
             return DynamicEquipmentRequestService.GetAll();
         }
-
-        public List<DynamicEquipmentRequest> SearchByName(String name)
-        {
-            return DynamicEquipmentRequestService.SearchByName(name);
-        }
-
-        public List<DynamicEquipmentRequest> SearchByStatus(String status)
-        {
-            return DynamicEquipmentRequestService.SearchByStatus(status);
-        }
-
-        public List<DynamicEquipmentRequest> SearchByNameAndStatus(String name, String status)
-        {
-            return DynamicEquipmentRequestService.SearchByNameAndStatus(name, status);
-        }
-
-        public List<DynamicEquipmentRequest> SortByDate(List<DynamicEquipmentRequest> reqs)
-        {
-            return DynamicEquipmentRequestService.SortByDate(reqs);
-        }
         /*
       public void Create(String newId, String newName, DateTime newDate, Model.StatusType newStatusType)
       {

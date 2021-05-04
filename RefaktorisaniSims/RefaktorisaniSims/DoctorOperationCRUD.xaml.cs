@@ -22,6 +22,7 @@ namespace RefaktorisaniSims
     {
         App application;
         List<Operation> operations = new List<Operation>();
+        
         public DoctorOperationCRUD()
         {
             InitializeComponent();
@@ -33,7 +34,8 @@ namespace RefaktorisaniSims
         {
             var doc = application.doctorController.GetById(textBox5.Text);
             var pat = application.patientController.GetById(textBox6.Text);
-            Operation o = new Operation(textBox1.Text, (DateTime)datum.SelectedDate, Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text), Convert.ToInt32(textBox4.Text), doc, pat);
+            var room = application.roomController.GetById(roomId.Text);
+            Operation o = new Operation(textBox1.Text, (DateTime)datum.SelectedDate, Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text), Convert.ToInt32(textBox4.Text), doc, pat, room);
             application.operationController.Save(o);
         }
 
@@ -52,8 +54,9 @@ namespace RefaktorisaniSims
                 {
                     var temp1 = app.doctor;
                     var temp2 = app.patient;
+                    var temp3 = application.roomController.GetById(roomId.Text);
                     application.operationController.Delete(app.Id);
-                    var updatedApp = new Operation(textBox1.Text, (DateTime)datum.SelectedDate, Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text), Convert.ToInt32(textBox4.Text), temp1,temp2);
+                    var updatedApp = new Operation(textBox1.Text, (DateTime)datum.SelectedDate, Convert.ToInt32(textBox2.Text), Convert.ToInt32(textBox3.Text), Convert.ToInt32(textBox4.Text), temp1,temp2, temp3);
                     application.operationController.Save(updatedApp);
                     break;
                 }
@@ -71,6 +74,12 @@ namespace RefaktorisaniSims
                     break;
                 }
             }
+        }
+
+        private void Search_Rooms(object sender, RoutedEventArgs e)
+        {
+            var rooms = application.roomController.GetAllRoomsByEquipment(equipment.Text);
+            lvDataBinding2.ItemsSource = rooms;
         }
     }
 }

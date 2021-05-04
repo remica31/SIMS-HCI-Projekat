@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RefaktorisaniSims"
         mc:Ignorable="d"
-        Title="DoctorOperationCRUD" Height="450" Width="800">
+        Title="DoctorOperationCRUD" Height="450" Width="784.95">
     <Grid>
         <Button Content="Add operation" HorizontalAlignment="Left" Margin="427.186,281,0,0" VerticalAlignment="Top" Width="75" Click="Add_operation"/>
         <Button Content="View operations" HorizontalAlignment="Left" Margin="427.186,315,0,0" VerticalAlignment="Top" Width="75"  Click="View_operations"/>
         <Button Content="Update operations" HorizontalAlignment="Left" Margin="427.186,347,0,0" VerticalAlignment="Top" Width="75"  Click="Update_operation"/>
-        <ListView Margin="10,10,415,10" Name="lvDataBinding" Grid.ColumnSpan="2">
+        <ListView Margin="10,10,429,213" Name="lvDataBinding">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -48,6 +48,32 @@
         <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="632,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="DoctorId" HorizontalAlignment="Left" Margin="555,278,0,0" VerticalAlignment="Top"/>
         <Label Content="PatientId" HorizontalAlignment="Left" Margin="555,312,0,0" VerticalAlignment="Top"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="427,76,0,0" VerticalAlignment="Top" Width="75" Click="Search_Rooms"/>
+        <TextBox x:Name="equipment" HorizontalAlignment="Left" Height="23" Margin="382,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListView Margin="10,214,429,9" x:Name="lvDataBinding2">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Id: " />
+                        <TextBlock Text="{Binding Id}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Number: " />
+                        <TextBlock Text="{Binding Number}" FontWeight="Bold" />
+                        <TextBlock Text=" Floor: " />
+                        <TextBlock Text="{Binding Floor}"  FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Description: " />
+                        <TextBlock Text="{Binding Description}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Type: " />
+                        <TextBlock Text="{Binding Type}" FontWeight="Bold" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBox x:Name="roomId" HorizontalAlignment="Left" Height="23" Margin="632,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Room Id" HorizontalAlignment="Left" Margin="559,347,0,0" VerticalAlignment="Top"/>
+        <Label Content="Equipment" HorizontalAlignment="Left" Margin="382,13,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

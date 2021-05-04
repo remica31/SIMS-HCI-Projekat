@@ -8,12 +8,11 @@ using Model;
 using Newtonsoft.Json;
 using System; using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace Repository
 {
-    public class DynamicEquipmentRequestRepository
-    {
+   public class DynamicEquipmentRequestRepository
+   {
         private readonly string fileLocation = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\RefaktorisaniSims\\Data\\dynamicEquipmentRequests.json";
         public List<DynamicEquipmentRequest> requests = new List<DynamicEquipmentRequest>();
 
@@ -79,66 +78,6 @@ namespace Repository
             ReadJson();
             return requests;
         }
-
-        public void swap(DynamicEquipmentRequest x, DynamicEquipmentRequest y)
-        {
-            var temp = x;
-            x = y;
-            y = temp;
-        }
-
-        public List<DynamicEquipmentRequest> SortByDate(List<DynamicEquipmentRequest> sortedrequests)
-        {
-            sortedrequests.Sort((x, y) => DateTime.Compare(x.Date, y.Date));
-            return sortedrequests;
-        }
-
-        public List<DynamicEquipmentRequest> SearchByName(String name)
-        {
-            ReadJson();
-            var newReqs = new List<DynamicEquipmentRequest>();
-            foreach (var eq in requests)
-            {
-                if (name == eq.Name)
-                {
-                    newReqs.Add(eq);
-                }
-            }
-            
-            return newReqs;
-        }
-
-        public List<DynamicEquipmentRequest> SearchByStatus(String status)
-        {
-            ReadJson();
-            var newReqs = new List<DynamicEquipmentRequest>();
-            foreach (var eq in requests)
-            {
-                if (eq.Status == status)
-                {
-                    newReqs.Add(eq);
-                }
-            }
-            
-            return newReqs;
-        }
-
-        public List<DynamicEquipmentRequest> SearchByNameAndStatus(String name, String status)
-        {
-            ReadJson();
-            var newReqs = new List<DynamicEquipmentRequest>();
-            foreach (var req in requests)
-            {
-                if (req.Name == name && req.Status == status)
-                {
-                    newReqs.Add(req);
-                }
-            }
-            
-            return newReqs;
-        }
-
-
 
         /*
         public void Create(String newId, String newName, DateTime newDate, Model.StatusType newStatusType)
