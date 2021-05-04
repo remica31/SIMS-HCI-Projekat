@@ -13,33 +13,6 @@ namespace Controller
 {
    public class SurveyController
    {
-        private SurveyService surveyService = new SurveyService();
-
-        public List<Survey> GetAll()
-        {
-            return surveyService.GetAll();
-        }
-
-        public Survey GetById(string id)
-        {
-            return surveyService.GetById(id);
-        }
-
-        public void Save(Survey survey)
-        {
-            surveyService.Save(survey);
-        }
-
-        public void Delete(string id)
-        {
-            surveyService.Delete(id);
-        }
-
-        public void Update(Survey survey)
-        {
-            surveyService.Update(survey);
-        }
-        /*
       public void Create(String id, String patientId, String doctorId, int rateForHospital, int rateForDoctor)
       {
          // TODO: implement
@@ -102,6 +75,6 @@ namespace Controller
          if (surveyService != null)
             surveyService.Clear();
       }
-   */
-    }
+   
+   }
 }

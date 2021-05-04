@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\
+C:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\
 RefaktorisaniSims
 none
 false
 DEBUG;TRACE
-C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\App.xaml
-27-446603157
+C:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\App.xaml
+2420006642
 
-135-240968344
-14-1800013581
-CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;PatientReferral.xaml;PatientSurvey.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryFunctional.xaml;staticEquipment.xaml;Warden.xaml;
+132685850891
+14-1950514715
+CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorMainWindow.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;Orders.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryFunctional.xaml;staticEquipment.xaml;Warden.xaml;
 
 False
 

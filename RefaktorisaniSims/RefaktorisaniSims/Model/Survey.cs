@@ -10,23 +10,11 @@ namespace Model
 {
    public class Survey
    {
-        public Survey()
-        {
-
-        }
-        public Survey(string id, string patientId, string doctorId,int rateH, int rateD)
-        {
-            Id = id;
-            patientId = PatientId;
-            DoctorId = doctorId;
-            RateForHospital = rateH;
-            RateForDoctor = rateD;
-        }
-      public String Id { set; get; }
-      public String PatientId { set; get; }
-        public String DoctorId { set; get; }
-        public int RateForHospital { set; get; }
-        public int RateForDoctor { set; get; }
-
-    }
+      public String Id;
+      public String PatientId;
+      public String DoctorId;
+      public int RateForHospital;
+      public int RateForDoctor;
+   
+   }
 }
