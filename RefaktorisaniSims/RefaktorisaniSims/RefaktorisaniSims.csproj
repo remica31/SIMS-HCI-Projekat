@@ -68,8 +68,14 @@
     <Compile Include="DoctorAppointmentCRUD.xaml.cs">
       <DependentUpon>DoctorAppointmentCRUD.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DoctorCreateHospitalReferral.xaml.cs">
+      <DependentUpon>DoctorCreateHospitalReferral.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DoctorMainWindow.xaml.cs">
       <DependentUpon>DoctorMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorMedicinesUpdate.xaml.cs">
+      <DependentUpon>DoctorMedicinesUpdate.xaml</DependentUpon>
     </Compile>
     <Compile Include="DoctorOperationCRUD.xaml.cs">
       <DependentUpon>DoctorOperationCRUD.xaml</DependentUpon>
@@ -104,6 +110,12 @@
     </Compile>
     <Compile Include="PatientFunctional.xaml.cs">
       <DependentUpon>PatientFunctional.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientReferral.xaml.cs">
+      <DependentUpon>PatientReferral.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientSurvey.xaml.cs">
+      <DependentUpon>PatientSurvey.xaml</DependentUpon>
     </Compile>
     <Compile Include="Repository\AllergenRepository.cs" />
     <Compile Include="Repository\AnamnesisRepository.cs" />
@@ -143,6 +155,12 @@
     </Compile>
     <Compile Include="SecretaryFunctional.xaml.cs">
       <DependentUpon>SecretaryFunctional.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryNotificationBoard.xaml.cs">
+      <DependentUpon>SecretaryNotificationBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryUrgent.xaml.cs">
+      <DependentUpon>SecretaryUrgent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Service\AllergenService.cs" />
     <Compile Include="Service\AnamnesisService.cs" />
@@ -186,9 +204,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DoctorCreateHospitalReferral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DoctorMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorMedicinesUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="DoctorOperationCRUD.xaml">
       <SubType>Designer</SubType>
@@ -269,6 +295,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PatientReferral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientSurvey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Rooms.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -286,6 +320,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SecretaryFunctional.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryNotificationBoard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryUrgent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
