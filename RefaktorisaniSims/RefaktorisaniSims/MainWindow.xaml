@@ -11,7 +11,7 @@
         <Button Content="Doctor/Warden" HorizontalAlignment="Left" Margin="386,306,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Patient" HorizontalAlignment="Left" Margin="110,181,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
         <Button Content="Secretary" HorizontalAlignment="Left" Margin="386,181,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="431,101,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
+        <Button Content="Warden" HorizontalAlignment="Left" Margin="431,101,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="292,101,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>

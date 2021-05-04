@@ -47,5 +47,11 @@ namespace RefaktorisaniSims
             DynTransfer d = new DynTransfer();
             d.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RoomRenovations rd = new RoomRenovations();
+            rd.Show();
+        }
     }
 }

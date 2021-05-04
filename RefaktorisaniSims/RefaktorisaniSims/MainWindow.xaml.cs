@@ -48,21 +48,13 @@ namespace RefaktorisaniSims
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            if (application.counterCancel > 4)
-            {
-                MessageBox.Show("YOU ARE IMPOSTOR");
-
-            }
-            else
-            {
-                PatientFunctional p = new PatientFunctional();
-                p.Show();
-            }
-            
+            PatientFunctional p = new PatientFunctional();
+            p.Show();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
+            /*
             if (textBox1.Text == "d")
             {
                 application.id = "d";
@@ -92,7 +84,9 @@ namespace RefaktorisaniSims
                 application.id = "dw";
                 DoctorWarden dw = new DoctorWarden();
                 dw.Show();
-            }
+            }*/
+            Warden w = new Warden();
+            w.Show();
         }
 
         

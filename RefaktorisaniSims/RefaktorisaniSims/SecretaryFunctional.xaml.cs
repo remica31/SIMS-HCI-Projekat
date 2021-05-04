@@ -47,17 +47,5 @@ namespace RefaktorisaniSims
             SecretaryAppointmentPriority s = new SecretaryAppointmentPriority();
             s.Show();
         }
-
-        private void Notification_Board(object sender, RoutedEventArgs e)
-        {
-            SecretaryNotificationBoard s = new SecretaryNotificationBoard();
-            s.Show();
-        }
-
-        private void Urgent(object sender, RoutedEventArgs e)
-        {
-            SecretaryUrgent s = new SecretaryUrgent();
-            s.Show();
-        }
     }
 }

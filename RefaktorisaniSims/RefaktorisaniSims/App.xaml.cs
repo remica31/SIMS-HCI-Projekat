@@ -32,10 +32,9 @@ namespace RefaktorisaniSims
         public readonly StaticEquipmentController staticEquipmentController = new StaticEquipmentController();
         public readonly RoomController roomController = new RoomController();
         public readonly StaticTransferScheduleController staticTransferScheduleController = new StaticTransferScheduleController();
-        public readonly HospitalReferralController hospitalReferralController = new HospitalReferralController();
-        public readonly SurveyController surveyController = new SurveyController();
-        public readonly NotificationBoardController notificationBoardController = new NotificationBoardController();
-        public int counterCancel = 0;
+        public readonly OrderController orderController = new OrderController();
+        public readonly BasicRenovationController basicRenovationController = new BasicRenovationController();
+       
         public string id;
 
 
