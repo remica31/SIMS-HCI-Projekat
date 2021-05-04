@@ -89,7 +89,6 @@ namespace RefaktorisaniSims
                     else
                     {
                         application.appointmentController.Delete(app.Id);
-                        application.counterCancel++;
                         break;
                     }
                 }
