@@ -4,46 +4,13 @@
  * Purpose: Definition of the Class Model.Survey
  ***********************************************************************/
 
-using Model;
-using Repository;
-using System; using System.Collections.Generic;
+using Model; using System; using System.Collections.Generic;
 
 
 namespace Service
 {
    public class SurveyService
    {
-        public SurveyRepository surveyRepository = new SurveyRepository();
-
-
-        public List<Survey> GetAll()
-        {
-            return surveyRepository.GetAll();
-        }
-
-        public Survey GetById(string id)
-        {
-            return surveyRepository.GetById(id);
-        }
-
-        public void Save(Survey survey)
-        {
-            surveyRepository.Save(survey);
-
-
-        }
-
-        public void Delete(string id)
-        {
-            surveyRepository.Delete(id);
-        }
-
-        public void Update(Survey survey)
-        {
-            surveyRepository.Update(survey);
-
-        }
-        /*
       public void Create(String id, String patientId, String doctorId, int rateForHospital, int rateForDoctor)
       {
          // TODO: implement
@@ -62,6 +29,6 @@ namespace Service
       }
    
      
-   */
-    }
+   
+   }
 }

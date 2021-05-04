@@ -10,22 +10,14 @@ namespace Model
 {
    public class HospitalReferral
    {
-        public HospitalReferral() { }
-        public HospitalReferral(string id, string fromDoctorId, string toDoctorId, string explanation, Patient patient)
-        {
-            Id = id;
-            FromDoctorId = fromDoctorId;
-            ToDoctorId = toDoctorId;
-            Explanation = explanation;
-            Patient = patient;
-        }
-      public String Id { set; get; }
-        public String FromDoctorId { set; get; }
-        public String ToDoctorId { set; get; }
-        public String Explanation { set; get; }
-
-        
-        public Patient Patient { set; get; }
-
-    }
+      public String Id;
+      public String PatientId;
+      public String FromDoctorId;
+      public String ToDoctorId;
+      public String Explanation;
+      
+      public Doctor doctor;
+      public Patient patient;
+   
+   }
 }

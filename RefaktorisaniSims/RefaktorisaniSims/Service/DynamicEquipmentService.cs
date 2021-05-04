@@ -53,6 +53,13 @@ namespace Service
         {
             return DynamicEquipmentRepository.GetAll();
         }
+
+        public DynamicEquipment GetByName(string name)
+        {
+            return DynamicEquipmentRepository.GetByName(name);
+        }
+
+        
         /*
       public List<DynamicEquipment> GetAll()
       {

@@ -13,8 +13,6 @@
         <Button Content="Receipt" HorizontalAlignment="Left" Margin="136,217,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
         <Button Content="Anamnesis" HorizontalAlignment="Left" Margin="509,217,0,0" VerticalAlignment="Top" Width="75" Click="Anamnesis"/>
         <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="100,304,0,0" VerticalAlignment="Top"/>
-        <Button Content="Medicine" HorizontalAlignment="Left" Margin="550,157,0,0" VerticalAlignment="Top" Width="75" Click="Update_Medicines"/>
-        <Button Content="Hospital Referral" HorizontalAlignment="Left" Margin="488,304,0,0" VerticalAlignment="Top" Width="75" Click="Send_Patient"/>
 
     </Grid>
 </Window>

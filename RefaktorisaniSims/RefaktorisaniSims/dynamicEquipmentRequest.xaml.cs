@@ -87,5 +87,41 @@ namespace RefaktorisaniSims
                 }
             }
         }
+
+        private void Search(object sender, RoutedEventArgs e)
+        {
+
+            var reqs1 = new List<DynamicEquipmentRequest>();
+
+            if (textBox6.Text != "" && textBox7.Text != "")
+            {
+                reqs1 = application.dynamicEquipmentRequestController.SearchByNameAndStatus(textBox6.Text, textBox7.Text);
+                
+            }
+            else if (textBox6.Text != "" && textBox7.Text == "")
+            {
+                
+                reqs1 = application.dynamicEquipmentRequestController.SearchByName(textBox6.Text);
+                
+            }
+            else if (textBox6.Text == "" && textBox7.Text != "")
+            {
+                
+                reqs1 = application.dynamicEquipmentRequestController.SearchByStatus(textBox7.Text);
+               
+            }
+            
+            else
+            {
+                MessageBox.Show("Enter search parameters!");
+            }
+
+            if (reqs1.Count != 0)
+            {
+                application.dynamicEquipmentRequestController.SortByDate(reqs1);
+                lvDataBinding.ItemsSource = reqs1;
+            }
+        }
+
     }
 }

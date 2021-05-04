@@ -10,18 +10,10 @@ namespace Model
 {
    public class NotificationBoard
    {
-        public NotificationBoard(string id, string name, string text, DateTime Date)
-        {
-            Id = id;
-            Name = name;
-            Text = text;
-            this.Date = Date;
-        }
-        public NotificationBoard() { }
-      public String Id { set; get; }
-      public String Name { set; get; }
-        public String Text { set; get; }
-        public DateTime Date { set; get; }
-
-    }
+      public String Id;
+      public String Name;
+      public String Text;
+      public DateTime Date;
+   
+   }
 }

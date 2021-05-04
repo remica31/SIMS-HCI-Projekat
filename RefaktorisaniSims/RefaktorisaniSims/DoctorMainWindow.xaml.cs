@@ -67,16 +67,6 @@ namespace RefaktorisaniSims
             d.Show();
         }
 
-        private void Update_Medicines(object sender, RoutedEventArgs e)
-        {
-            DoctorMedicinesUpdate d = new DoctorMedicinesUpdate();
-            d.Show();
-        }
-
-        private void Send_Patient(object sender, RoutedEventArgs e)
-        {
-            DoctorCreateHospitalReferral d = new DoctorCreateHospitalReferral();
-            d.Show();
-        }
+        
     }
 }
