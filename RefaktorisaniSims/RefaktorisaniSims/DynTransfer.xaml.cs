@@ -36,10 +36,6 @@ namespace RefaktorisaniSims
             newT.EquipmentName = textBox2.Text;
             newT.Quantity = int.Parse(textBox3.Text);
             application.staticTransferScheduleController.Save(newT);
-
-            var eq = application.dynamicEquipmentController.GetByName(newT.EquipmentName);
-            eq.Quantity -= newT.Quantity;
-            application.dynamicEquipmentController.Update(eq);
         }
 
         private void View_Requests(object sender, RoutedEventArgs e)

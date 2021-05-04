@@ -33,7 +33,10 @@ namespace Controller
         {
             doctorService.Delete(jmbg);
         }
-
+        public List<Doctor> GetBySpeacialization(string specialization)
+        {
+            return doctorService.GetBySpeacialization(specialization);
+        }
 
     }
 }

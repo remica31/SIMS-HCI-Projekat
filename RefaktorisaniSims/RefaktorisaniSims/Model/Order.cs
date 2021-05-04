@@ -10,22 +10,13 @@ namespace Model
 {
    public class Order
    {
-      public String Id { get; set; }
-      public String DynamicEquipmentName { get; set; }
-      public int Quantity { get; set; }
-      public String Status { get; set; }
-      public DateTime Date { get; set; }
-
-      public Order(string id, string name, int quantity, string status, DateTime date)
-        {
-            Id = id;
-            DynamicEquipmentName = name;
-            Quantity = quantity;
-            Status = status;
-            Date = date;
-        }
+      public String Id;
+      public String DynamicEquipmentName;
+      public int Quantity;
+      public OrderStatus Status;
+      public DateTime Date;
       
-      public System.Collections.ArrayList dynamicEquipmentRequest { get; set; }
+      public System.Collections.ArrayList dynamicEquipmentRequest;
       
       /// <pdGenerated>default getter</pdGenerated>
       public System.Collections.ArrayList GetDynamicEquipmentRequest()

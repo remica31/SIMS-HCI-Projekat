@@ -79,18 +79,6 @@ namespace Repository
             return dyneq;
         }
 
-        public DynamicEquipment GetByName(string name)
-        {
-            foreach (var eq in dyneq)
-            {
-                if (eq.Name == name)
-                {
-                    return eq;
-                }
-            }
-            return null;
-        }
-
         /*
       public List<DynamicEquipment> GetAll()
       {

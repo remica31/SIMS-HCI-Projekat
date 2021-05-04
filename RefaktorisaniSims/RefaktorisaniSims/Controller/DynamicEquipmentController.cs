@@ -38,11 +38,6 @@ namespace Controller
         {
             return DynamicEquipmentService.GetAll();
         }
-
-        public DynamicEquipment GetByName(string name)
-        {
-            return DynamicEquipmentService.GetByName(name);
-        }
         /*
       public List<DynamicEquipment> GetAll()
       {

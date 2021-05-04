@@ -57,5 +57,19 @@ namespace RefaktorisaniSims
             PatientAppointmentPriority p = new PatientAppointmentPriority();
             p.Show();
         }
+
+        private void Survey_Click(object sender, RoutedEventArgs e)
+        {
+            PatientSurvey p = new PatientSurvey();
+            p.Show();
+        }
+
+        private void Referral(object sender, RoutedEventArgs e)
+        {
+            PatientReferral p = new PatientReferral();
+            p.Show();
+        }
+
+       
     }
 }

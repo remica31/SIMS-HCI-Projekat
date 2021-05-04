@@ -89,6 +89,7 @@ namespace Repository
             ReadJson();
             List<Room> newRooms = new List<Room>();
 
+
             foreach (var temp in eq)
             {
                 if (temp.Name == name)
@@ -97,7 +98,6 @@ namespace Repository
                      newRooms.Add(temp1);
                 }
             }
-
             return newRooms;
         }
         /*
