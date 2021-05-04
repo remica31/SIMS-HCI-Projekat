@@ -31,7 +31,10 @@ namespace Service
             doctorRepository.Delete(doctor);
         }
 
-       
+        public List<Doctor> GetBySpeacialization(string specialization)
+        {
+            return doctorRepository.GetBySpeacialization(specialization);
+        }
 
 
 

@@ -68,8 +68,14 @@
     <Compile Include="DoctorAppointmentCRUD.xaml.cs">
       <DependentUpon>DoctorAppointmentCRUD.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DoctorCreateHospitalReferral.xaml.cs">
+      <DependentUpon>DoctorCreateHospitalReferral.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DoctorMainWindow.xaml.cs">
       <DependentUpon>DoctorMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorMedicinesUpdate.xaml.cs">
+      <DependentUpon>DoctorMedicinesUpdate.xaml</DependentUpon>
     </Compile>
     <Compile Include="DoctorOperationCRUD.xaml.cs">
       <DependentUpon>DoctorOperationCRUD.xaml</DependentUpon>
@@ -96,9 +102,6 @@
       <DependentUpon>HolidayRequest.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AvailableAppointment.cs" />
-    <Compile Include="Orders.xaml.cs">
-      <DependentUpon>Orders.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PatientAppointmentPriority.xaml.cs">
       <DependentUpon>PatientAppointmentPriority.xaml</DependentUpon>
     </Compile>
@@ -107,6 +110,12 @@
     </Compile>
     <Compile Include="PatientFunctional.xaml.cs">
       <DependentUpon>PatientFunctional.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientReferral.xaml.cs">
+      <DependentUpon>PatientReferral.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientSurvey.xaml.cs">
+      <DependentUpon>PatientSurvey.xaml</DependentUpon>
     </Compile>
     <Compile Include="Repository\AllergenRepository.cs" />
     <Compile Include="Repository\AnamnesisRepository.cs" />
@@ -146,6 +155,12 @@
     </Compile>
     <Compile Include="SecretaryFunctional.xaml.cs">
       <DependentUpon>SecretaryFunctional.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryNotificationBoard.xaml.cs">
+      <DependentUpon>SecretaryNotificationBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryUrgent.xaml.cs">
+      <DependentUpon>SecretaryUrgent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Service\AllergenService.cs" />
     <Compile Include="Service\AnamnesisService.cs" />
@@ -189,9 +204,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="DoctorCreateHospitalReferral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="DoctorMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorMedicinesUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="DoctorOperationCRUD.xaml">
       <SubType>Designer</SubType>
@@ -260,10 +283,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Orders.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="PatientAppointmentPriority.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -273,6 +292,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PatientFunctional.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientReferral.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientSurvey.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -293,6 +320,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SecretaryFunctional.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryNotificationBoard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryUrgent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -364,7 +399,6 @@
     <None Include="Data\patients.json" />
     <None Include="Data\receipts.json" />
     <None Include="Data\staticEquipment.json" />
-    <None Include="Data\orders.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

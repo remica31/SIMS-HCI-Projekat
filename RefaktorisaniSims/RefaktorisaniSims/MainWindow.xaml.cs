@@ -48,8 +48,17 @@ namespace RefaktorisaniSims
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            PatientFunctional p = new PatientFunctional();
-            p.Show();
+            if (application.counterCancel > 4)
+            {
+                MessageBox.Show("YOU ARE IMPOSTOR");
+
+            }
+            else
+            {
+                PatientFunctional p = new PatientFunctional();
+                p.Show();
+            }
+            
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
