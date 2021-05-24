@@ -79,6 +79,32 @@ namespace Repository
             ReadJson();
             return staticeq;
         }
+
+        public List<StaticEquipment> GetAllByName(string name) {
+            var newEq = new List<StaticEquipment>();
+            foreach (var eq in staticeq)
+            {
+                if (name == eq.Name)
+                {
+                    newEq.Add(eq);
+                }
+            }
+            return newEq;
+        }
+
+        public List<StaticEquipment> GetAllByRoomId(string id)
+        {
+            var newEq = new List<StaticEquipment>();
+            foreach (var eq in staticeq)
+            {
+                if (id == eq.RoomId)
+                {
+                    newEq.Add(eq);
+                }
+            }
+            return newEq;
+        }
+
         /*
       public void Delete(String id)
       {

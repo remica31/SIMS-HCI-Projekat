@@ -43,5 +43,20 @@
     },
     "medicalRecord": null,
     "appointments": null
+  },
+  {
+    "User": {
+      "Id": "p4",
+      "Username": "pacijent",
+      "Password": "aaaa",
+      "Name": "Nemanja",
+      "Surname": "Nemanjic",
+      "EMail": "asdad@gmail.com",
+      "Address": "NekaAdresa6",
+      "Phone": "069111143224",
+      "DateOfBirth": "1995-06-19T00:00:00"
+    },
+    "medicalRecord": null,
+    "appointments": null
   }
 ]

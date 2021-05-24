@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="PatientFunctional" Height="450" Width="800">
     <Grid>
-        <Button Content="CRUD Appointments" HorizontalAlignment="Left" Margin="119,120,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Create Appointment(priority)" HorizontalAlignment="Left" Margin="294,120,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <Button Content="Survey" HorizontalAlignment="Left" Margin="194,268,0,0" VerticalAlignment="Top" Width="75" Click="Survey_Click"/>
-        <Button Content="CreateAppByReferral" HorizontalAlignment="Left" Margin="532,288,0,0" VerticalAlignment="Top" Width="75" Click="Referral" />
+        <Button Content="CRUD Appointments" HorizontalAlignment="Left" Margin="41,125,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+        <Button Content="Create Appointment(priority)" HorizontalAlignment="Left" Margin="41,192,0,0" VerticalAlignment="Top" Width="161" Click="Button_Click_1"/>
+        <Button Content="Survey" HorizontalAlignment="Left" Margin="427,125,0,0" VerticalAlignment="Top" Width="75" Click="Survey_Click"/>
+        <Button Content="CreateAppByReferral" HorizontalAlignment="Left" Margin="427,197,0,0" VerticalAlignment="Top" Width="122" Click="Referral" />
         
 
     </Grid>

@@ -35,8 +35,16 @@ namespace RefaktorisaniSims
         public readonly HospitalReferralController hospitalReferralController = new HospitalReferralController();
         public readonly SurveyController surveyController = new SurveyController();
         public readonly NotificationBoardController notificationBoardController = new NotificationBoardController();
+
+        public readonly NotificationBoardController2 notificationBoardController2 = new NotificationBoardController2();
+       
+        
+        public readonly OrderController orderController = new OrderController();
+        public readonly BasicRenovationController basicRenovationController = new BasicRenovationController();
+        
         public int counterCancel = 0;
         public string id;
+        public string app_id;
 
 
     }

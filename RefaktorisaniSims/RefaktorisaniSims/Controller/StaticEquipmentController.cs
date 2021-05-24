@@ -39,6 +39,16 @@ namespace Controller
         {
             return StaticEquipmentService.GetAll();
         }
+
+        public List<StaticEquipment> GetAllByRoomId(string id)
+        {
+            return StaticEquipmentService.GetAllByRoomId(id);
+        }
+
+        public List<StaticEquipment> GetAllByName(string name)
+        {
+            return StaticEquipmentService.GetAllByName(name);
+        }
         /*
       public void Delete(String id)
       {
