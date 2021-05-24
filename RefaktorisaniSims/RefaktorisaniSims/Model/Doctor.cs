@@ -25,6 +25,19 @@ namespace Model
           //  this.SpecializationType = "Hirurg";
             
         }
+        public Doctor(string name, string surname, string phone, string username,string pass, string email, string address, DateTime date, string specialization)
+        {
+            User newUser = new User(name, surname, phone, username, pass, email, address, date);
+            this.User = newUser;
+            this.SpecializationType = specialization;
+        }
+        /*public Doctor(string id,string name, string surname, string phone, string username, string pass, string email, string address, DateTime date, string specialization)
+        {
+       
+            User newUser = new User(name, surname, phone, username, pass, email, address, date);
+            this.User = newUser;
+            this.SpecializationType = specialization;
+        }*/
         public Doctor(User user, string spec)
         {
             this.User = user;

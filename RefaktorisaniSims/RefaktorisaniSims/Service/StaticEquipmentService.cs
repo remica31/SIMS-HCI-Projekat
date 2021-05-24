@@ -53,6 +53,16 @@ namespace Service
         {
             return StaticEquipmentRepository.GetAll();
         }
+
+        public List<StaticEquipment> GetAllByName(string name)
+        {
+            return StaticEquipmentRepository.GetAllByName(name);
+        }
+
+        public List<StaticEquipment> GetAllByRoomId(string id)
+        {
+            return StaticEquipmentRepository.GetAllByRoomId(id);
+        }
         /*
       public void Delete(String id)
       {

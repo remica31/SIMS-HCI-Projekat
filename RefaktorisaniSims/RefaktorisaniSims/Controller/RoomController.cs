@@ -44,6 +44,14 @@ namespace Controller
         {
             return RoomService.GetAllRoomsByEquipment(name);
         }
+        public List<Room> GetByType(String type)
+        {
+            return RoomService.GetByType(type);
+        }
+        public List<Bed> GetFreeBeds(Room r)
+        {
+            return RoomService.GetFreeBeds(r);
+        }
 
         /*
       public void Create(int newNumber, Model.RoomType newType, int newFloor, String newDescription)

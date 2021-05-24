@@ -67,5 +67,17 @@ namespace RefaktorisaniSims
                 }
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var searchEqs = application.staticEquipmentController.GetAllByName(textBox5.Text);
+            lvDataBinding.ItemsSource = searchEqs;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var searchEqs = application.staticEquipmentController.GetAllByRoomId(textBox6.Text);
+            lvDataBinding.ItemsSource = searchEqs;
+        }
     }
 }

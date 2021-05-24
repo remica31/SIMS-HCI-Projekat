@@ -40,7 +40,11 @@ namespace Controller
         {
             allergenService.Update(allergen);
         }
-       
+        public Boolean isAllergic(string patientId, Medicine med)
+        {
+            return allergenService.isAllergic(patientId, med);
+        }
+
         /*
       public void Create(String newId, String newName, String newDescription)
       {

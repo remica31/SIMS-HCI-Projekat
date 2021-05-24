@@ -1,5 +1,6 @@
 ﻿
 using Controller;
+using Model;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -33,8 +34,25 @@ namespace RefaktorisaniSims
         public readonly RoomController roomController = new RoomController();
         public readonly StaticTransferScheduleController staticTransferScheduleController = new StaticTransferScheduleController();
         public readonly HospitalReferralController hospitalReferralController = new HospitalReferralController();
+        public readonly SurveyController surveyController = new SurveyController();
+        public readonly NotificationBoardController notificationBoardController = new NotificationBoardController();
+
+        public readonly NotificationBoardController2 notificationBoardController2 = new NotificationBoardController2();
+       
+        
+        public readonly OrderController orderController = new OrderController();
+        public readonly BasicRenovationController basicRenovationController = new BasicRenovationController();
+        
+        public int counterCancel = 0;
         public string id;
+        public string app_id;
+        public readonly HospitalTreatmentController hospitalTreatmentController = new HospitalTreatmentController();
 
-
+        public string ConvertToId(int number)
+        {
+            number++;
+            string newId = number.ToString();
+            return newId;
+        }
     }
 }

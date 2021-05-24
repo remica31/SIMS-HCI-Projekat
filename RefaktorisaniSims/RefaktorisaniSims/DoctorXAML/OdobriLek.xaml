@@ -1,0 +1,84 @@
+﻿<Window x:Class="RefaktorisaniSims.DoctorXAML.OdobriLek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefaktorisaniSims.DoctorXAML"
+        mc:Ignorable="d"
+        Title="OdobriLek" Height="768" Width="1024">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="White"
+              Grid.ColumnSpan="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+
+            <Button Grid.Column="0"
+                    Content="Licne informacije"
+                    Background="Gray" FontSize="16" FontWeight="Bold" Click="Button_Click_1"
+                    ></Button>
+            <Button Grid.Column="1"
+                    Content="Pregledi"
+                    Background="Gray"  FontSize="16" FontWeight="Bold" Click="Appointments_Click"
+                    ></Button>
+            <Button Grid.Column="2"
+                    Content="Odobri lekove"
+                    Background="White"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+            <Button Grid.Column="3"
+                    Content="Zahtevi"
+                    Background="Gray"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+            <Button Grid.Column="4"
+                    Content="Opcije"
+                    Background="Gray"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+
+
+
+        </Grid>
+        <Label Content="Lista lekova za odobrovanje:" HorizontalAlignment="Left" Height="37" Margin="33,119,0,-110" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <ListView Margin="33,211,654,-543" x:Name="lvDataBinding">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Id: " />
+                        <TextBlock Text="{Binding Id}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Name: " />
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                        <TextBlock Text=" Description: " />
+                        <TextBlock Text="{Binding Description}"  FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Ingredients: " />
+                        <TextBlock Text="{Binding Ingredients}" FontWeight="Bold" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Label x:Name="naziv" Content="" HorizontalAlignment="Left" Height="36" Margin="705,151,0,-141" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
+        <TextBlock x:Name="block" HorizontalAlignment="Left" Margin="594,232,0,-232" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="46" FontSize="16"/>
+        <Button Content="Select" HorizontalAlignment="Left" Height="36" Margin="383,553,0,-543" VerticalAlignment="Top" Width="106" Click="select_click"/>
+        <Button Content="Prebaci na engleski" HorizontalAlignment="Left" Height="37" Margin="874,6,0,0" VerticalAlignment="Top" Width="112" BorderBrush="White" Foreground="#FF1FBBB4" Background="White" Click="Button_Click"/>
+        <Button Content="Odobri" HorizontalAlignment="Left" Height="36" Margin="668,553,0,-543" VerticalAlignment="Top" Width="75" Click="Approve_Click" />
+        <Button Content="Odbij" HorizontalAlignment="Left" Height="36" Margin="858,553,0,-543" VerticalAlignment="Top" Width="75" Click="Reject_Click" />
+    </Grid>
+</Window>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\
 RefaktorisaniSims
 none
 false
 DEBUG;TRACE
-C:\Users\User\Downloads\a\RefaktorisaniSims\RefaktorisaniSims\App.xaml
-25-1903815907
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\App.xaml
+46-1574153483
 
-133314997745
-14-1800013581
-CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryFunctional.xaml;staticEquipment.xaml;Warden.xaml;
+163485975277
+181810999678
+CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;DoctorXAML\Appointments.xaml;DoctorXAML\Approve.xaml;DoctorXAML\ExtendTreatment.xaml;DoctorXAML\HospitalTreatment.xaml;DoctorXAML\Login.xaml;DoctorXAML\Logovanje.xaml;DoctorXAML\Main.xaml;DoctorXAML\OdobriLek.xaml;DoctorXAML\Pocetna.xaml;DoctorXAML\Pregledi.xaml;DoctorXAML\PrepisiLek.xaml;DoctorXAML\PrescribeMedication.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;Orders.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;PatientReferral.xaml;PatientSurvey.xaml;RoomRenovations.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryCRUDdoctor.xaml;SecretaryFunctional.xaml;SecretaryNotificationBoard.xaml;SecretaryUrgent.xaml;staticEquipment.xaml;StaticTransfer.xaml;Warden.xaml;WardenMedicine.xaml;
 
 False
 

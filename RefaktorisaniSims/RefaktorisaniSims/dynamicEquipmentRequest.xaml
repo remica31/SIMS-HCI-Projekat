@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RefaktorisaniSims"
         mc:Ignorable="d"
-        Title="DynamicEquipmentRequest" Height="450" Width="800">
+        Title="DynamicEquipmentRequest" Height="450" Width="430">
     <Grid>
 
-        <Button Content="Add " HorizontalAlignment="Left" Margin="477,162,0,0" VerticalAlignment="Top" Width="75" Click="Add_Request"/>
-        <Button Content="View all" HorizontalAlignment="Left" Margin="477,212,0,0" VerticalAlignment="Top" Width="75"  Click="View_Requests"/>
-        <Button Content="Update " HorizontalAlignment="Left" Margin="477,248,0,0" VerticalAlignment="Top" Width="75"  Click="Update_Request"/>
-        <ListView Margin="10,10,415,10" Name="lvDataBinding">
+        <Button Content="Add " HorizontalAlignment="Left" Margin="96,314,0,0" VerticalAlignment="Top" Width="75" Click="Add_Request" FontSize="16"/>
+        <Button Content="View all" HorizontalAlignment="Left" Margin="86,204,0,0" VerticalAlignment="Top" Width="75"  Click="View_Requests" FontSize="16"/>
+        <Button Content="Update " HorizontalAlignment="Left" Margin="96,351,0,0" VerticalAlignment="Top" Width="75"  Click="Update_Request" FontSize="16"/>
+        <ListView Margin="10,6,204,220" Name="lvDataBinding">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -21,7 +21,7 @@
                         <TextBlock Text="Name: " />
                         <TextBlock Text="{Binding Name}" FontWeight="Bold" />
                         <TextBlock Text=", " />
-                        <TextBlock Text="Date:: " />
+                        <TextBlock Text="Date: " />
                         <TextBlock Text="{Binding Date}" FontWeight="Bold" />
                         <TextBlock Text=", " />
                         <TextBlock Text="Status: " />
@@ -33,13 +33,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="463,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="463,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Id" HorizontalAlignment="Left" Margin="398,53,0,0" VerticalAlignment="Top"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="388,99,0,0" VerticalAlignment="Top"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Height="20" Margin="477,291,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Request"/>
-        <Label Content="Status" HorizontalAlignment="Left" Height="23" Margin="620,54,0,0" VerticalAlignment="Top" Width="53"/>
-        <Label Content="Comment" HorizontalAlignment="Left" Height="26" Margin="615,99,0,0" VerticalAlignment="Top" Width="63" RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="87,243,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="87,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="22,242,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="12,277,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Height="24" Margin="96,386,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Request" FontSize="16"/>
+        <Label Content="Status" HorizontalAlignment="Left" Height="34" Margin="239,31,0,0" VerticalAlignment="Top" Width="53" FontSize="16"/>
+        <Label Content="Comment" HorizontalAlignment="Left" Height="35" Margin="228,76,0,0" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.5,0.5" FontSize="16">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -49,8 +49,13 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="25" Margin="690,54,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="76"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="27" Margin="690,99,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="76"/>
-        <Button Content="Manage" HorizontalAlignment="Left" Height="23" Margin="647,154,0,0" VerticalAlignment="Top" Width="64" Click="Manage_Request"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="25" Margin="309,34,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="27" Margin="309,79,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="27" Margin="314,212,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="textBox7" HorizontalAlignment="Left" Height="27" Margin="314,273,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="93"/>
+        <Button Content="Manage" HorizontalAlignment="Left" Height="27" Margin="288,130,0,0" VerticalAlignment="Top" Width="64" Click="Manage_Request" FontSize="16"/>
+        <Button Content="Search" HorizontalAlignment="Left" Height="36" Margin="274,326,0,0" VerticalAlignment="Top" Width="78" Click="Search" FontSize="16"/>
+        <Label Content="Enter name" HorizontalAlignment="Left" Height="31" Margin="214,212,0,0" VerticalAlignment="Top" Width="91" RenderTransformOrigin="1.063,-0.039" FontSize="16"/>
+        <Label Content="Enter status" HorizontalAlignment="Left" Height="31" Margin="214,273,0,0" VerticalAlignment="Top" Width="94" RenderTransformOrigin="1.063,-0.039" FontSize="16"/>
     </Grid>
 </Window>

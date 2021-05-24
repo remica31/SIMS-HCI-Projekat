@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="staticEquipment" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="165*"/>
+        </Grid.ColumnDefinitions>
 
-        <Button Content="Add " HorizontalAlignment="Left" Margin="479,241,0,0" VerticalAlignment="Top" Width="75" Click="Add_Request"/>
-        <Button Content="View all" HorizontalAlignment="Left" Margin="479,291,0,0" VerticalAlignment="Top" Width="75"  Click="View_Requests"/>
-        <Button Content="Update " HorizontalAlignment="Left" Margin="479,327,0,0" VerticalAlignment="Top" Width="75"  Click="Update_Request"/>
-        <ListView Margin="10,10,415,10" Name="lvDataBinding">
+        <Button Content="Add " HorizontalAlignment="Left" Margin="182,241,0,0" VerticalAlignment="Top" Width="75" Click="Add_Request" Grid.Column="2"/>
+        <Button Content="View all" HorizontalAlignment="Left" Margin="182,291,0,0" VerticalAlignment="Top" Width="75"  Click="View_Requests" Grid.Column="2"/>
+        <Button Content="Update " HorizontalAlignment="Left" Margin="182,327,0,0" VerticalAlignment="Top" Width="75"  Click="Update_Request" Grid.Column="2"/>
+        <ListView Margin="10,10,415,10" Name="lvDataBinding" Grid.ColumnSpan="3">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -31,14 +36,19 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="463,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="463,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="463,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="463,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Id" HorizontalAlignment="Left" Margin="398,53,0,0" VerticalAlignment="Top"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="385,99,0,0" VerticalAlignment="Top"/>
-        <Label Content="Room Id" HorizontalAlignment="Left" Margin="378,193,0,0" VerticalAlignment="Top"/>
-        <Label Content="Quantity" HorizontalAlignment="Left" Margin="382,151,0,0" VerticalAlignment="Top"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Height="20" Margin="479,370,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Request"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="166,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="166,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="166,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="166,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="345,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="345,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="101,53,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="88,99,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label Content="Room Id" HorizontalAlignment="Left" Margin="81,193,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Margin="85,151,0,0" VerticalAlignment="Top" Grid.Column="2"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Height="20" Margin="182,370,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Request" Grid.Column="2"/>
+        <Button Content="Button" Grid.Column="2" HorizontalAlignment="Left" Height="31" Margin="363,321,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" Grid.Column="2" HorizontalAlignment="Left" Height="39" Margin="345,370,0,0" VerticalAlignment="Top" Width="101" Click="Button_Click_1"/>
     </Grid>
 </Window>
