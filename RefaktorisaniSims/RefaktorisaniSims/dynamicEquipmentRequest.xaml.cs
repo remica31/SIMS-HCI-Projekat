@@ -32,13 +32,30 @@ namespace RefaktorisaniSims
 
         private void Add_Request(object sender, RoutedEventArgs e)
         {
-            DynamicEquipmentRequest dr = new DynamicEquipmentRequest();
-            dr.Id = textBox1.Text;
-            dr.Name = textBox2.Text;
-            dr.Status = "WAITING";
-            dr.Date = DateTime.Now;
-            dr.WardensComment = "/";
-            application.dynamicEquipmentRequestController.Save(dr);
+            if (CheckEquipmentName(textBox2.Text))
+            {
+                DynamicEquipmentRequest dr = new DynamicEquipmentRequest();
+                dr.Id = textBox1.Text;
+                dr.Name = textBox2.Text;
+                dr.Status = "WAITING";
+                dr.Date = DateTime.Now;
+                dr.WardensComment = "/";
+                application.dynamicEquipmentRequestController.Save(dr);
+            } else
+            {
+                MessageBox.Show("Invalid equipment name!");
+            }
+        }
+        
+        public bool CheckEquipmentName(string name)
+        {
+            bool exist = true;
+            var temp = application.dynamicEquipmentController.GetByName(name);
+            if (temp == null)
+            {
+                exist = false;
+            }
+            return exist;
         }
 
         private void View_Requests(object sender, RoutedEventArgs e)
@@ -85,6 +102,34 @@ namespace RefaktorisaniSims
                     application.dynamicEquipmentRequestController.Save(dr);
                     break;
                 }
+            }
+        }
+
+        private void Search(object sender, RoutedEventArgs e)
+        {
+            var reqs1 = new List<DynamicEquipmentRequest>();
+
+            if (textBox6.Text != "" && textBox7.Text != "")
+            {
+                reqs1 = application.dynamicEquipmentRequestController.SearchByNameAndStatus(textBox6.Text, textBox7.Text);
+            }
+            else if (textBox6.Text != "" && textBox7.Text == "")
+            {
+                reqs1 = application.dynamicEquipmentRequestController.SearchByName(textBox6.Text);
+            }
+            else if (textBox6.Text == "" && textBox7.Text != "")
+            {
+                reqs1 = application.dynamicEquipmentRequestController.SearchByStatus(textBox7.Text);
+            }
+            else
+            {
+                MessageBox.Show("Enter search parameters!");
+            }
+
+            if (reqs1.Count != 0)
+            {
+                application.dynamicEquipmentRequestController.SortByDate(reqs1);
+                lvDataBinding.ItemsSource = reqs1;
             }
         }
     }

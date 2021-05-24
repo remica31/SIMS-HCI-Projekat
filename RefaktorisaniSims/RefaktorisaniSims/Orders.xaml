@@ -1,0 +1,81 @@
+﻿<Window x:Class="RefaktorisaniSims.Orders"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefaktorisaniSims"
+        mc:Ignorable="d"
+        Title="Orders" Height="450" Width="430">
+    <Grid>
+
+        <Button Content="Add " HorizontalAlignment="Left" Margin="293,148,0,0" VerticalAlignment="Top" Width="75" Click="Add_Order" FontSize="16"/>
+        <Button Content="View Orders" HorizontalAlignment="Left" Margin="71,180,0,0" VerticalAlignment="Top" Width="89"  Click="View_Orders" RenderTransformOrigin="0.2,0.45" FontSize="16"/>
+        <Button Content="Update " HorizontalAlignment="Left" Margin="293,184,0,0" VerticalAlignment="Top" Width="75"  Click="Update_Order" FontSize="16"/>
+        <ListView Margin="10,5,220,242" Name="lvDataBinding">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Id: " />
+                        <TextBlock Text="{Binding Id}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Name: " />
+                        <TextBlock Text="{Binding DynamicEquipmentName}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Quantity: " />
+                        <TextBlock Text="{Binding Quantity}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Date: " />
+                        <TextBlock Text="{Binding Date}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Status: " />
+                        <TextBlock Text="{Binding Status}" FontWeight="Bold" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <ListView Margin="10,208,220,39" Name="lvDataBinding1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Id: " />
+                        <TextBlock Text="{Binding Id}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Name: " />
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Date:: " />
+                        <TextBlock Text="{Binding Date}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Status: " />
+                        <TextBlock Text="{Binding Status}" FontWeight="Bold" />
+                        <TextBlock Text=", " />
+                        <TextBlock Text="Comment: " />
+                        <TextBlock Text="{Binding WardensComment}" FontWeight="Bold" TextDecorations="Underline" Foreground="Blue" Cursor="Hand" />
+                    </WrapPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Height="23" Margin="282,16,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="dname" HorizontalAlignment="Left" Height="23" Margin="282,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="217,15,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="207,61,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Height="27" Margin="293,217,0,0" VerticalAlignment="Top" Width="75" Click="Delete_Order" FontSize="16"/>
+        <Label Content="Quantity" HorizontalAlignment="Left" Height="31" Margin="205,106,0,0" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.5,0.5" FontSize="16">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.458"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="quantity" HorizontalAlignment="Left" Height="27" Margin="292,106,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="27" Margin="317,265,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="status" HorizontalAlignment="Left" Height="27" Margin="317,309,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="93"/>
+        <Button Content="Search" HorizontalAlignment="Left" Height="36" Margin="286,356,0,0" VerticalAlignment="Top" Width="78" Click="Search" FontSize="16"/>
+        <Label Content="Enter name" HorizontalAlignment="Left" Height="31" Margin="215,262,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="1.063,-0.039" FontSize="16"/>
+        <Label Content="Enter status" HorizontalAlignment="Left" Height="31" Margin="214,309,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="1.063,-0.039" FontSize="16"/>
+        <Button Content="View Requests" HorizontalAlignment="Left" Height="27" Margin="68,384,0,0" VerticalAlignment="Top" Width="111" Click="View_DynRequests" FontSize="16"/>
+    </Grid>
+</Window>

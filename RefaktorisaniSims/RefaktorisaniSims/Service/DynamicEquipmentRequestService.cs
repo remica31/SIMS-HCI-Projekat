@@ -53,6 +53,28 @@ namespace Service
         {
             return dynamicEquipmentRequestRepository.GetAll();
         }
+
+        
+
+        public List<DynamicEquipmentRequest> SearchByName(String name)
+        {
+            return dynamicEquipmentRequestRepository.SearchByName(name);
+        }
+
+        public List<DynamicEquipmentRequest> SearchByStatus(String status)
+        {
+            return dynamicEquipmentRequestRepository.SearchByStatus(status);
+        }
+
+        public List<DynamicEquipmentRequest> SearchByNameAndStatus(String name, String status)
+        {
+            return dynamicEquipmentRequestRepository.SearchByNameAndStatus(name, status);
+        }
+
+        public List<DynamicEquipmentRequest> SortByDate(List<DynamicEquipmentRequest> reqs)
+        {
+            return dynamicEquipmentRequestRepository.SortByDate(reqs);
+        }
         /*
       public void Create(String newId, String newName, DateTime newDate, Model.StatusType newStatusType)
       {

@@ -17,6 +17,16 @@ namespace Model
         {
             this.User = user;
         }
+        public Patient(Guest guest)
+        {
+            var user = new User();
+            user.Id = guest.Id;
+            user.Name = guest.Name;
+            user.Surname = guest.Surname;
+            user.Username = guest.Username;
+            user.Password = guest.Password;
+            this.User = user;
+        }
         /*
       public System.Collections.ArrayList survey;
       

@@ -77,6 +77,18 @@ namespace Repository
             ReadJson();
             return allergens;
         }
+        public List<Allergen> GetByPatient(string id)
+        {
+            List<Allergen> newAllergens = new List<Allergen>();
+            foreach(var all in allergens)
+            {
+                if (all.PatientId == id)
+                {
+                    newAllergens.Add(all);
+                }
+            }
+            return newAllergens;
+        }
         /*
       public void Create(String newId, String newName, String newDescription)
       {

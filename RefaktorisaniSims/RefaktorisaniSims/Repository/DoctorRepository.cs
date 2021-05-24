@@ -18,6 +18,11 @@ namespace Repository
 
         public DoctorRepository()
         {
+            ReadJson();
+        }
+
+        public void ReadJson()
+        {
             if (!File.Exists(fileLocation))
             {
                 File.Create(fileLocation).Close();
@@ -40,12 +45,13 @@ namespace Repository
       
       public List<Doctor> GetAll()
       {
-           
+            ReadJson();
             return doctors;
       }
 
         public Doctor GetById(String id)
         {
+            ReadJson();
             return doctors.Find(obj => obj.User.Id == id);
         }
         public void Save(Doctor doctor)
@@ -57,12 +63,14 @@ namespace Repository
 
         public void Delete(String id)
         {
+            ReadJson();
             int index = doctors.FindIndex(obj => obj.User.Id == id);
             doctors.RemoveAt(index);
             WriteToJson();
         }
         public List<Doctor> GetBySpeacialization(string specialization)
         {
+            ReadJson();
             List<Doctor> doctorsBySpecialization = new List<Doctor>();
             foreach(var doc in doctors)
             {

@@ -35,5 +35,18 @@ namespace RefaktorisaniSims
             dynamicEquipmentRequest dr = new dynamicEquipmentRequest();
             dr.Show();
         }
+
+        private void Orders(object sender, RoutedEventArgs e)
+        {
+            Orders o = new Orders();
+            o.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow m = new MainWindow();
+            this.Close();
+            m.Show();
+        }
     }
 }
