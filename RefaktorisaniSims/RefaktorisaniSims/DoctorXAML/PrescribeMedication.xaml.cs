@@ -84,7 +84,7 @@ namespace RefaktorisaniSims.DoctorXAML
                 newReceipt.Medicines.Add(med);
                 application.receiptController.Save(newReceipt);
                 MessageBox.Show("Uspesno prepisan recept!");
-            }
+            }      
             else
             {
                 MessageBox.Show("Pacijent je alergican na ovaj lek!");
