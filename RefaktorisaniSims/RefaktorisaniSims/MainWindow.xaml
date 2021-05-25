@@ -1,0 +1,19 @@
+﻿<Window x:Class="RefaktorisaniSims.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefaktorisaniSims"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Doctor" HorizontalAlignment="Left" Margin="477,200,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="155,188,0,0" TextWrapping="Wrap" Text="Username je &quot;Mlaki99&quot; a sifra je &quot;nekaSifra&quot;." VerticalAlignment="Top" Height="168" Width="180"/>
+        <Button Content="Secretary" HorizontalAlignment="Left" Margin="435,356,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Patient" HorizontalAlignment="Left" Margin="458,270,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Warden" HorizontalAlignment="Left" Margin="579,361,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
+        <Button Content="DOC/WAR" HorizontalAlignment="Left" Margin="590,312,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="doctorcina" HorizontalAlignment="Left" Margin="193,381,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>

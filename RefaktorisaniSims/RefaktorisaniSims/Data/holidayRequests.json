@@ -1,0 +1,136 @@
+[
+  {
+    "Id": "1",
+    "Description": "",
+    "DateOfSubmissionRequest": "2021-04-29T00:40:00",
+    "DurationInDays": 10,
+    "Status": "ACCEPTED",
+    "StartDate": "2021-04-30T00:00:00",
+    "WardensComment": "uzivaj",
+    "doctor": {
+      "operations": null,
+      "appointments": null,
+      "SpecializationType": "Primary Care",
+      "holidayRequest": null,
+      "User": {
+        "Id": "d1",
+        "Username": "Mlaki99",
+        "Password": "nekaSifra",
+        "Name": "Mladen",
+        "Surname": "Pavlovic",
+        "EMail": "Mlakisa@gmail.com",
+        "Address": "NekaAdresa",
+        "Phone": "0692041119",
+        "DateOfBirth": "1999-04-20T00:00:00"
+      }
+    }
+  },
+  {
+    "Id": "2",
+    "Description": "2",
+    "DateOfSubmissionRequest": "2021-04-30T17:13:07.957392+02:00",
+    "DurationInDays": 15,
+    "Status": "REJECTED",
+    "StartDate": "2021-06-10T00:00:00",
+    "WardensComment": "neradnice",
+    "doctor": {
+      "operations": null,
+      "appointments": null,
+      "SpecializationType": "Hirurg",
+      "holidayRequest": null,
+      "User": {
+        "Id": "d2",
+        "Username": "Nikolica",
+        "Password": "nekaSifra2",
+        "Name": "Nikola",
+        "Surname": "Nikolic",
+        "EMail": "Nikolica@gmail.com",
+        "Address": "NekaAdresa3",
+        "Phone": "0692131313",
+        "DateOfBirth": "1999-02-21T00:00:00"
+      },
+      "Room": null
+    }
+  },
+  {
+    "Id": "11",
+    "Description": "1",
+    "DateOfSubmissionRequest": "2021-04-30T17:54:48.0275573+02:00",
+    "DurationInDays": 1,
+    "Status": "WAITING",
+    "StartDate": "2021-07-22T00:00:00",
+    "WardensComment": "/",
+    "doctor": {
+      "operations": null,
+      "appointments": null,
+      "SpecializationType": "Hirurg",
+      "holidayRequest": null,
+      "User": {
+        "Id": "d2",
+        "Username": "Nikolica",
+        "Password": "nekaSifra2",
+        "Name": "Nikola",
+        "Surname": "Nikolic",
+        "EMail": "Nikolica@gmail.com",
+        "Address": "NekaAdresa3",
+        "Phone": "0692131313",
+        "DateOfBirth": "1999-02-21T00:00:00"
+      },
+      "Room": null
+    }
+  },
+  {
+    "Id": "5",
+    "Description": "5",
+    "DateOfSubmissionRequest": "2021-04-30T19:14:01.5967764+02:00",
+    "DurationInDays": 6,
+    "Status": "REJECTED",
+    "StartDate": "2021-04-30T19:14:19.2451018+02:00",
+    "WardensComment": "nezasluzeno",
+    "doctor": {
+      "operations": null,
+      "appointments": null,
+      "SpecializationType": "Hirurg",
+      "holidayRequest": null,
+      "User": {
+        "Id": "d2",
+        "Username": "Nikolica",
+        "Password": "nekaSifra2",
+        "Name": "Nikola",
+        "Surname": "Nikolic",
+        "EMail": "Nikolica@gmail.com",
+        "Address": "NekaAdresa3",
+        "Phone": "0692131313",
+        "DateOfBirth": "1999-02-21T00:00:00"
+      },
+      "Room": null
+    }
+  },
+  {
+    "Id": "6",
+    "Description": "asdf",
+    "DateOfSubmissionRequest": "2021-05-10T22:07:14.1635839+02:00",
+    "DurationInDays": 15,
+    "Status": "WAITING",
+    "StartDate": "2021-05-28T00:00:00",
+    "WardensComment": "/",
+    "doctor": {
+      "operations": null,
+      "appointments": null,
+      "SpecializationType": "Primary Care",
+      "holidayRequest": null,
+      "User": {
+        "Id": "d1",
+        "Username": "Mlaki99",
+        "Password": "nekaSifra",
+        "Name": "Mladen",
+        "Surname": "Pavlovic",
+        "EMail": "Mlakisa@gmail.com",
+        "Address": "NekaAdresa",
+        "Phone": "0692041119",
+        "DateOfBirth": "1999-04-20T00:00:00"
+      }
+    }
+  }
+
+]
