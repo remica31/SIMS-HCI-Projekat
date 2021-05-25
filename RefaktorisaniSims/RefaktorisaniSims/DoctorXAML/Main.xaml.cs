@@ -66,5 +66,7 @@ namespace RefaktorisaniSims.DoctorXAML
             l.Show();
             this.Close();
         }
+
+       
     }
 }

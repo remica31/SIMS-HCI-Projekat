@@ -24,7 +24,19 @@ namespace Model
             this.Phone = phone;
             this.DateOfBirth = d;
         }
-      public String Id { get; set; }
+        public User(string name, string surname, string phone, string username, string pass, string email, string address, DateTime date)
+        {
+            
+            this.Name = name;
+            this.Username = username;
+            this.Password = pass;
+            this.Surname = surname;
+            this.EMail = email;
+            this.Address = address;
+            this.Phone = phone;
+            this.DateOfBirth = date;
+        }
+        public String Id { get; set; }
       public String Username { get; set; }
         public String Password { get; set; }
         public String Name { get; set; }

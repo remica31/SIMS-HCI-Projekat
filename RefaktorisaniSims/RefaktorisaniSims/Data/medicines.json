@@ -13,15 +13,15 @@
     "Description": "Opis2",
     "Status": "Accepted",
     "DoctorComment": "",
-    "Ingredients": "Sastojci"
+    "Ingredients": "Sastojci,nekiAlergeni"
   },
   {
     "Id": "3",
     "Name": "Anadol",
     "Description": "Novi Opis",
-    "Status": "Waiting",
+    "Status": "Accepted",
     "DoctorComment": "",
-    "Ingredients": "Sastojci2"
+    "Ingredients": "sastojak1,nekiAlergeni,sastojak2"
   },
   {
     "Id": "4",

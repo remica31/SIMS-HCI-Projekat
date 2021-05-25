@@ -100,6 +100,40 @@ namespace Repository
 
             return newRooms;
         }
+        public List<Room> GetByType(String type)
+        {
+            ReadJson();
+            List<Room> newRooms = new List<Room>();
+            foreach(var r in rooms)
+            {
+                if (r.Type == type)
+                {
+                    newRooms.Add(r);
+                }
+            }
+
+            return newRooms;
+        }
+
+        public List<Bed> GetFreeBeds(Room r)
+        {
+            ReadJson();
+            List<Bed> beds = new List<Bed>();
+            foreach(var roomSelected in rooms)
+            {
+                if (r.Id == roomSelected.Id)
+                {
+                    foreach(var bed in roomSelected.beds)
+                    {
+                        if (bed.Status == "Free")
+                        {
+                            beds.Add(bed);
+                        }
+                    }
+                }
+            }
+            return beds;
+        }
         /*
       public Model.Room Read()
       {

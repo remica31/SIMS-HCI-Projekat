@@ -65,5 +65,7 @@ namespace RefaktorisaniSims
             DoctorMainWindow d = new DoctorMainWindow();
             d.Show();
         }
+
+       
     }
 }

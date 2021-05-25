@@ -38,5 +38,9 @@ namespace Controller
 
             return appointmentService.GetByDoctorId(id);
         }
+        public List<AvailableAppointment> existForUrgent(string specialization)
+        {
+            return appointmentService.existForUrgent(specialization);
+        }
     }
 }

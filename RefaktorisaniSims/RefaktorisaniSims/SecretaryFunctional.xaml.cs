@@ -59,5 +59,17 @@ namespace RefaktorisaniSims
             SecretaryUrgent s = new SecretaryUrgent();
             s.Show();
         }
+
+        private void CRUD_doctor(object sender, RoutedEventArgs e)
+        {
+            SecretaryCRUDdoctor s = new SecretaryCRUDdoctor();
+            s.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            SecretaryDischargeList s = new SecretaryDischargeList();
+            s.Show();
+        }
     }
 }

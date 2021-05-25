@@ -190,6 +190,7 @@ D:\HCI\RefaktorisaniSims\RefaktorisaniSims\bin\Debug\RefaktorisaniSims.exe
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\bin\Debug\RefaktorisaniSims.pdb
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\bin\Debug\Newtonsoft.Json.dll
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\bin\Debug\Newtonsoft.Json.xml
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\RefaktorisaniSims.csprojAssemblyReference.cache
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\CreateGuest.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorAnamnesis.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorAppointmentCRUD.g.cs
@@ -202,6 +203,7 @@ D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorSchedule.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorWarden.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Appointments.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Approve.g.cs
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\HospitalTreatment.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Login.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Logovanje.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Main.g.cs
@@ -226,6 +228,7 @@ D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\Rooms.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryAllergens.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryAppointmentPriority.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryCRUDAppAndOp.g.cs
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryCRUDdoctor.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryFunctional.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryNotificationBoard.g.cs
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryUrgent.g.cs
@@ -248,6 +251,7 @@ D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorSchedule.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorWarden.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Appointments.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Approve.baml
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\HospitalTreatment.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Login.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Logovanje.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\Main.baml
@@ -272,6 +276,7 @@ D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\Rooms.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryAllergens.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryAppointmentPriority.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryCRUDAppAndOp.baml
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryCRUDdoctor.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryFunctional.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryNotificationBoard.baml
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryUrgent.baml
@@ -286,3 +291,7 @@ D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\RefaktorisaniSims.csproj.Co
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\RefaktorisaniSims.csproj.CopyComplete
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\RefaktorisaniSims.exe
 D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\RefaktorisaniSims.pdb
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\ExtendTreatment.g.cs
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\DoctorXAML\ExtendTreatment.baml
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryDischargeList.g.cs
+D:\HCI\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\SecretaryDischargeList.baml

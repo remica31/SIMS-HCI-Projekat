@@ -63,6 +63,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controller\AvailableAppointmentController.cs" />
+    <Compile Include="Controller\HospitalTreatmentController.cs" />
     <Compile Include="Controller\NotificationBoardController2.cs" />
     <Compile Include="CreateGuest.xaml.cs">
       <DependentUpon>CreateGuest.xaml</DependentUpon>
@@ -99,6 +100,12 @@
     </Compile>
     <Compile Include="DoctorXAML\Approve.xaml.cs">
       <DependentUpon>Approve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\ExtendTreatment.xaml.cs">
+      <DependentUpon>ExtendTreatment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\HospitalTreatment.xaml.cs">
+      <DependentUpon>HospitalTreatment.xaml</DependentUpon>
     </Compile>
     <Compile Include="DoctorXAML\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
@@ -137,6 +144,9 @@
       <DependentUpon>HolidayRequest.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AvailableAppointment.cs" />
+    <Compile Include="Model\Bed.cs" />
+    <Compile Include="Model\DischargeList.cs" />
+    <Compile Include="Model\HospitalTreatment.cs" />
     <Compile Include="Model\NotificationBoard2.cs" />
     <Compile Include="Orders.xaml.cs">
       <DependentUpon>Orders.xaml</DependentUpon>
@@ -168,6 +178,7 @@
     <Compile Include="Repository\GuestRepository.cs" />
     <Compile Include="Repository\HolidayRequestRepository.cs" />
     <Compile Include="Repository\HospitalReferralRepository.cs" />
+    <Compile Include="Repository\HospitalTreatmentRepository.cs" />
     <Compile Include="Repository\MedicineNotificationRepository.cs" />
     <Compile Include="Repository\MedicineRepository.cs" />
     <Compile Include="Repository\NotificationBoardRepository.cs" />
@@ -196,6 +207,12 @@
     <Compile Include="SecretaryCRUDAppAndOp.xaml.cs">
       <DependentUpon>SecretaryCRUDAppAndOp.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SecretaryCRUDdoctor.xaml.cs">
+      <DependentUpon>SecretaryCRUDdoctor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryDischargeList.xaml.cs">
+      <DependentUpon>SecretaryDischargeList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SecretaryFunctional.xaml.cs">
       <DependentUpon>SecretaryFunctional.xaml</DependentUpon>
     </Compile>
@@ -217,6 +234,7 @@
     <Compile Include="Service\GuestService.cs" />
     <Compile Include="Service\HolidayRequestService.cs" />
     <Compile Include="Service\HospitalReferralService.cs" />
+    <Compile Include="Service\HospitalTreatmentService.cs" />
     <Compile Include="Service\MedicineNotificationService.cs" />
     <Compile Include="Service\MedicineService.cs" />
     <Compile Include="Service\NotificationBoardService.cs" />
@@ -287,6 +305,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DoctorXAML\Approve.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\ExtendTreatment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\HospitalTreatment.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -414,6 +440,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SecretaryCRUDAppAndOp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryCRUDdoctor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryDischargeList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -133,6 +133,8 @@
         <Button Content="Select" HorizontalAlignment="Left" Height="40" Margin="901,587,0,-596" Grid.Row="2" VerticalAlignment="Top" Width="100" Click="select_click" FontWeight="Bold"/>
         <Label Content="SELECT APPOINTMENT:" HorizontalAlignment="Left" Height="33" Margin="537,200,0,-202" Grid.Row="2" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <Label Content="Select a date to see appointments:" HorizontalAlignment="Left" Height="34" Margin="542,13,0,-16" Grid.Row="2" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Button Content="HospitalTreatment" HorizontalAlignment="Left" Height="36" Margin="332,414,0,-419" VerticalAlignment="Top" Width="95" Click="Hospital_treatment" Grid.Row="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="33" Margin="430,158,0,-160" Grid.Row="2" VerticalAlignment="Top" Width="72" Click="Button_Click_1"/>
 
     </Grid>
 

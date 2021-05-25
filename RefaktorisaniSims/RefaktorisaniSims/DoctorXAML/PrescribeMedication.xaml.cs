@@ -69,14 +69,27 @@ namespace RefaktorisaniSims.DoctorXAML
 
         private void Prescribe(object sender, RoutedEventArgs e)
         {
-            int id = receipts.Count + 1;
-            string idd = Convert.ToString(id);
+           
             var med = (Medicine)lvDataBinding.SelectedItem;
             var app = application.appointmentController.GetById(application.app_id);
-            var newReceipt = new Receipt(idd, app.patient.User.Id, instruction.Text, Convert.ToInt32(quantity.Text), application.id);
-            newReceipt.Medicines.Add(med);
-            application.receiptController.Save(newReceipt);
+        
+            bool isAllergic = application.allergenController.isAllergic(app.patient.User.Id, med);
 
+            if (isAllergic == false)
+            {
+                var idINT=application.ConvertToId(receipts.Count);  //ovo sa kt4 ispravljeno             
+                string id = Convert.ToString(idINT);
+
+                var newReceipt = new Receipt(id, app.patient.User.Id, instruction.Text, Convert.ToInt32(quantity.Text), application.id);
+                newReceipt.Medicines.Add(med);
+                application.receiptController.Save(newReceipt);
+                MessageBox.Show("Uspesno prepisan recept!");
+            }      
+            else
+            {
+                MessageBox.Show("Pacijent je alergican na ovaj lek!");
+            }
+         
         }
     }
 }

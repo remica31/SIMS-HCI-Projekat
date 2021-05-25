@@ -1,5 +1,6 @@
 ﻿
 using Controller;
+using Model;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -45,7 +46,13 @@ namespace RefaktorisaniSims
         public int counterCancel = 0;
         public string id;
         public string app_id;
+        public readonly HospitalTreatmentController hospitalTreatmentController = new HospitalTreatmentController();
 
-
+        public string ConvertToId(int number)
+        {
+            number++;
+            string newId = number.ToString();
+            return newId;
+        }
     }
 }

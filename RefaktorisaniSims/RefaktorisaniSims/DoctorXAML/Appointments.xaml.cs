@@ -104,5 +104,30 @@ namespace RefaktorisaniSims.DoctorXAML
             }
             
         }
+
+        private void Hospital_treatment(object sender, RoutedEventArgs e)
+        {
+
+            if (appId.Content.ToString() == "/")
+            {
+                MessageBox.Show("You need to select appointment");
+            }
+            else
+            {
+                HospitalTreatment h = new HospitalTreatment();
+                h.Show();
+                this.Close();
+            }
+
+
+           
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            ExtendTreatment ee = new ExtendTreatment();
+            ee.Show();
+            this.Close();
+        }
     }
 }
