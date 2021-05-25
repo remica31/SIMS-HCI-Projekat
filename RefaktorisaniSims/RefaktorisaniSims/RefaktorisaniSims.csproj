@@ -174,6 +174,15 @@
     <Compile Include="staticEquipment.xaml.cs">
       <DependentUpon>staticEquipment.xaml</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="StaticTransfer.xaml.cs">
+      <DependentUpon>StaticTransfer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SurveyResults.xaml.cs">
+      <DependentUpon>SurveyResults.xaml</DependentUpon>
+    </Compile>
+>>>>>>> Stashed changes
     <Compile Include="Warden.xaml.cs">
       <DependentUpon>Warden.xaml</DependentUpon>
     </Compile>
@@ -300,6 +309,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< Updated upstream
+=======
+    <Page Include="StaticTransfer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SurveyResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+>>>>>>> Stashed changes
     <Page Include="Warden.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

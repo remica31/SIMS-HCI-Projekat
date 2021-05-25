@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 [{"room":null,"Id":"1","Name":"zavoj","WarehouseId":"1","Quantity":304},{"room":null,"Id":"2","Name":"flaster","WarehouseId":"1","Quantity":1600},{"room":null,"Id":"3","Name":"igla","WarehouseId":"1","Quantity":400},{"room":null,"Id":"4","Name":"maska","WarehouseId":"1","Quantity":800}]
+=======
+[{"room":null,"Id":"1","Name":"zavoj","WarehouseId":"1","Quantity":122},{"room":null,"Id":"2","Name":"flaster","WarehouseId":"1","Quantity":1181},{"room":null,"Id":"3","Name":"igla","WarehouseId":"1","Quantity":400},{"room":null,"Id":"4","Name":"maska","WarehouseId":"1","Quantity":1889},{"room":null,"Id":"5","Name":"rukavice","WarehouseId":"1","Quantity":599},{"room":null,"Id":"6","Name":"spric","WarehouseId":"1","Quantity":1529},{"room":null,"Id":"7","Name":"makaze","WarehouseId":"1","Quantity":150}]
+>>>>>>> Stashed changes

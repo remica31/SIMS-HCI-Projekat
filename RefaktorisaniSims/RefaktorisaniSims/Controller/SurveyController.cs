@@ -13,6 +13,56 @@ namespace Controller
 {
    public class SurveyController
    {
+<<<<<<< Updated upstream
+=======
+        private SurveyService surveyService = new SurveyService();
+
+        public List<Survey> GetAll()
+        {
+            return surveyService.GetAll();
+        }
+
+        public Survey GetById(string id)
+        {
+            return surveyService.GetById(id);
+        }
+
+        public void Save(Survey survey)
+        {
+            surveyService.Save(survey);
+        }
+
+        public void Delete(string id)
+        {
+            surveyService.Delete(id);
+        }
+
+        public void Update(Survey survey)
+        {
+            surveyService.Update(survey);
+        }
+
+        public double CountAverageHospitalRate()
+        {
+            return surveyService.CountAverageHospitalRate();
+        }
+
+        public double CountAverageDoctorRate(string id)
+        {
+            return surveyService.CountAverageDoctorRate(id);
+        }
+
+        public int CountHospitalRates(int rate)
+        {
+            return surveyService.CountHospitalRates(rate);
+        }
+
+        public int CountDoctorRates(string id, int rate)
+        {
+            return surveyService.CountDoctorRates(id, rate);
+        }
+        /*
+>>>>>>> Stashed changes
       public void Create(String id, String patientId, String doctorId, int rateForHospital, int rateForDoctor)
       {
          // TODO: implement

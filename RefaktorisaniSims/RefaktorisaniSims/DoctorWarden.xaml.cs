@@ -41,5 +41,22 @@ namespace RefaktorisaniSims
             Orders o = new Orders();
             o.Show();
         }
+<<<<<<< Updated upstream
+=======
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow m = new MainWindow();
+            this.Close();
+            m.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SurveyResults sr = new SurveyResults();
+            sr.Show();
+            this.Close();
+        }
+>>>>>>> Stashed changes
     }
 }

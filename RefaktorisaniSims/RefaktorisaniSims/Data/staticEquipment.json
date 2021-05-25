@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 [{"Id":"1","Name":"krevet","Quantity":1,"RoomId":"1"},{"Id":"2","Name":"stolica","Quantity":3,"RoomId":"1"}]
+=======
+[{"Id":"1","Name":"krevet","Quantity":1,"RoomId":"1"},{"Id":"2","Name":"stolica","Quantity":3,"RoomId":"1"},{"Id":"3","Name":"novaStaticka","Quantity":10,"RoomId":"2"}]
+>>>>>>> Stashed changes

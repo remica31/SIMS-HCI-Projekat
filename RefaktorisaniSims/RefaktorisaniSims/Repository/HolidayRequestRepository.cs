@@ -79,6 +79,48 @@ namespace Repository
             return requests;
         }
 
+        public List<HolidayRequest> SearchByStatus(string status)
+        {
+            ReadJson();
+            var newRequests = new List<HolidayRequest>();
+            foreach (var req in requests)
+            {
+                if (req.Status == status)
+                {
+                    newRequests.Add(req);
+                }
+            }
+            return newRequests;
+        }
+
+        public List<HolidayRequest> SearchByDoctorId(string id)
+        {
+            ReadJson();
+            var newRequests = new List<HolidayRequest>();
+            foreach (var req in requests)
+            {
+                if (req.doctor.User.Id == id)
+                {
+                    newRequests.Add(req);
+                }
+            }
+            return newRequests;
+        }
+
+        public List<HolidayRequest> SearchByStatusAndDoctorId(string status, string id)
+        {
+            ReadJson();
+            var newRequests = new List<HolidayRequest>();
+            foreach (var req in requests)
+            {
+                if (req.doctor.User.Id == id && req.Status == status)
+                {
+                    newRequests.Add(req);
+                }
+            }
+            return newRequests;
+        }
+
         /*
         public void Create(String newId, String newDescription, DateTime newSubmissionDate, int newDurationinDays, DateTime newStartDate)
           {

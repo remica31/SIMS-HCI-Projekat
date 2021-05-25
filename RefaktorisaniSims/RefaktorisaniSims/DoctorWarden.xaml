@@ -7,9 +7,17 @@
         mc:Ignorable="d"
         Title="DoctorWarden" Height="450" Width="800">
     <Grid>
+<<<<<<< Updated upstream
         <Button Content="Holiday Requests" HorizontalAlignment="Left" Height="34" Margin="55,36,0,0" VerticalAlignment="Top" Width="101" Click="Holiday_Requests"/>
         <Button Content="Dynamic Equipment Requests" HorizontalAlignment="Left" Height="34" Margin="219,36,0,0" VerticalAlignment="Top" Width="169" Click="Dynamic_Equipment_Requests"/>
         <Button Content="Orders" HorizontalAlignment="Left" Height="34" Margin="435,36,0,0" VerticalAlignment="Top" Width="119" Click="Orders"/>
+=======
+        <Button Content="Holiday Requests" HorizontalAlignment="Left" Height="34" Margin="3,30,0,0" VerticalAlignment="Top" Width="96" Click="Holiday_Requests"/>
+        <Button Content="Dynamic Equipment Requests" HorizontalAlignment="Left" Height="34" Margin="103,30,0,0" VerticalAlignment="Top" Width="169" Click="Dynamic_Equipment_Requests"/>
+        <Button Content="Orders" HorizontalAlignment="Left" Height="34" Margin="277,30,0,0" VerticalAlignment="Top" Width="50" Click="Orders"/>
+        <Button Content="Log Out" HorizontalAlignment="Left" Height="42" Margin="17,351,0,0" VerticalAlignment="Top" Width="111" FontSize="16" Click="Button_Click"/>
+        <Button Content="Survey Results" HorizontalAlignment="Left" Height="31" Margin="334,31,0,0" VerticalAlignment="Top" Width="82" Click="Button_Click_1"/>
+>>>>>>> Stashed changes
 
     </Grid>
 </Window>

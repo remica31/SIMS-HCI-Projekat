@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [
   {
     "Id": "2",
@@ -35,3 +36,6 @@
     "WardensComment": "bravo doco"
   }
 ]
+=======
+[{"Id":"2","Name":"zavoj","Date":"2021-03-30T00:00:00","Status":"WAITING","WardensComment":"/"},{"Id":"1","Name":"flaster","Date":"2021-04-30T00:00:00","Status":"ACCEPTED","WardensComment":"bravo"},{"Id":"3","Name":"igle","Date":"2021-05-30T19:15:38.7640998+02:00","Status":"REJECTED","WardensComment":"bezi"},{"Id":"4","Name":"maska","Date":"2021-05-03T23:42:27.6395612+02:00","Status":"ACCEPTED","WardensComment":"zasluzeno"},{"Id":"5","Name":"spric","Date":"2021-05-03T21:42:27.6395612+02:00","Status":"ACCEPTED","WardensComment":"bravo doco"},{"Id":"6","Name":"proba","Date":"2021-05-04T19:39:54.6814787+02:00","Status":"WAITING","WardensComment":"/"},{"Id":"7","Name":"flaster","Date":"2021-05-05T00:43:06.3310365+02:00","Status":"REJECTED","WardensComment":"..."}]
+>>>>>>> Stashed changes

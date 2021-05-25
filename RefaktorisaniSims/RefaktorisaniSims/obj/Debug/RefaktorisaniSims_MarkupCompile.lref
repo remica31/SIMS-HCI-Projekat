@@ -1,5 +1,6 @@
 ﻿
 
+<<<<<<< Updated upstream
 FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\CreateGuest.xaml;;
 FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorAnamnesis.xaml;;
 FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorAppointmentCRUD.xaml;;
@@ -24,4 +25,50 @@ FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\Re
 FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\staticEquipment.xaml;;
 FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\Warden.xaml;;
 FC:\Users\marko\OneDrive\Dokumenti\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\Orders.xaml;;
+=======
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\CreateGuest.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorAnamnesis.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorAppointmentCRUD.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorCreateHospitalReferral.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorMainWindow.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorMedicinesUpdate.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorOperationCRUD.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorReceipt.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorSchedule.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorWarden.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Appointments.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Approve.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Login.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Logovanje.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Main.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\OdobriLek.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Pocetna.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\Pregledi.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\PrepisiLek.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DoctorXAML\PrescribeMedication.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\dynamicEquipmentRequest.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DynEquipment.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\DynTransfer.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\HolidayRequest.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\MainWindow.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\Orders.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\PatientAppointmentPriority.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\PatientAppointmentsCRUD.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\PatientFunctional.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\PatientReferral.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\PatientSurvey.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\RoomRenovations.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\Rooms.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SecretaryAllergens.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SecretaryAppointmentPriority.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SecretaryCRUDAppAndOp.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SecretaryFunctional.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SecretaryNotificationBoard.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SecretaryUrgent.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\staticEquipment.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\StaticTransfer.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\Warden.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\WardenMedicine.xaml;;
+FC:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\SurveyResults.xaml;;
+>>>>>>> Stashed changes
 
