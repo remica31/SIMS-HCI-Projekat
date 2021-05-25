@@ -49,5 +49,19 @@ namespace Service
 
             return appointmentRepository.GetByDoctorId(id);
         }
+        public List<AvailableAppointment> existForUrgent(string specialization)
+        {
+            List<AvailableAppointment> availableAppointments = new List<AvailableAppointment>();
+            List<AvailableAppointment> allAvailableAppointments = new List<AvailableAppointment>();
+            allAvailableAppointments = appointmentRepository.GetAll();
+            foreach (var app in allAvailableAppointments)
+            {
+                if (app.doctor.SpecializationType == specialization && app.StartTime > DateTime.Now && app.StartTime < DateTime.Now.AddMinutes(30))
+                {
+                    availableAppointments.Add(app);
+                }
+            }
+            return availableAppointments;
+        }
     }
 }

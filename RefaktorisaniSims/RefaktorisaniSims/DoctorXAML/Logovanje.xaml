@@ -1,0 +1,21 @@
+﻿<Window x:Class="RefaktorisaniSims.DoctorXAML.Logovanje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefaktorisaniSims.DoctorXAML"
+        mc:Ignorable="d"
+        Title="Logovanje" Height="768" Width="1024">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="506" Margin="160,189,-110,-276" VerticalAlignment="Top" Width="742"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="45" Margin="428,439,0,-65" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="16" BorderBrush="#FF080808"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Height="45" Margin="428,303,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="16" BorderBrush="#FF050506"/>
+        <Label Content="KORISNICKO IME" HorizontalAlignment="Left" Margin="432,219,0,0" VerticalAlignment="Top" Width="236" FontSize="28" FontWeight="Bold"/>
+        <Label Content="SIFRA" HorizontalAlignment="Left" Margin="428,363,0,0" VerticalAlignment="Top" FontSize="28" FontWeight="Bold"/>
+        <Button Content="Uloguj se" HorizontalAlignment="Left" Margin="432,527,0,-167" VerticalAlignment="Top" Width="172" FontSize="20" Height="59" Click="Login_Click"/>
+        <Label Content="ULOGUJ SE" HorizontalAlignment="Left" Margin="428,69,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="36" Width="220"/>
+        <RadioButton Content="English" HorizontalAlignment="Left" Margin="40,57,0,0" VerticalAlignment="Top" FontSize="24" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Srpski" HorizontalAlignment="Left" Margin="160,57,0,0" VerticalAlignment="Top" FontSize="24" IsChecked="True"/>
+
+    </Grid>
+</Window>

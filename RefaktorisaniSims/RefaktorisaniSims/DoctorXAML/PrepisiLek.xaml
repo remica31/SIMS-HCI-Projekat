@@ -1,0 +1,126 @@
+﻿<Window x:Class="RefaktorisaniSims.DoctorXAML.PrepisiLek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RefaktorisaniSims.DoctorXAML"
+        mc:Ignorable="d"
+        Title="PrepisiLek" Height="768" Width="1024">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="45">
+            </RowDefinition>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition>
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid Background="White"
+              Grid.ColumnSpan="2">
+
+
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+
+            <Button Grid.Column="0"
+                    Content="Licne informacije"
+                    Background="Gray" FontSize="16" FontWeight="Bold" Click="info_click"
+                    ></Button>
+            <Button Grid.Column="1"
+                    Content="Pregledi"
+                    Background="White"  FontSize="16" FontWeight="Bold" 
+                    ></Button>
+            <Button Grid.Column="2"
+                    Content="Odobri lekove"
+                    Background="Gray"  FontSize="16" FontWeight="Bold" Click="Odobri_Click"
+                    ></Button>
+            <Button Grid.Column="3"
+                    Content="Zahtevi"
+                    Background="Gray"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+            <Button Grid.Column="4"
+                    Content="Opcije"
+                    Background="Gray"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+
+
+
+        </Grid>
+        <Grid Background="White"
+              Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0"
+                    Content="Termin"
+                    Background="Gray" FontSize="16" FontWeight="Bold" Click="Termin"
+                    ></Button>
+            <Button Grid.Column="1"
+                    Content="Prepisi lekove"
+                    Background="White"  FontSize="16" FontWeight="Bold" 
+                    ></Button>
+            <Button Grid.Column="2"
+                    Content="Uput"
+                    Background="Gray"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+            <Button Grid.Column="3"
+                    Content="Dijagnoza"
+                    Background="Gray"  FontSize="16" FontWeight="Bold"
+                    ></Button>
+
+        </Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="660" Margin="0,0,0,-629" Grid.Row="2" VerticalAlignment="Top" Width="537">
+            <ListView Margin="9,172,197,108" x:Name="lvDataBinding">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <TextBlock Text="Id: " />
+                            <TextBlock Text="{Binding Id}" FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="Name: " />
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold" />
+                            <TextBlock Text=" Description: " />
+                            <TextBlock Text="{Binding Description}"  FontWeight="Bold" />
+                            <TextBlock Text=", " />
+                            <TextBlock Text="Ingredients: " />
+                            <TextBlock Text="{Binding Ingredients}" FontWeight="Bold" />
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </Border>
+        <Label Content="Pregled ID:" HorizontalAlignment="Left" Height="37" Margin="186,31,0,-37" Grid.Row="2" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="appId" Content="/" HorizontalAlignment="Left" Height="37" Margin="377,31,0,-37" Grid.Row="2" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Button Content="Translate to English" HorizontalAlignment="Left" Height="37" Margin="874,6,0,0" VerticalAlignment="Top" Width="111" BorderBrush="White" Foreground="#FF1FBBB4" Background="White" Click="translate_Click"/>
+        <Label Content="Lista lekova:" HorizontalAlignment="Left" Height="37" Margin="10,94,0,-100" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Grid.Row="2"/>
+        <Label Content="Kolicina" HorizontalAlignment="Left" Height="37" Margin="377,215,0,-221" Grid.Row="2" VerticalAlignment="Top"/>
+        <TextBox x:Name="instruction" HorizontalAlignment="Left" Height="23" Margin="377,372,0,-364" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="quantity" HorizontalAlignment="Left" Height="23" Margin="377,267,0,-259" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Instrukcije" HorizontalAlignment="Left" Height="30" Margin="377,320,0,-319" Grid.Row="2" VerticalAlignment="Top"/>
+        <Button Content="Prepisi" HorizontalAlignment="Left" Height="40" Margin="358,497,0,-506" Grid.Row="2" VerticalAlignment="Top" Width="75" Click="Prescribe" />
+
+    </Grid>
+</Window>

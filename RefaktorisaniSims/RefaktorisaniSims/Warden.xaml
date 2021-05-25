@@ -11,6 +11,9 @@
         <Button Content="StaticEquipment" HorizontalAlignment="Left" Height="26" Margin="189,42,0,0" VerticalAlignment="Top" Width="116" Click="Static_Equipment"/>
         <Button Content="Rooms" HorizontalAlignment="Left" Height="26" Margin="377,42,0,0" VerticalAlignment="Top" Width="108" Click="Rooms"/>
         <Button Content="DynTransfer" HorizontalAlignment="Left" Height="26" Margin="543,42,0,0" VerticalAlignment="Top" Width="135" Click="Dyn_Transfer"/>
+        <Button Content="Renovations" HorizontalAlignment="Left" Height="27" Margin="50,103,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click"/>
+        <Button Content="Medicines" HorizontalAlignment="Left" Height="27" Margin="189,103,0,0" VerticalAlignment="Top" Width="106" Click="Medicines"/>
+        <Button Content="StaticTransfer" HorizontalAlignment="Left" Height="27" Margin="377,103,0,0" VerticalAlignment="Top" Width="108" Click="Static_Transfer"/>
 
     </Grid>
 </Window>

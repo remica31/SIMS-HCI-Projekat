@@ -44,6 +44,10 @@ namespace Controller
             
             return appointmentService.GetByDoctorId(id);
         }
+        public List<Appointment> AppointmentsToCancel(string specialization)
+        {
+            return appointmentService.AppointmentsToCancel(specialization);
+        }
         /*
       public void Create(String newId, DateTime newStartTime, int newDuration, Model.AppointmentType newType, DateTime newFinishTime)
       {

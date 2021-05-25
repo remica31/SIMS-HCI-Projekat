@@ -38,33 +38,25 @@ namespace RefaktorisaniSims
             c.Show();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void View_AppointmentsUrgent(object sender, RoutedEventArgs e)
         {
             List<AvailableAppointment> availableAppointments = new List<AvailableAppointment>();
-            foreach(var app in apps)
+
+
+            availableAppointments = application.availableAppointmentController.existForUrgent(specialization.Text);
+            if (availableAppointments.Count != 0)
             {
-                if(app.doctor.SpecializationType==specialization.Text && app.StartTime>DateTime.Now && app.StartTime < DateTime.Now.AddMinutes(30))
-                {
-                    availableAppointments.Add(app);
-                    UseableTermin = true;
-                    labelica.Content = "POSTOJE TERMINI U SLEDECIH 30 MINUTA";
-                }
+                UseableTermin = true;
+                labelica.Content = "POSTOJE TERMINI U SLEDECIH 30 MINUTA";
+                lvDataBinding3.ItemsSource = availableAppointments;
             }
-            labelica.Visibility = Visibility.Visible;
-            lvDataBinding3.ItemsSource = availableAppointments;
-            if (availableAppointments.Count == 0)
+            else
             {
-                List<Appointment> appsToCancel = new List<Appointment>();
-                foreach(var app in appointments)
-                {
-                    if (app.doctor.SpecializationType == specialization.Text)
-                    {
-                        appsToCancel.Add(app);
-                    }
-                }
+                var appsToCancel = application.appointmentController.AppointmentsToCancel(specialization.Text);
                 lvDataBinding3.ItemsSource = appsToCancel;
                 labelica.Content = "NE POSTOJE TERMINI U SLEDECIH 30 MINUTA, EVO LISTA TERMINA KOD ZAUZETIH DOKTORA";
             }
+            labelica.Visibility = Visibility.Visible;
         }
 
         private void View_Patients(object sender, RoutedEventArgs e)
@@ -72,6 +64,22 @@ namespace RefaktorisaniSims
             var patients = application.patientController.GetAll();
             patientsSHOW.ItemsSource = patients;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private void Add(object sender, RoutedEventArgs e)
         {

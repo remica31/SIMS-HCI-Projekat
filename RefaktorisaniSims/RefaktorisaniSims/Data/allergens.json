@@ -1,1 +1,20 @@
-[{"Id":"1","Name":"NekiAlergeni","Description":"Opis","PatientId":"p1"}]
+[
+  {
+    "Id": "1",
+    "Name": "nekiAlergeni",
+    "Description": "Opis",
+    "PatientId": "p1"
+  },
+  {
+    "Id": "2",
+    "Name": "nekiAlergeni2",
+    "Description": "Opis",
+    "PatientId": "p2"
+  },
+  {
+    "Id": "3",
+    "Name": "NekiAlergeni3",
+    "Description": "Opis",
+    "PatientId": "p1"
+  }
+]

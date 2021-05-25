@@ -64,6 +64,7 @@ namespace RefaktorisaniSims
                     eq.Quantity = int.Parse(textBox3.Text);
                     eq.WarehouseId = textBox4.Text;
                     application.dynamicEquipmentController.Update(eq);
+                    break;
                 }
             }
         }
@@ -71,6 +72,13 @@ namespace RefaktorisaniSims
         private void Delete_Request(object sender, RoutedEventArgs e)
         {
             application.dynamicEquipmentController.Delete(textBox1.Text);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var eq = application.dynamicEquipmentController.GetByName(textBox5.Text);
+            DynName.Content = eq.Name;
+            DynQuan.Content = eq.Quantity;
         }
     }
 }

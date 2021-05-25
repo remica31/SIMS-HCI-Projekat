@@ -40,6 +40,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -49,9 +51,11 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="UIAutomationProvider" />
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -59,6 +63,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controller\AvailableAppointmentController.cs" />
+    <Compile Include="Controller\HospitalTreatmentController.cs" />
+    <Compile Include="Controller\NotificationBoardController2.cs" />
     <Compile Include="CreateGuest.xaml.cs">
       <DependentUpon>CreateGuest.xaml</DependentUpon>
     </Compile>
@@ -89,6 +95,42 @@
     <Compile Include="DoctorWarden.xaml.cs">
       <DependentUpon>DoctorWarden.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DoctorXAML\Appointments.xaml.cs">
+      <DependentUpon>Appointments.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\Approve.xaml.cs">
+      <DependentUpon>Approve.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\ExtendTreatment.xaml.cs">
+      <DependentUpon>ExtendTreatment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\HospitalTreatment.xaml.cs">
+      <DependentUpon>HospitalTreatment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\Logovanje.xaml.cs">
+      <DependentUpon>Logovanje.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\OdobriLek.xaml.cs">
+      <DependentUpon>OdobriLek.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\Pocetna.xaml.cs">
+      <DependentUpon>Pocetna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\Pregledi.xaml.cs">
+      <DependentUpon>Pregledi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\PrepisiLek.xaml.cs">
+      <DependentUpon>PrepisiLek.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorXAML\PrescribeMedication.xaml.cs">
+      <DependentUpon>PrescribeMedication.xaml</DependentUpon>
+    </Compile>
     <Compile Include="dynamicEquipmentRequest.xaml.cs">
       <DependentUpon>dynamicEquipmentRequest.xaml</DependentUpon>
     </Compile>
@@ -102,6 +144,13 @@
       <DependentUpon>HolidayRequest.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\AvailableAppointment.cs" />
+    <Compile Include="Model\Bed.cs" />
+    <Compile Include="Model\DischargeList.cs" />
+    <Compile Include="Model\HospitalTreatment.cs" />
+    <Compile Include="Model\NotificationBoard2.cs" />
+    <Compile Include="Orders.xaml.cs">
+      <DependentUpon>Orders.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PatientAppointmentPriority.xaml.cs">
       <DependentUpon>PatientAppointmentPriority.xaml</DependentUpon>
     </Compile>
@@ -129,9 +178,11 @@
     <Compile Include="Repository\GuestRepository.cs" />
     <Compile Include="Repository\HolidayRequestRepository.cs" />
     <Compile Include="Repository\HospitalReferralRepository.cs" />
+    <Compile Include="Repository\HospitalTreatmentRepository.cs" />
     <Compile Include="Repository\MedicineNotificationRepository.cs" />
     <Compile Include="Repository\MedicineRepository.cs" />
     <Compile Include="Repository\NotificationBoardRepository.cs" />
+    <Compile Include="Repository\NotificationBoardRepository2.cs" />
     <Compile Include="Repository\OperationRepository.cs" />
     <Compile Include="Repository\OrderRepository.cs" />
     <Compile Include="Repository\PatientRepository.cs" />
@@ -141,6 +192,9 @@
     <Compile Include="Repository\StaticTransferScheduleRepository.cs" />
     <Compile Include="Repository\SurveyRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="RoomRenovations.xaml.cs">
+      <DependentUpon>RoomRenovations.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Rooms.xaml.cs">
       <DependentUpon>Rooms.xaml</DependentUpon>
     </Compile>
@@ -152,6 +206,12 @@
     </Compile>
     <Compile Include="SecretaryCRUDAppAndOp.xaml.cs">
       <DependentUpon>SecretaryCRUDAppAndOp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryCRUDdoctor.xaml.cs">
+      <DependentUpon>SecretaryCRUDdoctor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SecretaryDischargeList.xaml.cs">
+      <DependentUpon>SecretaryDischargeList.xaml</DependentUpon>
     </Compile>
     <Compile Include="SecretaryFunctional.xaml.cs">
       <DependentUpon>SecretaryFunctional.xaml</DependentUpon>
@@ -174,9 +234,11 @@
     <Compile Include="Service\GuestService.cs" />
     <Compile Include="Service\HolidayRequestService.cs" />
     <Compile Include="Service\HospitalReferralService.cs" />
+    <Compile Include="Service\HospitalTreatmentService.cs" />
     <Compile Include="Service\MedicineNotificationService.cs" />
     <Compile Include="Service\MedicineService.cs" />
     <Compile Include="Service\NotificationBoardService.cs" />
+    <Compile Include="Service\NotificationBoardService2.cs" />
     <Compile Include="Service\OperationService.cs" />
     <Compile Include="Service\OrderService.cs" />
     <Compile Include="Service\PatientService.cs" />
@@ -189,8 +251,14 @@
     <Compile Include="staticEquipment.xaml.cs">
       <DependentUpon>staticEquipment.xaml</DependentUpon>
     </Compile>
+    <Compile Include="StaticTransfer.xaml.cs">
+      <DependentUpon>StaticTransfer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Warden.xaml.cs">
       <DependentUpon>Warden.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WardenMedicine.xaml.cs">
+      <DependentUpon>WardenMedicine.xaml</DependentUpon>
     </Compile>
     <Page Include="CreateGuest.xaml">
       <SubType>Designer</SubType>
@@ -231,6 +299,54 @@
     <Page Include="DoctorWarden.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DoctorXAML\Appointments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\Approve.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\ExtendTreatment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\HospitalTreatment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\Logovanje.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\OdobriLek.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\Pocetna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\Pregledi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\PrepisiLek.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorXAML\PrescribeMedication.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="dynamicEquipmentRequest.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -283,6 +399,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Orders.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="PatientAppointmentPriority.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -303,6 +423,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="RoomRenovations.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Rooms.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -319,9 +443,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SecretaryFunctional.xaml">
+    <Page Include="SecretaryCRUDdoctor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryDischargeList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SecretaryFunctional.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="SecretaryNotificationBoard.xaml">
       <SubType>Designer</SubType>
@@ -335,9 +467,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="StaticTransfer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Warden.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WardenMedicine.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>

@@ -43,6 +43,22 @@ namespace Service
             allergenRepository.Update(allergen);
 
         }
+        public Boolean isAllergic(string patientId, Medicine med)
+        {
+            List<Allergen> allergens = allergenRepository.GetByPatient(patientId);
+            var ingredients = med.Ingredients.Split(',');
+            foreach (var allergen in allergens)
+            {
+                foreach (var ingredient in ingredients)
+                {
+                    if (allergen.Name == ingredient)
+                    {
+                        return true;                     
+                    }
+                }
+            }
+            return false;
+        }
         /*
       public void Create(String newId, String newName, String newDescription)
       {

@@ -49,6 +49,20 @@ namespace Service
             
             return appointmentRepository.GetByDoctorId(id);
         }
+        public List<Appointment> AppointmentsToCancel(string specialization)
+        {
+            List<Appointment> appointments = new List<Appointment>();
+            appointments = appointmentRepository.GetAll();
+            List<Appointment> appsToCancel = new List<Appointment>();
+            foreach (var app in appointments)
+            {
+                if (app.doctor.SpecializationType == specialization)
+                {
+                    appsToCancel.Add(app);
+                }
+            }
+            return appsToCancel;
+        }
         /*
           public void Create(String newId, DateTime newStartTime, int newDuration, Model.AppointmentType newType, DateTime newFinishTime)
           {

@@ -58,6 +58,14 @@ namespace Service
         {
             return RoomRepository.GetAllRoomsByEquipment(name);
         }
+        public List<Room> GetByType(String type)
+        {
+            return RoomRepository.GetByType(type);
+        }
+        public List<Bed> GetFreeBeds(Room r)
+        {
+            return RoomRepository.GetFreeBeds(r);
+        }
         /*
       public void Create(int newNumber, Model.RoomType newType, int newFloor, String newDescription)
       {

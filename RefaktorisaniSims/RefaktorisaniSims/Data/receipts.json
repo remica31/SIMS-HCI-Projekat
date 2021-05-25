@@ -1,50 +1,8 @@
 [
   {
-    "Id": "2",
-    "Instructions": "Instrukcije za koriscenje",
-    "Quantity": 7,
-    "Medicines": [
-      {
-        "Id": "1",
-        "Name": "Brufen",
-        "Description": "Opis1",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Neki Sastojci"
-      },
-      {
-        "Id": "2",
-        "Name": "Panadol",
-        "Description": "Opis2",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Sastojci"
-      }
-    ],
-    "PatientID": "p1",
-    "DoctorID": "d1"
-  },
-  {
-    "Id": "3",
-    "Instructions": "Uvece i ujutru pij",
-    "Quantity": 14,
-    "Medicines": [
-      {
-        "Id": "2",
-        "Name": "Panadol",
-        "Description": "Opis2",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Sastojci"
-      }
-    ],
-    "PatientID": "p2",
-    "DoctorID": "d1"
-  },
-  {
     "Id": "1",
-    "Instructions": "Instrukcije za koriscenje",
-    "Quantity": 7,
+    "Instructions": "Pazi kako pijes",
+    "Quantity": 5,
     "Medicines": [
       {
         "Id": "1",
@@ -52,48 +10,8 @@
         "Description": "Opis1",
         "Status": "Accepted",
         "DoctorComment": "/",
-        "Ingredients": "Neki Sastojci"
-      },
-      {
-        "Id": "3",
-        "Name": "Anadol",
-        "Description": "Opis3",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Sastojci2"
-      },
-      {
-        "Id": "2",
-        "Name": "Panadol",
-        "Description": "Opis2",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Sastojci"
-      }
-    ],
-    "PatientID": "p2",
-    "DoctorID": "d1"
-  },
-  {
-    "Id": "4",
-    "Instructions": "Znas vec kako",
-    "Quantity": 12,
-    "Medicines": [
-      {
-        "Id": "2",
-        "Name": "Panadol",
-        "Description": "Opis2",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Sastojci"
-      },
-      {
-        "Id": "3",
-        "Name": "Anadol",
-        "Description": "Opis3",
-        "Status": "Accepted",
-        "DoctorComment": "/",
-        "Ingredients": "Sastojci2"
+        "Ingredients": "Neki Sastojci",
+        "Alternative": null
       }
     ],
     "PatientID": "p1",

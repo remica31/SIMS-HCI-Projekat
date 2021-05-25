@@ -1,1 +1,1 @@
-[{"Id":"1","PatientId":null,"DoctorId":"d1","RateForHospital":8,"RateForDoctor":7}]
+[{"Id":"1","PatientId":null,"DoctorId":"d1","RateForHospital":8,"RateForDoctor":7},{"Id":"2","PatientId":null,"DoctorId":"d2","RateForHospital":8,"RateForDoctor":9}]
