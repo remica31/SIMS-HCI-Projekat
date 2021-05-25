@@ -78,6 +78,63 @@ namespace Repository
             ReadJson();
             return surveys;
         }
+
+        public double CountAverageHospitalRate()
+        {
+            double sum = 0;
+            double counter = 0;
+            foreach (var s in surveys)
+            {
+                if (s.RateFor != "doctor")
+                {
+                    sum += s.RateForHospital;
+                    counter++;
+                }
+            }
+            return sum / counter;
+        }
+
+        public double CountAverageDoctorRate(string id)
+        {
+            double sum = 0;
+            double counter = 0;
+            foreach (var s in surveys)
+            {
+                if (s.RateFor != "hospital" && s.DoctorId == id)
+                {
+                    sum += s.RateForDoctor;
+                    counter++;
+                }
+            }
+            return sum / counter;
+        }
+
+        public int CountRatesForHospital(int rate)
+        {
+            int numOfRates = 0;
+            foreach (var s in surveys)
+            {
+                if (s.RateFor != "doctor" && s.RateForHospital == rate)
+                {
+                    numOfRates++;
+                }
+            }
+            return numOfRates;
+        }
+
+        public int CountRatesForDoctor(string id, int rate)
+        {
+            int numOfRates = 0;
+            foreach (var s in surveys)
+            {
+                if (s.DoctorId == id && s.RateFor != "hospital" && s.RateForDoctor == rate)
+                {
+                    numOfRates++;
+                }
+            }
+            return numOfRates;
+        }
+
         /*
       public void Create(String id, String patientId, String doctorId, int rateForHospital, int rateForDoctor)
       {

@@ -14,19 +14,21 @@ namespace Model
         {
 
         }
-        public Survey(string id, string patientId, string doctorId,int rateH, int rateD)
+        public Survey(string id, string patientId, string doctorId,int rateH, int rateD, string rateF)
         {
             Id = id;
             patientId = PatientId;
             DoctorId = doctorId;
             RateForHospital = rateH;
             RateForDoctor = rateD;
+            RateFor = rateF;
         }
       public String Id { set; get; }
       public String PatientId { set; get; }
         public String DoctorId { set; get; }
         public int RateForHospital { set; get; }
         public int RateForDoctor { set; get; }
+        public string RateFor { get; set; }
 
     }
 }

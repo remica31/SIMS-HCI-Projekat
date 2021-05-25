@@ -5,15 +5,17 @@
     "Description": "Opis1",
     "Status": "Accepted",
     "DoctorComment": "/",
-    "Ingredients": "Neki Sastojci"
+    "Ingredients": "Neki Sastojci",
+    "Alternative": null
   },
   {
     "Id": "2",
     "Name": "Panadol",
-    "Description": "Opis2",
-    "Status": "Accepted",
+    "Description": "ADSF",
+    "Status": "Waiting",
     "DoctorComment": "",
-    "Ingredients": "Sastojci,nekiAlergeni"
+    "Ingredients": "ASDF",
+    "Alternative": "ASDF"
   },
   {
     "Id": "3",
@@ -21,7 +23,8 @@
     "Description": "Novi Opis",
     "Status": "Accepted",
     "DoctorComment": "",
-    "Ingredients": "sastojak1,nekiAlergeni,sastojak2"
+    "Ingredients": "sastojak1,nekiAlergeni,sastojak2",
+    "Alternative": null
   },
   {
     "Id": "4",
@@ -29,7 +32,8 @@
     "Description": "Novi veoma dobar lek za ...",
     "Status": "Waiting",
     "DoctorComment": "",
-    "Ingredients": "Sastojci neki"
+    "Ingredients": "Sastojci neki",
+    "Alternative": null
   },
   {
     "Id": "5",
@@ -37,6 +41,7 @@
     "Description": "Prolazi glava za dva minuta, rastvara se u vodi",
     "Status": "Waiting",
     "DoctorComment": "",
-    "Ingredients": "Sastojci"
+    "Ingredients": "Sastojci",
+    "Alternative": null
   }
 ]

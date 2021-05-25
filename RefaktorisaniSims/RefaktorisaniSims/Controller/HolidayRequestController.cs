@@ -39,6 +39,26 @@ namespace Controller
             return holidayRequestService.GetAll();
         }
 
+        public List<HolidayRequest> SearchByStatus(string status)
+        {
+            return holidayRequestService.SearchByStatus(status);
+        }
+
+        public List<HolidayRequest> SearchByDoctorId(string id)
+        {
+            return holidayRequestService.SearchByDoctorId(id);
+        }
+
+        public List<HolidayRequest> SortByDate(List<HolidayRequest> requests)
+        {
+            return holidayRequestService.SortByDate(requests);
+        }
+
+        public List<HolidayRequest> SearchByStatusAndDoctorId(string status, string id)
+        {
+            return holidayRequestService.SearchByStatusAndDoctorId(status, id);
+        }
+
         /*
 
       public void Create(String newId, String newDescription, DateTime newSubmissionDate, int newDurationinDays, DateTime newStartDate)

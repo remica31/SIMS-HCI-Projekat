@@ -102,5 +102,32 @@ namespace RefaktorisaniSims
                 }
             }
         }
+
+        private void Search(object sender, RoutedEventArgs e)
+        {
+            var reqs = new List<Model.HolidayRequest>();
+            if (textBox6.Text == "" && textBox7.Text == "")
+            {
+                MessageBox.Show("Enter search parameters!");
+            }
+            else if (textBox6.Text != "" && textBox7.Text == "")
+            {
+                reqs = application.holidayRequestController.SearchByStatus(textBox6.Text);
+            }
+            else if (textBox6.Text == "" && textBox7.Text != "")
+            {
+                reqs = application.holidayRequestController.SearchByDoctorId(textBox7.Text);
+            }
+            else
+            {
+                reqs = application.holidayRequestController.SearchByStatusAndDoctorId(textBox6.Text, textBox7.Text);
+            }
+            if (reqs.Count != 0)
+            {
+                application.holidayRequestController.SortByDate(reqs);
+                lvDataBinding.ItemsSource = reqs;
+            }
+
+        }
     }
 }

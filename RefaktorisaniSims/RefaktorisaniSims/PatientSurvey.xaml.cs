@@ -48,7 +48,7 @@ namespace RefaktorisaniSims
             }
             else
             {
-                var survey = new Survey(textBox1.Text, textBox2.Text, textBox3.Text, rateH, rateD);
+                var survey = new Survey(textBox1.Text, textBox2.Text, textBox3.Text, rateH, rateD, textBox6.Text);
                 application.surveyController.Save(survey);
             }
         }

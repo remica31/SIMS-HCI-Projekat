@@ -43,6 +43,26 @@ namespace Service
             surveyRepository.Update(survey);
 
         }
+
+        public double CountAverageHospitalRate()
+        {
+            return surveyRepository.CountAverageHospitalRate();
+        }
+
+        public double CountAverageDoctorRate(string id)
+        {
+            return surveyRepository.CountAverageDoctorRate(id);
+        }
+
+        public int CountHospitalRates(int rate)
+        {
+            return surveyRepository.CountRatesForHospital(rate);
+        }
+
+        public int CountDoctorRates(string id, int rate)
+        {
+            return surveyRepository.CountRatesForDoctor(id, rate);
+        }
         /*
       public void Create(String id, String patientId, String doctorId, int rateForHospital, int rateForDoctor)
       {

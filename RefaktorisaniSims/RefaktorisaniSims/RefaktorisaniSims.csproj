@@ -254,6 +254,9 @@
     <Compile Include="StaticTransfer.xaml.cs">
       <DependentUpon>StaticTransfer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SurveyResults.xaml.cs">
+      <DependentUpon>SurveyResults.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Warden.xaml.cs">
       <DependentUpon>Warden.xaml</DependentUpon>
     </Compile>
@@ -470,6 +473,10 @@
     <Page Include="StaticTransfer.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SurveyResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Warden.xaml">
       <SubType>Designer</SubType>

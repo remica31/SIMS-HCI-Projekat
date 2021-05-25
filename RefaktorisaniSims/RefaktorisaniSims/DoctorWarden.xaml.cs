@@ -48,5 +48,12 @@ namespace RefaktorisaniSims
             this.Close();
             m.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            SurveyResults sv = new SurveyResults();
+            sv.Show();
+            this.Close();
+        }
     }
 }

@@ -49,10 +49,18 @@ namespace RefaktorisaniSims
             {
                 if (textBox1.Text == med.Id)
                 {
-                    med.Description = textBox3.Text;
-                    med.Ingredients = textBox4.Text;
-                    med.Alternative = textBox5.Text;
-                    applicaton.medicineController.Update(med);
+                    if (med.Status == "Rejected")
+                    {
+                        med.Description = textBox3.Text;
+                        med.Ingredients = textBox4.Text;
+                        med.Alternative = textBox5.Text;
+                        med.Status = "Waiting";
+                        applicaton.medicineController.Update(med);
+                    } else
+                    {
+                        MessageBox.Show("Medicine is not rejected!");
+                    }
+                    
                 }
             }
         }

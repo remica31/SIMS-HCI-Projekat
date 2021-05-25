@@ -39,6 +39,26 @@ namespace Controller
         {
             surveyService.Update(survey);
         }
+
+        public double CountAverageHospitalRate()
+        {
+            return surveyService.CountAverageHospitalRate();
+        }
+
+        public double CountAverageDoctorRate(string id)
+        {
+            return surveyService.CountAverageDoctorRate(id);
+        }
+
+        public int CountHospitalRates(int rate)
+        {
+            return surveyService.CountHospitalRates(rate);
+        }
+
+        public int CountDoctorRates(string id, int rate)
+        {
+            return surveyService.CountDoctorRates(id, rate);
+        }
         /*
       public void Create(String id, String patientId, String doctorId, int rateForHospital, int rateForDoctor)
       {
