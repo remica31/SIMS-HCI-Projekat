@@ -1,0 +1,39 @@
+[
+  
+  {
+    "operations": null,
+    "appointments": null,
+    "SpecializationType": "Primary Care",
+    "holidayRequest": null,
+    "User": {
+      "Id": "d1",
+      "Username": "Mlaki99",
+      "Password": "nekaSifra",
+      "Name": "Mladen",
+      "Surname": "Pavlovic",
+      "EMail": "Mlakisa@gmail.com",
+      "Address": "NekaAdresa",
+      "Phone": "0692041119",
+      "DateOfBirth": "1999-04-20T00:00:00"
+    },
+    "Room": null
+  },
+  {
+    "operations": null,
+    "appointments": null,
+    "SpecializationType": "Hirurg",
+    "holidayRequest": null,
+    "User": {
+      "Id": "d2",
+      "Username": "Nikolica",
+      "Password": "nekaSifra2",
+      "Name": "Nikola",
+      "Surname": "Nikolic",
+      "EMail": "Nikolica@gmail.com",
+      "Address": "NekaAdresa3",
+      "Phone": "0692131313",
+      "DateOfBirth": "1999-02-21T00:00:00"
+    },
+    "Room": null
+  }
+]
