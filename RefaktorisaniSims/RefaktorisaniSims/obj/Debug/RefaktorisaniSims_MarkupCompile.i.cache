@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\
+C:\Users\Remica\Downloads\SIMS-HCI-Projekat-main\SIMS-HCI-Projekat-main\RefaktorisaniSims\RefaktorisaniSims\obj\Debug\
 RefaktorisaniSims
 none
 false
 DEBUG;TRACE
-C:\Users\Remica\Documents\GitHub\SIMS-HCI-Projekat\RefaktorisaniSims\RefaktorisaniSims\App.xaml
-481913184956
+C:\Users\Remica\Downloads\SIMS-HCI-Projekat-main\SIMS-HCI-Projekat-main\RefaktorisaniSims\RefaktorisaniSims\App.xaml
+51397803835
 
-1672075433965
-18-1590881208
-CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;DoctorXAML\Appointments.xaml;DoctorXAML\Approve.xaml;DoctorXAML\ExtendTreatment.xaml;DoctorXAML\HospitalTreatment.xaml;DoctorXAML\Login.xaml;DoctorXAML\Logovanje.xaml;DoctorXAML\Main.xaml;DoctorXAML\OdobriLek.xaml;DoctorXAML\Pocetna.xaml;DoctorXAML\Pregledi.xaml;DoctorXAML\PrepisiLek.xaml;DoctorXAML\PrescribeMedication.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;Orders.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;PatientReferral.xaml;PatientSurvey.xaml;RoomRenovations.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryCRUDdoctor.xaml;SecretaryDischargeList.xaml;SecretaryFunctional.xaml;SecretaryNotificationBoard.xaml;SecretaryUrgent.xaml;staticEquipment.xaml;StaticTransfer.xaml;SurveyResults.xaml;Warden.xaml;WardenMedicine.xaml;
+1781483389847
+18-2003908843
+AdvancedRenovation.xaml;CreateGuest.xaml;DoctorAnamnesis.xaml;DoctorAppointmentCRUD.xaml;DoctorCreateHospitalReferral.xaml;DoctorMainWindow.xaml;DoctorMedicinesUpdate.xaml;DoctorOperationCRUD.xaml;DoctorReceipt.xaml;DoctorSchedule.xaml;DoctorWarden.xaml;DoctorXAML\Appointments.xaml;DoctorXAML\Approve.xaml;DoctorXAML\ExtendTreatment.xaml;DoctorXAML\HospitalTreatment.xaml;DoctorXAML\Login.xaml;DoctorXAML\Logovanje.xaml;DoctorXAML\Main.xaml;DoctorXAML\OdobriLek.xaml;DoctorXAML\Pocetna.xaml;DoctorXAML\Pregledi.xaml;DoctorXAML\PrepisiLek.xaml;DoctorXAML\PrescribeMedication.xaml;dynamicEquipmentRequest.xaml;DynEquipment.xaml;DynTransfer.xaml;HolidayRequest.xaml;MainWindow.xaml;MedicalRecord.xaml;Orders.xaml;PatientAppointmentPriority.xaml;PatientAppointmentsCRUD.xaml;PatientFunctional.xaml;PatientNote.xaml;PatientReferral.xaml;PatientSurvey.xaml;RoomRenovations.xaml;Rooms.xaml;SecretaryAllergens.xaml;SecretaryAppointmentPriority.xaml;SecretaryCRUDAppAndOp.xaml;SecretaryCRUDdoctor.xaml;SecretaryDischargeList.xaml;SecretaryFunctional.xaml;SecretaryNotificationBoard.xaml;SecretaryUrgent.xaml;staticEquipment.xaml;StaticTransfer.xaml;SurveyResults.xaml;Warden.xaml;WardenMedicine.xaml;
 
 True
 

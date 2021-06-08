@@ -51,5 +51,22 @@ namespace Service
             hospitalTreatmentRepository.Update(hospitalTReatment);
         }
 
+        public List<HospitalTReatment> LastDay()
+        {
+            List<HospitalTReatment> treatments = new List<HospitalTReatment>();
+            List<HospitalTReatment> toShow = new List<HospitalTReatment>();
+            treatments = hospitalTreatmentRepository.GetAll();
+            DateTime today = DateTime.Now;
+            foreach (var treatment in treatments)
+            {
+                if (treatment.FinishTime.Date == today.Date)
+                {
+                    toShow.Add(treatment);
+                }
+            }
+
+            return toShow;
+        }
+
     }
 }

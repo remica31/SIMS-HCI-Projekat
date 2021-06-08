@@ -44,5 +44,11 @@ namespace Controller
         {
             hospitalTReatmentService.Extend(id, moreDays);
         }
+
+        public List<HospitalTReatment> LastDay()
+        {
+            return hospitalTReatmentService.LastDay();
+
+        }
    }
 }

@@ -3,12 +3,23 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RefaktorisaniSims"
+        xmlns:local="clr-namespace:RefaktorisaniSims" xmlns:local1="clr-namespace:RefaktorisaniSims.Validation"
         mc:Ignorable="d"
         Title="PatientReferral" Height="450" Width="800">
+
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF159E9E"/>
+            <GradientStop Color="#FF44B280" Offset="0.752"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="579,296,0,0" VerticalAlignment="Top" Width="75" Click="Add"/>
-        <ListView Margin="10,220,429,8" x:Name="lvDataBinding_Show">
+        
+        
+        
+        
+        <Button Content="Add" HorizontalAlignment="Left" Margin="253,143,0,0" VerticalAlignment="Top" Width="75" Click="Add"/>
+        <ListView Margin="10,205,429,23" x:Name="lvDataBinding_Show">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -24,7 +35,7 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <ListView Margin="482,16,10,243" x:Name="lvDataBinding3">
+        <ListView Margin="551,36,10,94" x:Name="lvDataBinding3">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -45,12 +56,32 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Content="View referrals" HorizontalAlignment="Left" Margin="118,70,0,0" VerticalAlignment="Top" Width="75" Click="View"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="118,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Id" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.168,0.978"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="534,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="View available dates" HorizontalAlignment="Left" Margin="482,181,0,0" VerticalAlignment="Top" Width="117" Click="Button_Click"/>
-        <Label Content="id of date" HorizontalAlignment="Left" Margin="440,248,0,0" VerticalAlignment="Top"/>
+        <Button Content="View referrals" HorizontalAlignment="Left" Margin="253,109,0,0" VerticalAlignment="Top" Width="100" FontSize="15" Click="View"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="110,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <StackPanel>
+                        <AdornedElementPlaceholder/>
+                        <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </StackPanel>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+            <TextBox.Text>
+                <Binding Path="Test3" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <local1:IsNumber ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+
+            </TextBox.Text>
+
+        </TextBox>
+        <Label Content="ID of patient" HorizontalAlignment="Left" Margin="25,109,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.168,0.978"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="110,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="View available dates" HorizontalAlignment="Left" Margin="637,330,0,0" VerticalAlignment="Top" Width="130" FontSize="13" Click="Button_Click"/>
+        <Label Content="ID of Date" HorizontalAlignment="Left" Margin="25,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Referral" HorizontalAlignment="Left" Margin="10,10,0,0" FontSize="40" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
+ 

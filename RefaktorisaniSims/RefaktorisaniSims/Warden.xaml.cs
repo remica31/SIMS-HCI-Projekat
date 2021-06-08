@@ -67,6 +67,11 @@ namespace RefaktorisaniSims
             st.Show();
         }
 
-        
+        private void Adv(object sender, RoutedEventArgs e)
+        {
+            AdvancedRenovation ar = new AdvancedRenovation();
+            ar.Show();
+            this.Close();
+        }
     }
 }

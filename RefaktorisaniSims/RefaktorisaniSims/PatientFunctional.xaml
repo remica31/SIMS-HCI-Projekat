@@ -6,12 +6,209 @@
         xmlns:local="clr-namespace:RefaktorisaniSims"
         mc:Ignorable="d"
         Title="PatientFunctional" Height="450" Width="800">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF159E9E"/>
+            <GradientStop Color="#FF44B280" Offset="0.752"/>
+        </LinearGradientBrush>
+    </Window.Background>
     <Grid>
-        <Button Content="CRUD Appointments" HorizontalAlignment="Left" Margin="41,125,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
-        <Button Content="Create Appointment(priority)" HorizontalAlignment="Left" Margin="41,192,0,0" VerticalAlignment="Top" Width="161" Click="Button_Click_1"/>
-        <Button Content="Survey" HorizontalAlignment="Left" Margin="427,125,0,0" VerticalAlignment="Top" Width="75" Click="Survey_Click"/>
-        <Button Content="CreateAppByReferral" HorizontalAlignment="Left" Margin="427,197,0,0" VerticalAlignment="Top" Width="122" Click="Referral" />
-        
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="307"/>
+            <ColumnDefinition Width="317*"/>
+            <ColumnDefinition Width="168*"/>
+
+        </Grid.ColumnDefinitions>
+
+
+
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Patient - profile"
+                           FontSize="40"
+                           FontWeight="Medium"
+                           Margin="15,0,0,0"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <StackPanel Width="200" HorizontalAlignment="Left"/>
+
+            <Border Width="150" Height="150" 
+                        HorizontalAlignment="Left"
+                        Margin="20" CornerRadius="10">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF44B280" Offset="1"/>
+                        <GradientStop Color="White" Offset="0.453"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <TextBlock
+                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque neque leo, ornare ac congue at, fermentum sit amet mi. Nullam ornare maximus ultrices. "
+                    TextWrapping="Wrap"
+                    Margin="5"
+                    
+                    />
+
+
+            </Border>
+            <TextBlock 
+                Text=" Patient Description"
+                FontSize="15"
+                FontWeight="Medium"
+                Width="150"
+                HorizontalAlignment="Left"
+                Margin="20,0,0,0"/>
+
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Border  CornerRadius="15" BorderThickness="5"
+                 Margin="58,5,26,5" Height="178">
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF44B280" Offset="1"/>
+                        <GradientStop Color="White"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <StackPanel Margin="0,0,0,5">
+
+
+
+
+
+
+                    <TextBlock Text="Therapies"
+                       FontSize="30"
+                       Margin="0,5,0,0"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+
+
+
+                    <!--
+                        />
+                    <Border CornerRadius="10" BorderThickness="1" Background="#78e08f" Opacity="0.7" BorderBrush="black" Margin="5">
+                        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed lacus eu nibh tincidunt efficitur. Quisque quam ipsum, pellentesque eget ligula nec, cursus tincidunt erat."
+                       FontSize="11"
+                       Margin="5,5,5,5"
+                       TextWrapping="Wrap"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                               FontWeight="Medium"
+                       
+                        />
+                    </Border>
+                    <Border CornerRadius="10" BorderThickness="1" Background="#ee5253" Opacity="0.7" BorderBrush="black" Margin="5">
+                        <TextBlock  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed lacus eu nibh tincidunt efficitur. Quisque quam ipsum, pellentesque eget ligula nec, cursus tincidunt erat."
+                       FontSize="11"
+                        Margin="5,5,5,5"
+                       TextWrapping="Wrap"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                                FontWeight="Medium"
+                        >
+
+                        </TextBlock>
+                    </Border>
+
+                    <Border CornerRadius="10" BorderThickness="1" Background="#feca57" Opacity="0.7" BorderBrush="black" Margin="5">
+                        <TextBlock  Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed lacus eu nibh tincidunt efficitur. Quisque quam ipsum, pellentesque eget ligula nec, cursus tincidunt erat."
+                       FontSize="11"
+                       TextWrapping="Wrap"
+                        Margin="5,5,5,5"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"
+                                FontWeight="Medium"
+                        >
+
+                        </TextBlock>
+                    
+                    </Border>
+-->
+
+                </StackPanel>
+            </Border>
+            <Calendar Margin="58,0,26,0" />
+
+
+        </StackPanel>
+
+
+
+
+
+
+
+
+
+        <StackPanel Grid.Column="2"  Background="#353b48">
+
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" Grid.Column="2" Background="#353b48">
+            <Button Content="CRUD Appointments" HorizontalAlignment="Left"
+                    Height="40" VerticalAlignment="Top"
+                    Width="150"
+                    Click="Button_Click" 
+                    Background="#353b48" 
+                     BorderBrush="#FF353B48"
+                    Foreground="White"/>
+            <Button Content="Create Appointment(priority)" 
+                    FontSize="11" Height="40" HorizontalAlignment="Left"
+                    VerticalAlignment="Top" Width="150"
+                    Click="Button_Click_1" 
+                    Background="#353b48"
+                     BorderBrush="#FF353B48"
+                    Foreground="white"
+                    />
+            <Button Content="Survey" HorizontalAlignment="Left" 
+                    Height="40" VerticalAlignment="Top"
+                    Width="150" Click="Survey_Click"
+                     BorderBrush="#FF353B48"
+                     Background="#353b48"
+                    Foreground="white"/>
+            <Button Content="CreateAppByReferral" 
+                    Height="40"
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    Width="150"
+                    Click="Referral"
+                    Background="#353b48"
+                     BorderBrush="#FF353B48"
+                    Foreground="white"/>
+            <Button Content="Medical Record"  
+                    Height="40"
+                    HorizontalAlignment="Left"  VerticalAlignment="Top"
+                    Width="150" 
+                    Click="Button_Click_2" 
+                     Background="#FF353B48"
+                    Foreground="white" BorderBrush="#FF353B48"/>
+            <Button Content="Make Note"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="150"
+                    Height="40"
+                    Click="Button_Click_3" 
+                    Background="#353b48"
+                     BorderBrush="#FF353B48"
+                    Foreground="white"/>
+
+
+
+
+
+        </StackPanel>
+
+
+
 
     </Grid>
 </Window>

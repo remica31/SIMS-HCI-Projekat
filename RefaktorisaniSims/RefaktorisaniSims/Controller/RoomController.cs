@@ -53,6 +53,17 @@ namespace Controller
             return RoomService.GetFreeBeds(r);
         }
 
+        public Room MergeRooms(string room1Id, string room2Id)
+        {
+            return RoomService.MergeRooms(room1Id, room2Id);
+        }
+
+        public void SplitRooms(string room1Id, string room2Id)
+        {
+            RoomService.SplitRooms(room1Id, room2Id);
+        }
+        /*
+
         /*
       public void Create(int newNumber, Model.RoomType newType, int newFloor, String newDescription)
       {

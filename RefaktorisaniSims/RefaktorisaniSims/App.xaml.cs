@@ -1,6 +1,7 @@
 ﻿
 using Controller;
 using Model;
+using RefaktorisaniSims.Controller;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -42,8 +43,11 @@ namespace RefaktorisaniSims
         
         public readonly OrderController orderController = new OrderController();
         public readonly BasicRenovationController basicRenovationController = new BasicRenovationController();
+        public readonly PatientNoteController patientNoteController = new PatientNoteController();
+
         
         public int counterCancel = 0;
+        public int k = 0;
         public string id;
         public string app_id;
         public readonly HospitalTreatmentController hospitalTreatmentController = new HospitalTreatmentController();

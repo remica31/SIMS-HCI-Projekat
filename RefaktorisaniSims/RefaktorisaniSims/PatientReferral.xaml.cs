@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,12 +24,17 @@ namespace RefaktorisaniSims
         App applicaton;
         List<Appointment> apps = new List<Appointment>();
         List<AvailableAppointment> availables = new List<AvailableAppointment>();
+
+
+
+
         public PatientReferral()
         {
             InitializeComponent();
             applicaton = Application.Current as App;
             apps = applicaton.appointmentController.GetAll();
             availables = applicaton.availableAppointmentController.GetAll();
+           
         }
 
         private void Add(object sender, RoutedEventArgs e)
@@ -43,6 +49,7 @@ namespace RefaktorisaniSims
             Appointment newApp = new Appointment(Id, a, pat);
             applicaton.availableAppointmentController.Delete(textBox2.Text);
             applicaton.appointmentController.Save(newApp);
+            applicaton.hospitalReferralController.Delete(referral.Id);
             
 
         }

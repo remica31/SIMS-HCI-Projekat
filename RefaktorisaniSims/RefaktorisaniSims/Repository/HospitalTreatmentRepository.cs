@@ -78,5 +78,7 @@ namespace Repository
             int index = treatments.FindIndex(obj => obj.Id == id);
             return treatments[index];
         }
+
+     
     }
 }

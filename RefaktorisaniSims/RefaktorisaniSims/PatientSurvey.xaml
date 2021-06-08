@@ -6,20 +6,48 @@
         xmlns:local="clr-namespace:RefaktorisaniSims"
         mc:Ignorable="d"
         Title="PatientSurvey" Height="450" Width="800">
-    <Grid>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="320,274,0,0" VerticalAlignment="Top" Width="75" Click="Add"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="180,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="180,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="180,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="180,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="180,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Id" HorizontalAlignment="Left" Margin="44,87,0,0" VerticalAlignment="Top"/>
-        <Label Content="PatientID" HorizontalAlignment="Left" Margin="44,139,0,0" VerticalAlignment="Top"/>
-        <Label Content="DoctorID" HorizontalAlignment="Left" Margin="44,187,0,0" VerticalAlignment="Top"/>
-        <Label Content="Rate for Hospital" HorizontalAlignment="Left" Margin="44,217,0,0" VerticalAlignment="Top"/>
-        <Label Content="Rate for Doctor" HorizontalAlignment="Left" Margin="44,245,0,0" VerticalAlignment="Top"/>
 
-        <ListView Margin="439,10,0,213" x:Name="lvDataBinding2">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF159E9E"/>
+            <GradientStop Color="#FF44B280" Offset="0.752"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="202,322,0,0" VerticalAlignment="Top" Width="75" Height="30" Click="Add">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="6"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="179,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="179,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="179,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="179,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="179,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+        <Border Height="25" Width="80" CornerRadius="10" Background="white" Margin="45,125,667,269">
+            <Label Content="Id" HorizontalAlignment="center" VerticalAlignment="center"/>
+        </Border>
+
+        <Border Height="25" Width="80" CornerRadius="10" Background="white" Margin="45,168,667,226">
+            <Label Content="PatientID" HorizontalAlignment="center" VerticalAlignment="Center"/>
+        </Border>
+        <Border Height="25" Width="80" CornerRadius="10" Background="white" Margin="45,203,667,191">
+            <Label Content="DoctorID" HorizontalAlignment="Center" VerticalAlignment="center"/>
+        </Border>
+        <Border Height="25" Width="100" CornerRadius="10" Background="white" Margin="45,244,647,150">
+            <Label Content="Rate for Hospital" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Border>
+        <Border Height="25" Width="100" CornerRadius="10" Background="white" Margin="45,284,647,110">
+            <Label Content="Rate for Doctor" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-1,0,0,0"/>
+        </Border>
+
+        <ListView Margin="412,125,34,110" x:Name="lvDataBinding2">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -37,8 +65,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Content="View" HorizontalAlignment="Left" Margin="678,231,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="180,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Rate for ?" HorizontalAlignment="Left" Margin="44,276,0,0" VerticalAlignment="Top"/>
+        <Button Content="View" HorizontalAlignment="Left" Height="23" Margin="412,322,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="6"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Label Content="Survey" HorizontalAlignment="Left" FontSize="30" FontWeight="Medium" Margin="45,37,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

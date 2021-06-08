@@ -70,6 +70,16 @@ namespace RefaktorisaniSims
             p.Show();
         }
 
-       
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MedicalRecord med = new MedicalRecord();
+            med.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            PatientNote pn = new PatientNote();
+            pn.Show();
+        }
     }
 }

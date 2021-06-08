@@ -3,11 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RefaktorisaniSims"
+        xmlns:local="clr-namespace:RefaktorisaniSims" xmlns:local1="clr-namespace:RefaktorisaniSims.Validation"
         mc:Ignorable="d"
-        Title="PatientAppointmentPriority" Height="450" Width="800">
-    <Grid>
-        <ListView Margin="482,16,10,243" x:Name="lvDataBinding3">
+        Title="PatientAppointmentPriority" Height="540" Width="850">
+
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF159E9E"/>
+            <GradientStop Color="#FF44B280" Offset="0.752"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid Margin="-1,0,1,0">
+        <ListView Margin="423,16,10,200" Height="250" Width="300" x:Name="lvDataBinding3">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <WrapPanel>
@@ -28,20 +35,109 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="440,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <DatePicker x:Name="datum" HorizontalAlignment="Left" Margin="130,76,0,0" VerticalAlignment="Top" Width="120" FirstDayOfWeek="Monday" SelectedDateFormat="Short"/>
-        <Label Content="Id of appointment" HorizontalAlignment="Left" Margin="338,315,0,0" VerticalAlignment="Top"/>
-        <Label Content="Select Start Date" HorizontalAlignment="Left" Margin="11,76,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="128,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="440,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="DoctorId" HorizontalAlignment="Left" Margin="43,150,0,0" VerticalAlignment="Top"/>
-        <Label Content="PatientId" HorizontalAlignment="Left" Margin="338,341,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="datum2" HorizontalAlignment="Left" Margin="128,104,0,0" VerticalAlignment="Top" Width="120" FirstDayOfWeek="Monday" SelectedDateFormat="Short"/>
-        <Label Content="Select Finish Date" HorizontalAlignment="Left" Margin="7,104,0,0" VerticalAlignment="Top"/>
-        <Label Content="Priority" HorizontalAlignment="Left" Margin="52,193,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.862,-0.333"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="130,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="View" HorizontalAlignment="Left" Margin="173,247,0,0" VerticalAlignment="Top" Width="75" Click="View_Click"/>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="638,347,0,0" VerticalAlignment="Top" Width="75" Click="Add_Click"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="658,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <StackPanel>
+                        <AdornedElementPlaceholder/>
+                        <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </StackPanel>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+            <TextBox.Text>
+                <Binding Path="Test3" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <local1:IsNumber ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+
+            </TextBox.Text>
+
+
+        </TextBox>
+
+        <DatePicker x:Name="datum" HorizontalAlignment="Left" Margin="160,68,0,0" VerticalAlignment="Top" Width="120" FirstDayOfWeek="Monday" SelectedDateFormat="Short"/>
+        <DatePicker x:Name="datum2"  HorizontalAlignment="Left" Margin="159,105,0,0" VerticalAlignment="Top" Width="120" FirstDayOfWeek="Monday" SelectedDateFormat="Short"/>
+       
+        <Border Height="25" Width="120" CornerRadius="10" Background="white" Margin="459,286,213,108">
+            <Label Content="Id of appointment" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        </Border>
+
+        <Border  Height="25" Width="120" CornerRadius="10" Background="white" Margin="10,71,662,413"   >
+            <Label Content="Select Start Date" HorizontalAlignment="Center"  VerticalAlignment="center"/>
+        </Border>
+
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="27" Margin="160,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="658,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            <Validation.ErrorTemplate>
+                <ControlTemplate>
+                    <StackPanel>
+                        <AdornedElementPlaceholder/>
+                        <TextBlock Text="{Binding [0].ErrorContent}" Foreground="Red"/>
+                    </StackPanel>
+                </ControlTemplate>
+            </Validation.ErrorTemplate>
+            <TextBox.Text>
+                <Binding Path="Test3" UpdateSourceTrigger="PropertyChanged">
+                    <Binding.ValidationRules>
+                        <local1:IsNumber ValidationStep="RawProposedValue"/>
+                    </Binding.ValidationRules>
+                </Binding>
+
+            </TextBox.Text>
+
+
+        </TextBox>
+
+        <Border  Height="25" Width="120" CornerRadius="10" Background="white" Margin="10,144,662,340"   >
+            <Label Content="Doctor Id" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        </Border>
+
+        <Border  Height="25" Width="120" CornerRadius="10" Background="white" Margin="459,329,213,65"   >
+            <Label Content="Patient Id" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+       
+
+        <Border  Height="25" Width="120" CornerRadius="10" Background="white" Margin="10,107,662,377"   >
+            <Label Content="Select Finish Date" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="7,0,0,0"/>
+        </Border>
+
+        <Border  Height="25" Width="120" CornerRadius="10" Background="white" Margin="10,190,662,294"   >
+            <Label Content="Priority" HorizontalAlignment="Center"  VerticalAlignment="Center" />
+        </Border>
+
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="27" Margin="160,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+        <Button Content="View"
+                HorizontalAlignment="Left"
+                Margin="205,232,0,0" 
+                VerticalAlignment="Top"
+                Width="75"
+                Click="View_Click" 
+                Height="28">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Add"
+                HorizontalAlignment="Left"
+                Margin="703,411,0,0" 
+                VerticalAlignment="Top"
+                Width="75" 
+                Height="28"
+                Click="Add_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

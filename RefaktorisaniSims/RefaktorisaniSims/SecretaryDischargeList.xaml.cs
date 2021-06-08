@@ -29,17 +29,11 @@ namespace RefaktorisaniSims
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            List<HospitalTReatment> treatments = new List<HospitalTReatment>();//application.hospitalTreatmentController.GetAll();
             List<HospitalTReatment> toShow = new List<HospitalTReatment>();
-            treatments= application.hospitalTreatmentController.GetAll();
-            DateTime today = DateTime.Now;
-            foreach(var treatment in treatments)
-            {
-                if (treatment.FinishTime.Date == today.Date)
-                {
-                    toShow.Add(treatment);
-                }
-            }
+
+            toShow = application.hospitalTreatmentController.LastDay();
+          
+         
             lvDataBinding3.ItemsSource =toShow;
         }
 

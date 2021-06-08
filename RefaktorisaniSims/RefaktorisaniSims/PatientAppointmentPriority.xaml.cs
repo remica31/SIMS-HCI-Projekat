@@ -1,6 +1,7 @@
 ﻿using Model;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,37 @@ namespace RefaktorisaniSims
         List<Patient> patients = new List<Patient>();
         List<Doctor> doctors = new List<Doctor>();
         List<AvailableAppointment> availableAppointments = new List<AvailableAppointment>();
+
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected virtual void OnPropertyChanged(string name)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(name));
+            }
+        }
+
+
+
+
+        private double _test3;
+
+        public double Test3
+        {
+            get
+            {
+                return _test3;
+            }
+            set
+            {
+                if (value != _test3)
+                {
+                    _test3 = value;
+                    OnPropertyChanged("Test3");
+                }
+            }
+        }
         public PatientAppointmentPriority()
         {
             InitializeComponent();
@@ -34,6 +66,7 @@ namespace RefaktorisaniSims
             doctors = application.doctorController.GetAll();
             patients = application.patientController.GetAll();
             availableAppointments = application.availableAppointmentController.GetAll();
+            this.DataContext = this;
         }
 
         private void View_Click(object sender, RoutedEventArgs e)

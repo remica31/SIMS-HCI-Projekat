@@ -62,9 +62,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AdvancedRenovation.xaml.cs">
+      <DependentUpon>AdvancedRenovation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controller\AvailableAppointmentController.cs" />
     <Compile Include="Controller\HospitalTreatmentController.cs" />
     <Compile Include="Controller\NotificationBoardController2.cs" />
+    <Compile Include="Controller\PatientNoteController.cs" />
     <Compile Include="CreateGuest.xaml.cs">
       <DependentUpon>CreateGuest.xaml</DependentUpon>
     </Compile>
@@ -143,11 +147,16 @@
     <Compile Include="HolidayRequest.xaml.cs">
       <DependentUpon>HolidayRequest.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MedicalRecord.xaml.cs">
+      <DependentUpon>MedicalRecord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AdvancedRenovation.cs" />
     <Compile Include="Model\AvailableAppointment.cs" />
     <Compile Include="Model\Bed.cs" />
     <Compile Include="Model\DischargeList.cs" />
     <Compile Include="Model\HospitalTreatment.cs" />
     <Compile Include="Model\NotificationBoard2.cs" />
+    <Compile Include="Model\PatientNotes.cs" />
     <Compile Include="Orders.xaml.cs">
       <DependentUpon>Orders.xaml</DependentUpon>
     </Compile>
@@ -159,6 +168,9 @@
     </Compile>
     <Compile Include="PatientFunctional.xaml.cs">
       <DependentUpon>PatientFunctional.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientNote.xaml.cs">
+      <DependentUpon>PatientNote.xaml</DependentUpon>
     </Compile>
     <Compile Include="PatientReferral.xaml.cs">
       <DependentUpon>PatientReferral.xaml</DependentUpon>
@@ -179,12 +191,14 @@
     <Compile Include="Repository\HolidayRequestRepository.cs" />
     <Compile Include="Repository\HospitalReferralRepository.cs" />
     <Compile Include="Repository\HospitalTreatmentRepository.cs" />
+    <Compile Include="Repository\MedicalRecordRepository.cs" />
     <Compile Include="Repository\MedicineNotificationRepository.cs" />
     <Compile Include="Repository\MedicineRepository.cs" />
     <Compile Include="Repository\NotificationBoardRepository.cs" />
     <Compile Include="Repository\NotificationBoardRepository2.cs" />
     <Compile Include="Repository\OperationRepository.cs" />
     <Compile Include="Repository\OrderRepository.cs" />
+    <Compile Include="Repository\PatientNoteRepository.cs" />
     <Compile Include="Repository\PatientRepository.cs" />
     <Compile Include="Repository\ReceiptRepository.cs" />
     <Compile Include="Repository\RoomRepository.cs" />
@@ -235,12 +249,14 @@
     <Compile Include="Service\HolidayRequestService.cs" />
     <Compile Include="Service\HospitalReferralService.cs" />
     <Compile Include="Service\HospitalTreatmentService.cs" />
+    <Compile Include="Service\MedicalRecordService.cs" />
     <Compile Include="Service\MedicineNotificationService.cs" />
     <Compile Include="Service\MedicineService.cs" />
     <Compile Include="Service\NotificationBoardService.cs" />
     <Compile Include="Service\NotificationBoardService2.cs" />
     <Compile Include="Service\OperationService.cs" />
     <Compile Include="Service\OrderService.cs" />
+    <Compile Include="Service\PatientNoteService.cs" />
     <Compile Include="Service\PatientService.cs" />
     <Compile Include="Service\ReceiptService.cs" />
     <Compile Include="Service\RoomService.cs" />
@@ -257,12 +273,17 @@
     <Compile Include="SurveyResults.xaml.cs">
       <DependentUpon>SurveyResults.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Validation\IsNumber.cs" />
     <Compile Include="Warden.xaml.cs">
       <DependentUpon>Warden.xaml</DependentUpon>
     </Compile>
     <Compile Include="WardenMedicine.xaml.cs">
       <DependentUpon>WardenMedicine.xaml</DependentUpon>
     </Compile>
+    <Page Include="AdvancedRenovation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CreateGuest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -402,6 +423,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MedicalRecord.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Orders.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -417,6 +442,10 @@
     <Page Include="PatientFunctional.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientNote.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="PatientReferral.xaml">
       <SubType>Designer</SubType>

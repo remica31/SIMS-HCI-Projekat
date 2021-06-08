@@ -134,6 +134,8 @@ namespace Repository
             }
             return beds;
         }
+
+        
         /*
       public Model.Room Read()
       {

@@ -14,11 +14,11 @@ namespace Model
         {
 
         }
-      public String PatientId;
-      public String Therapy;
-        public List<Receipt> Receipts;
-      public List<Allergen> allergens;
-        public List<Anamnesis> anamneses;
+          public String PatientId;
+          public String Therapy;
+          public List<Receipt> Receipts;
+          public List<Allergen> allergens;
+          public List<Anamnesis> anamneses;
       /*
       /// <pdGenerated>default getter</pdGenerated>
       public System.Collections.ArrayList GetAllergen()

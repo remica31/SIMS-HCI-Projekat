@@ -19,6 +19,15 @@ namespace Model
             Description = "/";
             beds = new List<Bed>();
         }
+
+        public Room(string id, int number, string type, int floor, string desc)
+        {
+            this.Id = id;
+            this.Number = number;
+            this.Type = type;
+            this.Floor = floor;
+            this.Description = desc;
+        }
       public string Id { get; set; }
       public int Number { get; set; }
       public String Type { get; set; }

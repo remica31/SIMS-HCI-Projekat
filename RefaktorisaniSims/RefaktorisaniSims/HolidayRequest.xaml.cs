@@ -21,15 +21,46 @@ namespace RefaktorisaniSims
     public partial class HolidayRequest : Window
     {
         App application;
-        List<Model.HolidayRequest> requests = new List<Model.HolidayRequest>();
+        //List<Model.HolidayRequest> requests = new List<Model.HolidayRequest>();
 
         public HolidayRequest()
         {
             InitializeComponent();
             application = Application.Current as App;
-            requests = application.holidayRequestController.GetAll();
+            //requests = application.holidayRequestController.GetAll();
+        }
+        private void Delete_Request(object sender, RoutedEventArgs e)
+        {
+
         }
 
+        private void Add_Request(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void View_Requests(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Update_Request(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Manage_Request(object sender, RoutedEventArgs e)
+        {
+
+
+        }
+        private void Search(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
+}
+        /*
         private void Delete_Request(object sender, RoutedEventArgs e)
         {
             application.holidayRequestController.Delete(textBox1.Text);
@@ -130,4 +161,4 @@ namespace RefaktorisaniSims
 
         }
     }
-}
+}*/
